@@ -1,0 +1,57 @@
+##
+## Open-BLDC - Open BrushLess DC Motor Controller
+## Copyright (C) 2009 Uwe Hermann <uwe@hermann-uwe.de>
+##
+## This program is free software; you can redistribute it and/or modify
+## it under the terms of the GNU General Public License as published by
+## the Free Software Foundation; either version 3 of the License, or
+## (at your option) any later version.
+##
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+##
+## You should have received a copy of the GNU General Public License
+## along with this program.  If not, see <http://www.gnu.org/licenses/>.
+##
+
+# Template file for creating symbols with tragesym.
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=no
+generate_pinseq=yes
+sym_width=900
+pinwidthvertical=200
+pinwidthhorizontal=200
+
+[geda_attr]
+version=20060113 1
+name=ACS712
+device=ACS712
+refdes=IC?
+footprint=SO8
+description=Hall Effect-Based Linear Current Sensor
+documentation=http://www.allegromicro.com/en/Products/Part_Numbers/0712/0712.pdf
+author=Uwe Hermann <uwe@hermann-uwe.de>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+#slot=1
+#slotdef=1:
+#comment=
+
+[pins]
+#pinnr	seq	type	style	posit.	net	label	
+1		io	line	l	none	IP+
+2		io	line	l	none	IP+
+3		io	line	l	none	IP-
+4		io	line	l	none	IP-
+8		pwr	line	r	Vcc	VCC
+7		io	line	r	none	VIOUT
+6		io	line	r	none	FILTER
+5		pwr	line	r	GND	GND
+
+# TODO: What to use for 'net'?

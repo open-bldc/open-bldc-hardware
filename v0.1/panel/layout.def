@@ -1,0 +1,12 @@
+
+Row {
+  Col {
+    jtag_adapter
+  }
+  Col {
+    power Rotate
+  }
+  Col {
+    logic Rotate
+  }
+}

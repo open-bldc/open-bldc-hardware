@@ -1,0 +1,27 @@
+;;
+;; Open-BLDC - Open BrushLess DC Motor Controller
+;; Copyright (C) 2009 Uwe Hermann <uwe@hermann-uwe.de>
+;;
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation; either version 3 of the License, or
+;; (at your option) any later version.
+;;
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+;;
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+;;
+
+;; Force use of A4 paper size for exported PS/PDF schematics.
+(paper-size 11.69 8.27) ; A4
+
+;; Use dark background in the gschem GUI.
+(load (string-append geda-rc-path "/gschem-colormap-darkbg"))
+
+;; Use light background for schematics printing (PS / PDF).
+(load (string-append geda-rc-path "/print-colormap-lightbg"))
+

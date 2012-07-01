@@ -1,0 +1,11 @@
+This project aims to create a fully open-source Brushless Drive Controller.
+
+This repository contains all current and past hardware designs. Please refer to the open-bldc repository for the source code.
+
+Licensing
+---------
+All sourcecode is licensed under GPL version 3 or later, all circuitry designs
+and pcb layouts are available as original source files and licensed under
+CreativeCommons BY-SA 3.0.
+
+Feel free to use everything here as you wish! :)

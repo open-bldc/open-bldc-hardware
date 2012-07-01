@@ -1,0 +1,105 @@
+##
+## Open-BLDC - Open BrushLess DC Motor Controller
+## Copyright (C) 2009 Uwe Hermann <uwe@hermann-uwe.de>
+##
+## This program is free software; you can redistribute it and/or modify
+## it under the terms of the GNU General Public License as published by
+## the Free Software Foundation; either version 3 of the License, or
+## (at your option) any later version.
+##
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+##
+## You should have received a copy of the GNU General Public License
+## along with this program.  If not, see <http://www.gnu.org/licenses/>.
+##
+
+# Template file for creating symbols with tragesym.
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=no
+generate_pinseq=yes
+sym_width=2500
+pinwidthvertical=200
+pinwidthhorizontal=200
+
+[geda_attr]
+version=20060113 1
+name=STM32F103xx
+device=STM32F103xx_LQFP48
+refdes=IC?
+footprint=LQFP48
+description=STM32F103xx microcontroller
+documentation=http://www.st.com/stonline/products/literature/ds/13587.pdf
+author=Uwe Hermann <uwe@hermann-uwe.de>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+#slot=1
+#slotdef=1:
+#comment=
+
+[pins]
+#pinnr	seq	type	style	posit.	net	label	
+1		pwr	line	l	none	VBAT
+2		io	line	l	none	PC13-TAMPER-RTC
+3		io	line	l	none	PC14-OSC32_IN
+4		io	line	l	none	PC15-OSC32_OUT
+5		io	line	l	none	PD0-OSC_IN
+6		io	line	l	none	PD1-OSC_OUT
+7		io	dot	l	none	NRST
+8		io	line	l	none	VSSA
+9		io	line	l	none	VDDA
+
+10		pwr	line	l	none	PA0-WKUP
+11		pwr	line	l	none	PA1
+12		pwr	line	l	none	PA2
+13		pwr	line	l	none	PA3
+14		pwr	line	l	none	PA4
+15		pwr	line	l	none	PA5
+16		pwr	line	l	none	PA6
+17		pwr	line	l	none	PA7
+
+29		pwr	line	l	none	PA8
+30		pwr	line	l	none	PA9
+31		pwr	line	l	none	PA10
+32		pwr	line	l	none	PA11
+33		pwr	line	l	none	PA12
+34		pwr	line	l	none	PA13
+
+37		pwr	line	l	none	PA14
+38		pwr	line	l	none	PA15
+
+18		pwr	line	r	none	PB0
+19		pwr	line	r	none	PB1
+20		pwr	line	r	none	PB2
+
+39		pwr	line	r	none	PB3
+40		pwr	line	r	none	PB4
+41		pwr	line	r	none	PB5
+42		pwr	line	r	none	PB6
+43		pwr	line	r	none	PB7
+44		pwr	line	r	none	BOOT0
+
+48		pwr	line	r	none	VDD_3
+36		pwr	line	r	none	VDD_2
+24		pwr	line	r	none	VDD_1
+23		pwr	line	r	none	VSS_1
+35		pwr	line	r	none	VSS_2
+47		pwr	line	r	none	VSS_3
+
+45		pwr	line	r	none	PB8
+46		pwr	line	r	none	PB9
+
+21		pwr	line	r	none	PB10
+22		pwr	line	r	none	PB11
+25		pwr	line	r	none	PB12
+26		pwr	line	r	none	PB13
+27		pwr	line	r	none	PB14
+28		pwr	line	r	none	PB15
+
+# TODO: What to use for 'net'?
