@@ -2524,12 +2524,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="P+29" gate="G$1" x="63.5" y="213.36"/>
 <instance part="GND45" gate="1" x="180.34" y="182.88" rot="R90"/>
 <instance part="D2" gate="G$1" x="231.14" y="198.12"/>
-<instance part="R8" gate="G$1" x="198.12" y="144.78"/>
-<instance part="R9" gate="G$1" x="208.28" y="142.24"/>
-<instance part="R10" gate="G$1" x="218.44" y="139.7"/>
-<instance part="R5" gate="G$1" x="54.61" y="157.48"/>
-<instance part="R6" gate="G$1" x="44.45" y="154.94"/>
-<instance part="R7" gate="G$1" x="34.29" y="152.4"/>
 <instance part="R2" gate="G$1" x="156.21" y="246.38"/>
 <instance part="R4" gate="G$1" x="156.21" y="238.76"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -2922,48 +2916,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="LED2" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$33" class="0">
-<segment>
-<wire x1="175.26" y1="144.78" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="IC3" gate="G$1" pin="PB13-SPI2SCK/USART3CTS/TIM1CH1N"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<wire x1="175.26" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="IC3" gate="G$1" pin="PB14-SPI2MISO/USART3RTS/TIM1CH2N"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<wire x1="175.26" y1="139.7" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="IC3" gate="G$1" pin="PB15-SPI2MOSI/TIM1CH3N"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<wire x1="63.5" y1="157.48" x2="59.69" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="IC3" gate="G$1" pin="PA8-USART1CK/MCO/TIM1CH1"/>
-</segment>
-</net>
-<net name="N$42" class="0">
-<segment>
-<wire x1="63.5" y1="154.94" x2="49.53" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="IC3" gate="G$1" pin="PA9-USART1TX/TIM1CH2"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<wire x1="63.5" y1="152.4" x2="39.37" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="IC3" gate="G$1" pin="PA10-USART1RX/TIM1CH3"/>
-</segment>
-</net>
 <net name="CAN_RX" class="0">
 <segment>
 <label x="175.26" y="157.48" size="1.778" layer="95"/>
@@ -3020,48 +2972,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <wire x1="116.84" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="U_!DIS" class="0">
-<segment>
-<wire x1="203.2" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
-<label x="228.6" y="144.78" size="1.778" layer="95"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="V_!DIS" class="0">
-<segment>
-<wire x1="213.36" y1="142.24" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
-<label x="228.6" y="142.24" size="1.778" layer="95"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="V_PWM" class="0">
-<segment>
-<wire x1="39.37" y1="154.94" x2="15.24" y2="154.94" width="0.1524" layer="91"/>
-<label x="26.67" y="154.94" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="W_PWM" class="0">
-<segment>
-<wire x1="29.21" y1="152.4" x2="15.24" y2="152.4" width="0.1524" layer="91"/>
-<label x="26.67" y="152.4" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="W_!DIS" class="0">
-<segment>
-<wire x1="223.52" y1="139.7" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
-<label x="228.6" y="139.7" size="1.778" layer="95"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="U_PWM" class="0">
-<segment>
-<wire x1="49.53" y1="157.48" x2="15.24" y2="157.48" width="0.1524" layer="91"/>
-<label x="26.67" y="157.48" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="CURRENT" class="0">
@@ -3222,6 +3132,48 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R27" gate="G$1" pin="2"/>
 </segment>
 </net>
+<net name="U_PWM" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PA8-USART1CK/MCO/TIM1CH1"/>
+<wire x1="63.5" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
+<label x="63.5" y="157.48" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="V_PWM" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PA9-USART1TX/TIM1CH2"/>
+<wire x1="63.5" y1="154.94" x2="45.72" y2="154.94" width="0.1524" layer="91"/>
+<label x="63.5" y="154.94" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="W_PWM" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PA10-USART1RX/TIM1CH3"/>
+<wire x1="63.5" y1="152.4" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
+<label x="63.5" y="152.4" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="U_!DIS" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB13-SPI2SCK/USART3CTS/TIM1CH1N"/>
+<wire x1="175.26" y1="144.78" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
+<label x="177.8" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="V_!DIS" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB14-SPI2MISO/USART3RTS/TIM1CH2N"/>
+<wire x1="175.26" y1="142.24" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
+<label x="177.8" y="142.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="W_!DIS" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB15-SPI2MOSI/TIM1CH3N"/>
+<wire x1="175.26" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
+<label x="177.8" y="139.7" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -3278,6 +3230,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="PAD1" gate="1" x="337.82" y="231.14" rot="R180"/>
 <instance part="PAD2" gate="1" x="337.82" y="190.5" rot="R180"/>
 <instance part="PAD5" gate="1" x="337.82" y="149.86" rot="R180"/>
+<instance part="R5" gate="G$1" x="132.08" y="157.48" rot="R180"/>
+<instance part="R6" gate="G$1" x="132.08" y="109.22" rot="R180"/>
+<instance part="R7" gate="G$1" x="132.08" y="60.96" rot="R180"/>
+<instance part="R8" gate="G$1" x="132.08" y="162.56"/>
+<instance part="R9" gate="G$1" x="132.08" y="114.3"/>
+<instance part="R10" gate="G$1" x="132.08" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -3303,39 +3261,32 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="PAD4" gate="1" pin="P"/>
 </segment>
 </net>
-<net name="U_!DIS" class="0">
+<net name="U_!DIS!1" class="0">
 <segment>
-<label x="132.08" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="162.56" x2="132.08" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="162.56" x2="137.16" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="O!D"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="V_!DIS" class="0">
+<net name="V_!DIS!1" class="0">
 <segment>
-<label x="132.08" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="114.3" x2="132.08" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="O!D"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="V_PWM" class="0">
+<net name="V_PWM1" class="0">
 <segment>
-<label x="132.08" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="109.22" x2="132.08" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="IN"/>
-</segment>
-</net>
-<net name="W_PWM" class="0">
-<segment>
-<label x="132.08" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="IN"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="W_!DIS" class="0">
 <segment>
-<label x="132.08" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="66.04" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="O!D"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="66.04" x2="127" y2="66.04" width="0.1524" layer="91"/>
+<label x="124.46" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PHASE_U" class="0">
@@ -3497,10 +3448,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="IC6" gate="G$1" pin="BST"/>
 </segment>
 </net>
-<net name="U_PWM" class="0">
+<net name="U_PWM1" class="0">
 <segment>
-<label x="132.08" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="149.86" y1="157.48" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="157.48" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="IN"/>
 </segment>
 </net>
@@ -3866,6 +3817,55 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R45" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="205.74" x2="215.9" y2="205.74" width="0.1524" layer="91"/>
 <label x="215.9" y="205.74" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="U_PWM" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="157.48" x2="127" y2="157.48" width="0.1524" layer="91"/>
+<label x="124.46" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="V_PWM" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
+<label x="124.46" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="U_!DIS" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="162.56" x2="127" y2="162.56" width="0.1524" layer="91"/>
+<label x="124.46" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="V_!DIS" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
+<label x="124.46" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="W_PWM1" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="IN"/>
+</segment>
+</net>
+<net name="W_PWM" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="60.96" x2="127" y2="60.96" width="0.1524" layer="91"/>
+<label x="124.46" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="W_!DIS1" class="0">
+<segment>
+<wire x1="149.86" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="O!D"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
