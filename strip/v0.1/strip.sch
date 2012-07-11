@@ -2416,10 +2416,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R31" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="5k4"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="TH1" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="2kOhm"/>
-<part name="R32" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="1k"/>
-<part name="P+6" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="L1" library="res_cap" deviceset="INDUCTOR" device="-0603" value=""/>
 <part name="C19" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="100nF"/>
 <part name="P+3" library="supply1" deviceset="+3V3" device=""/>
@@ -2546,10 +2542,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R31" gate="G$1" x="325.12" y="55.88" rot="R180"/>
 <instance part="GND16" gate="1" x="317.5" y="40.64"/>
 <instance part="GND20" gate="1" x="312.42" y="60.96"/>
-<instance part="TH1" gate="G$1" x="236.22" y="116.84" rot="R270"/>
-<instance part="R32" gate="G$1" x="236.22" y="127" rot="R270"/>
-<instance part="P+6" gate="G$1" x="236.22" y="137.16"/>
-<instance part="GND21" gate="1" x="236.22" y="109.22"/>
 <instance part="L1" gate="G$1" x="325.12" y="101.6" rot="R180"/>
 <instance part="C19" gate="G$1" x="335.28" y="93.98" rot="R270"/>
 <instance part="P+3" gate="G$1" x="325.12" y="111.76"/>
@@ -2655,10 +2647,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="R28" gate="G$1" pin="1"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="TH1" gate="G$1" pin="2"/>
-<pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="60.96" y1="88.9" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
@@ -2863,11 +2851,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="IC3" gate="G$1" pin="VDD3"/>
 </segment>
 <segment>
-<wire x1="236.22" y1="134.62" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="1"/>
-<pinref part="P+6" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <wire x1="60.96" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="96.52" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
@@ -2988,21 +2971,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="358.14" y="73.66" size="1.778" layer="95" xref="yes"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <pinref part="C20" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="TEMP" class="0">
-<segment>
-<wire x1="63.5" y1="167.64" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
-<label x="63.5" y="167.64" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC3" gate="G$1" pin="PA5-SPI1SCK/ADC5"/>
-</segment>
-<segment>
-<wire x1="236.22" y1="121.92" x2="224.79" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="224.79" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
-<junction x="236.22" y="121.92"/>
-<label x="218.44" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="TH1" gate="G$1" pin="1"/>
-<pinref part="R32" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$11" class="0">
