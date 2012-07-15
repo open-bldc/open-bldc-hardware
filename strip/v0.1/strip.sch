@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2619,7 +2619,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="C10" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="100nF"/>
 <part name="C11" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="100nF"/>
 <part name="C12" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="100nF"/>
-<part name="C9" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="4µ7"/>
+<part name="C9" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0805" value="4µ7"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="+3V3" device=""/>
 <part name="C8" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="10nF"/>
@@ -2731,6 +2731,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="P+2" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC7" library="pel_stm32" deviceset="STM32F050CX" device=""/>
 <part name="C5" library="pel_dipol_comp" deviceset="CAPACITOR-POL" device="D"/>
+<part name="U$2" library="open-bldc" deviceset="LOGO" device="-SILK-SMALL" value="LOGO"/>
 </parts>
 <sheets>
 <sheet>
@@ -3394,6 +3395,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="55.118" y="134.874" size="1.778" layer="97" rot="R180">Commutation detection</text>
 <text x="185.42" y="223.52" size="1.778" layer="95">BUSS+ PAD</text>
 <text x="185.42" y="198.12" size="1.778" layer="95">BUSS- PAD</text>
+<text x="304.292" y="7.62" size="1.27" layer="97">License: CC-BY-SA 3.0 DE</text>
+<text x="296.672" y="5.08" size="1.27" layer="97">http://creativecommons.org/licenses/by-sa/3.0/de/</text>
+<text x="289.052" y="12.7" size="1.27" layer="97">open-bldc (C) 2008-2012 Piotr Esden-Tempski &lt;piotr at esden.net&gt;</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -3449,6 +3453,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="R9" gate="G$1" x="132.08" y="114.3"/>
 <instance part="R10" gate="G$1" x="132.08" y="66.04"/>
 <instance part="C5" gate="G$1" x="189.23" y="213.36"/>
+<instance part="U$2" gate="G$1" x="315.214" y="19.304"/>
 </instances>
 <busses>
 </busses>
