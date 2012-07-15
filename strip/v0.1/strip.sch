@@ -357,6 +357,39 @@
 <text x="-1.5" y="1.9" size="0.762" layer="25" font="vector" ratio="16">&gt;NAME</text>
 <text x="-1.7" y="-2.6" size="0.762" layer="27" font="vector" ratio="16">&gt;VALUE</text>
 </package>
+<package name="LOGO_SILK_SMALL">
+<wire x1="-1.0668" y1="-1.0668" x2="-1.0668" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-1.3716" x2="-1.0668" y2="-1.0668" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0" y1="-1.3716" x2="-0.762" y2="-1.3716" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.3716" x2="0.762" y2="-1.3716" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-1.3716" x2="1.0668" y2="-1.0668" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.0668" y1="-1.0668" x2="1.0668" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="1.0668" y1="0.762" x2="0.762" y2="1.0668" width="0.1524" layer="21" curve="90.075241"/>
+<wire x1="0.762" y1="1.0668" x2="-0.762" y2="1.0668" width="0.1524" layer="21"/>
+<wire x1="-1.0668" y1="0.762" x2="-0.762" y2="1.0668" width="0.1524" layer="21" curve="-89.962417"/>
+<wire x1="-0.2032" y1="0.4318" x2="-0.6096" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.4318" x2="-0.2032" y2="0.4318" width="0.1524" layer="21"/>
+<wire x1="0.2032" y1="0.4318" x2="0" y2="0.4318" width="0.1524" layer="21"/>
+<wire x1="0.6096" y1="-0.381" x2="0.2032" y2="0.4318" width="0.1524" layer="21"/>
+<wire x1="-0.2032" y1="-0.6096" x2="-0.381" y2="0.0762" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.6096" x2="-0.2032" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.6096" x2="0.2032" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="0.2032" y1="-0.6096" x2="0.381" y2="0.0762" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.9144" x2="0.2286" y2="-0.9144" width="0.254" layer="21"/>
+<wire x1="0" y1="-0.9144" x2="-0.2286" y2="-0.9144" width="0.254" layer="21"/>
+<wire x1="0.2286" y1="-0.9144" x2="0.5334" y2="-0.9144" width="0.1524" layer="21"/>
+<wire x1="0.5334" y1="-0.9144" x2="0.5334" y2="-1.0668" width="0.1524" layer="21"/>
+<wire x1="0.5334" y1="-1.0668" x2="1.0668" y2="-1.0668" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.4318" x2="0" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.9144" x2="0.0152" y2="-0.9271" width="0.2032" layer="21"/>
+<wire x1="0" y1="-0.6096" x2="0" y2="-0.9144" width="0.1524" layer="21"/>
+<wire x1="0.2286" y1="-0.9144" x2="0.0152" y2="-0.9271" width="0.1524" layer="21" curve="23.523629"/>
+<wire x1="0" y1="-0.9144" x2="0" y2="-1.3716" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.4318" x2="0" y2="0.6858" width="0.1524" layer="21"/>
+<circle x="-0.6096" y="-0.381" radius="0.0762" width="0.254" layer="21"/>
+<circle x="0.6096" y="-0.381" radius="0.0762" width="0.254" layer="21"/>
+<circle x="0" y="0.6858" radius="0.0762" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LP2992">
@@ -505,6 +538,11 @@
 </technologies>
 </device>
 <device name="-SMALL" package="LOGO_SMALL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SILK-SMALL" package="LOGO_SILK_SMALL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -1121,6 +1159,28 @@ http://www.diotec.com/produkte/files/loetpads.pdf
 <rectangle x1="-1.75" y1="-0.65" x2="-1.15" y2="0.65" layer="51"/>
 <rectangle x1="1.15" y1="-0.65" x2="1.75" y2="0.65" layer="51"/>
 </package>
+<package name="0603-DIO">
+<wire x1="-1.175" y1="0.725" x2="1.175" y2="0.725" width="0.0508" layer="39"/>
+<wire x1="1.175" y1="0.725" x2="1.175" y2="-0.725" width="0.0508" layer="39"/>
+<wire x1="1.175" y1="-0.725" x2="-1.175" y2="-0.725" width="0.0508" layer="39"/>
+<wire x1="-1.175" y1="-0.725" x2="-1.175" y2="0.725" width="0.0508" layer="39"/>
+<wire x1="-0.2286" y1="0.381" x2="-0.2286" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-0.4572" y1="0.4572" x2="-0.4572" y2="-0.4572" width="0.254" layer="51"/>
+<smd name="C" x="-0.75" y="0" dx="0.6" dy="0.9" layer="1"/>
+<smd name="A" x="0.75" y="0" dx="0.6" dy="0.9" layer="1"/>
+<text x="-1.143" y="0.8382" size="0.635" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-1.143" y="-1.2954" size="0.635" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<polygon width="0.1524" layer="21">
+<vertex x="-0.2286" y="0"/>
+<vertex x="0.2286" y="0.381"/>
+<vertex x="0.2286" y="-0.381"/>
+</polygon>
+<polygon width="0.254" layer="51">
+<vertex x="-0.4572" y="0"/>
+<vertex x="0.4572" y="0.4572"/>
+<vertex x="0.4572" y="-0.4572"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -1347,7 +1407,7 @@ http://www.diotec.com/produkte/files/loetpads.pdf
 <gate name="G$1" symbol="DIODE-ZENER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-0603" package="0603-LED">
+<device name="-0603" package="0603-DIO">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -1433,7 +1493,7 @@ http://www.diotec.com/produkte/files/loetpads.pdf
 <technology name=""/>
 </technologies>
 </device>
-<device name="-0603" package="0603-LED">
+<device name="-SOD-123" package="SOD-123-DIO">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -1442,7 +1502,7 @@ http://www.diotec.com/produkte/files/loetpads.pdf
 <technology name=""/>
 </technologies>
 </device>
-<device name="-SOD-123" package="SOD-123-DIO">
+<device name="-0603" package="0603-DIO">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -2584,7 +2644,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R2" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="1k"/>
 <part name="R4" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="1k"/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="U$1" library="open-bldc" deviceset="LOGO" device="-NORM" value="LOGO"/>
+<part name="U$1" library="open-bldc" deviceset="LOGO" device="-SILK-SMALL" value="LOGO"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="LED2" library="pel_dipol_comp" deviceset="LED" device="-0402" value="GREEN"/>
