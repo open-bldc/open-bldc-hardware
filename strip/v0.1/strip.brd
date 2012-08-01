@@ -808,43 +808,43 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C6" library="pel_dipol_comp" package="0402-CAP" value="100nF" x="9.906" y="0.762" smashed="yes" rot="MR180">
-<attribute name="NAME" x="9.3218" y="1.905" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
+<attribute name="NAME" x="10.6172" y="1.0668" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
 <attribute name="VALUE" x="9.017" y="2.794" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C2" library="pel_dipol_comp" package="0402-CAP" value="100nF" x="9.7536" y="7.62" smashed="yes" rot="MR180">
-<attribute name="NAME" x="9.144" y="7.1628" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
+<attribute name="NAME" x="10.287" y="8.1534" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
 <attribute name="VALUE" x="8.8646" y="9.652" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C10" library="pel_dipol_comp" package="0402-CAP" value="100nF" x="15.0368" y="9.4652" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.1798" y="8.5" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="16.256" y="8.7286" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="13.0048" y="10.3542" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C11" library="pel_dipol_comp" package="0402-CAP" value="100nF" x="6.7818" y="9.6012" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.4102" y="9.3726" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
+<attribute name="NAME" x="5.4864" y="10.5918" size="0.635" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="8.8138" y="8.7122" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C12" library="pel_dipol_comp" package="0402-CAP" value="100nF" x="6.6294" y="1.3716" smashed="yes" rot="R90">
-<attribute name="NAME" x="7.874" y="0.4064" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="7.7216" y="0.1778" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="8.6614" y="0.4826" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C9" library="pel_dipol_comp" package="0805-CAP" value="4µ7" x="5.0292" y="1.6002" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.112" y="0.9964" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="5.35" y="1.0726" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="2.7042" y="3.5502" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C8" library="pel_dipol_comp" package="0402-CAP" value="10nF" x="11.3538" y="3.8862" smashed="yes" rot="MR90">
-<attribute name="NAME" x="9.9822" y="3.302" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="10.3632" y="3.7592" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="9.3218" y="2.9972" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="C7" library="pel_dipol_comp" package="0402-CAP" value="1µ" x="12.573" y="3.8862" smashed="yes" rot="MR90">
-<attribute name="NAME" x="13.1572" y="3.3528" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="12.9286" y="3.3528" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="10.541" y="2.9972" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R21" library="pel_dipol_comp" package="0402-RES" value="100R" x="3.81" y="8.9154" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.5278" y="9.1948" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="NAME" x="3.0226" y="9.1948" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="4.445" y="10.8204" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R24" library="pel_dipol_comp" package="0402-RES" value="100R" x="3.81" y="3.5814" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.3754" y="3.8608" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="NAME" x="2.8702" y="3.8608" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="4.445" y="5.4864" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="IC1" library="open-bldc" package="SOT23-5" value="LP2992" x="8.763" y="5.4102" smashed="yes" rot="MR270">
@@ -852,128 +852,128 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="12.192" y="7.3152" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C3" library="pel_dipol_comp" package="0402-CAP" value="10nF" x="7.8486" y="3.3528" smashed="yes" rot="MR180">
-<attribute name="NAME" x="7.1628" y="4.2926" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
+<attribute name="NAME" x="7.239" y="2.921" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
 <attribute name="VALUE" x="6.9596" y="5.3848" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C4" library="pel_dipol_comp" package="0402-CAP" value="4µ7" x="7.7724" y="7.62" smashed="yes" rot="MR0">
-<attribute name="NAME" x="8.1984" y="8.1628" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="NAME" x="8.2746" y="8.239" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
 <attribute name="VALUE" x="9.7224" y="5.295" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="C1" library="pel_dipol_comp" package="0402-CAP" value="4µ7" x="9.8298" y="3.3528" smashed="yes" rot="MR0">
-<attribute name="NAME" x="10.5606" y="2.397" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="NAME" x="10.332" y="2.397" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
 <attribute name="VALUE" x="11.7798" y="1.0278" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="D2" library="pel_dipol_comp" package="0603-DIO" value="CDBU0130" x="3.2766" y="1.3716" smashed="yes" rot="R270">
-<attribute name="NAME" x="2.8194" y="-0.0762" size="0.635" layer="25" font="vector" ratio="16"/>
+<attribute name="NAME" x="2.4384" y="0.8382" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="1.3716" y="2.0066" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R8" library="pel_dipol_comp" package="0402-RES" value="1k" x="22.4028" y="8.9154" smashed="yes" rot="MR270">
-<attribute name="NAME" x="23.5712" y="9.4996" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
+<attribute name="NAME" x="22.1488" y="9.779" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="24.3078" y="9.5504" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R9" library="pel_dipol_comp" package="0402-RES" value="1k" x="33.0708" y="8.9154" smashed="yes" rot="MR270">
-<attribute name="NAME" x="31.9532" y="8.3566" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="32.7914" y="9.8044" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="34.9758" y="9.5504" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R10" library="pel_dipol_comp" package="0402-RES" value="1k" x="43.7388" y="8.9154" smashed="yes" rot="MR270">
-<attribute name="NAME" x="44.9072" y="9.779" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
+<attribute name="NAME" x="43.4848" y="9.8044" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="45.6438" y="9.5504" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="R5" library="pel_dipol_comp" package="0402-RES" value="1k" x="19.8882" y="2.5146" smashed="yes" rot="MR0">
-<attribute name="NAME" x="20.4216" y="2.9972" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="NAME" x="20.3454" y="2.921" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
 <attribute name="VALUE" x="20.5232" y="0.6096" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R6" library="pel_dipol_comp" package="0402-RES" value="1k" x="30.48" y="2.5146" smashed="yes" rot="MR0">
-<attribute name="NAME" x="29.9212" y="3.429" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
+<attribute name="NAME" x="30.9626" y="2.8956" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
 <attribute name="VALUE" x="31.115" y="0.6096" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R7" library="pel_dipol_comp" package="0402-RES" value="1k" x="41.2242" y="2.5146" smashed="yes" rot="MR0">
-<attribute name="NAME" x="40.7924" y="1.9812" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
+<attribute name="NAME" x="41.656" y="2.8956" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
 <attribute name="VALUE" x="41.8592" y="0.6096" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R2" library="pel_dipol_comp" package="0402-RES" value="1k" x="3.81" y="7.8486" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.8768" y="7.5184" size="0.635" layer="25" font="vector" ratio="16"/>
+<attribute name="NAME" x="2.8194" y="8.1026" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="4.445" y="9.7536" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R4" library="pel_dipol_comp" package="0402-RES" value="1k" x="3.81" y="5.715" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.8768" y="5.5372" size="0.635" layer="25" font="vector" ratio="16"/>
+<attribute name="NAME" x="2.7432" y="6.0452" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="4.445" y="7.62" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U$1" library="open-bldc" package="LOGO_SILK_SMALL" value="LOGO" x="56.4388" y="4.2164" smashed="yes" rot="MR0"/>
 <element name="LED2" library="pel_dipol_comp" package="0402-LED" value="GREEN" x="3.81" y="6.7818" smashed="yes">
-<attribute name="NAME" x="2.9972" y="5.6134" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="2.8448" y="7.112" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="2.667" y="5.4864" size="0.635" layer="27" font="vector" ratio="16"/>
 </element>
 <element name="LED4" library="pel_dipol_comp" package="0402-LED" value="RED" x="3.81" y="4.6482" smashed="yes">
-<attribute name="NAME" x="2.9972" y="3.4798" size="0.635" layer="25" font="vector" ratio="16" rot="R90"/>
+<attribute name="NAME" x="2.921" y="4.9022" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="2.667" y="3.3528" size="0.635" layer="27" font="vector" ratio="16"/>
 </element>
 <element name="D1" library="pel_dipol_comp" package="SOD-123-DIO" value="BAS21" x="20.7264" y="5.4864" smashed="yes" rot="MR90">
-<attribute name="NAME" x="21.8694" y="4.9784" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="21.717" y="4.9784" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="22.5044" y="4.0894" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
 <element name="C23" library="pel_dipol_comp" package="0603-CAP" value="1u" x="23.0886" y="1.6002" smashed="yes" rot="MR270">
-<attribute name="NAME" x="24.511" y="2.5654" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
+<attribute name="NAME" x="22.606" y="2.5654" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
 <attribute name="VALUE" x="24.6126" y="2.7178" size="0.635" layer="28" font="vector" ratio="16" rot="MR270"/>
 </element>
 <element name="R12" library="pel_dipol_comp" package="0402-RES" value="10k" x="11.811" y="6.5532" smashed="yes" rot="MR0">
-<attribute name="NAME" x="12.7254" y="5.4864" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="NAME" x="12.4206" y="6.858" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
 <attribute name="VALUE" x="12.954" y="5.2578" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
 </element>
 <element name="R13" library="pel_dipol_comp" package="0402-RES" value="2k7" x="11.811" y="5.4102" smashed="yes" rot="MR180">
-<attribute name="NAME" x="10.9728" y="6.477" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
+<attribute name="NAME" x="12.4206" y="5.715" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
 <attribute name="VALUE" x="10.668" y="6.7056" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
 </element>
 <element name="D3" library="pel_dipol_comp" package="SOD-123-DIO" value="BAS21" x="31.3944" y="5.4864" smashed="yes" rot="MR90">
-<attribute name="NAME" x="32.385" y="5.08" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="32.385" y="4.9276" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="33.1724" y="4.0894" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
 <element name="C24" library="pel_dipol_comp" package="0603-CAP" value="1u" x="33.7566" y="1.6002" smashed="yes" rot="MR270">
-<attribute name="NAME" x="33.0454" y="2.5654" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
+<attribute name="NAME" x="33.3502" y="2.5654" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
 <attribute name="VALUE" x="35.2806" y="2.7178" size="0.635" layer="28" font="vector" ratio="16" rot="MR270"/>
 </element>
 <element name="D4" library="pel_dipol_comp" package="SOD-123-DIO" value="BAS21" x="42.0624" y="5.4864" smashed="yes" rot="MR90">
-<attribute name="NAME" x="43.8658" y="5.969" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
+<attribute name="NAME" x="43.0784" y="5.0038" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="43.8404" y="4.0894" size="1.27" layer="28" ratio="10" rot="MR90"/>
 </element>
 <element name="C25" library="pel_dipol_comp" package="0603-CAP" value="1u" x="44.4246" y="1.6002" smashed="yes" rot="MR270">
-<attribute name="NAME" x="45.847" y="2.5654" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
+<attribute name="NAME" x="43.942" y="2.4892" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
 <attribute name="VALUE" x="45.9486" y="2.7178" size="0.635" layer="28" font="vector" ratio="16" rot="MR270"/>
 </element>
 <element name="R14" library="pel_dipol_comp" package="0402-RES" value="10k" x="21.336" y="8.9154" smashed="yes" rot="MR270">
-<attribute name="NAME" x="22.4028" y="9.906" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
+<attribute name="NAME" x="21.0312" y="9.7536" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="22.6314" y="10.0584" size="0.635" layer="28" font="vector" ratio="16" rot="MR270"/>
 </element>
 <element name="R15" library="pel_dipol_comp" package="0402-RES" value="3k6" x="20.1168" y="8.9154" smashed="yes" rot="MR90">
-<attribute name="NAME" x="20.574" y="8.2296" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="19.812" y="9.7536" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="18.8214" y="7.7724" size="0.635" layer="28" font="vector" ratio="16" rot="MR90"/>
 </element>
 <element name="R16" library="pel_dipol_comp" package="0402-RES" value="10k" x="32.004" y="8.9154" smashed="yes" rot="MR270">
-<attribute name="NAME" x="33.0708" y="9.7536" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
+<attribute name="NAME" x="31.6992" y="9.7536" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="33.2994" y="10.0584" size="0.635" layer="28" font="vector" ratio="16" rot="MR270"/>
 </element>
 <element name="R17" library="pel_dipol_comp" package="0402-RES" value="3k6" x="30.7848" y="8.9154" smashed="yes" rot="MR90">
-<attribute name="NAME" x="31.242" y="8.2296" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="30.48" y="9.7536" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="29.4894" y="7.7724" size="0.635" layer="28" font="vector" ratio="16" rot="MR90"/>
 </element>
 <element name="R18" library="pel_dipol_comp" package="0402-RES" value="10k" x="42.672" y="8.9154" smashed="yes" rot="MR270">
-<attribute name="NAME" x="42.3672" y="6.1976" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="42.3672" y="9.779" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="43.9674" y="10.0584" size="0.635" layer="28" font="vector" ratio="16" rot="MR270"/>
 </element>
 <element name="R22" library="pel_dipol_comp" package="0402-RES" value="3k6" x="41.4528" y="8.9154" smashed="yes" rot="MR90">
-<attribute name="NAME" x="42.1386" y="8.1534" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="41.148" y="9.7536" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="40.1574" y="7.7724" size="0.635" layer="28" font="vector" ratio="16" rot="MR90"/>
 </element>
 <element name="C26" library="pel_dipol_comp" package="0402-CAP" value="100n" x="23.4696" y="9.0678" smashed="yes" rot="MR90">
-<attribute name="NAME" x="22.2504" y="8.0772" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="23.1648" y="9.906" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="22.1742" y="7.9248" size="0.635" layer="28" font="vector" ratio="16" rot="MR90"/>
 </element>
 <element name="C27" library="pel_dipol_comp" package="0402-CAP" value="100n" x="34.1376" y="9.0678" smashed="yes" rot="MR90">
-<attribute name="NAME" x="34.7472" y="8.1534" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="33.8328" y="9.906" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="32.8422" y="7.9248" size="0.635" layer="28" font="vector" ratio="16" rot="MR90"/>
 </element>
 <element name="C32" library="pel_dipol_comp" package="0402-CAP" value="100n" x="44.8056" y="9.0678" smashed="yes" rot="MR90">
-<attribute name="NAME" x="43.5864" y="8.2296" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="44.5008" y="9.906" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="43.5102" y="7.9248" size="0.635" layer="28" font="vector" ratio="16" rot="MR90"/>
 </element>
 <element name="PAD3" library="wirepad" package="SMD2,54-5,08" value="" x="52.2732" y="2.8194" smashed="yes" rot="R180">
@@ -987,94 +987,199 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="12.3444" y="4.3434" size="1.27" layer="28" rot="MR90"/>
 </element>
 <element name="R27" library="pel_dipol_comp" package="0402-RES" value="660" x="11.7856" y="7.62" smashed="yes" rot="MR0">
-<attribute name="NAME" x="12.5476" y="6.3754" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="NAME" x="12.4714" y="8.0518" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
 <attribute name="VALUE" x="12.9286" y="6.3246" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
 </element>
 <element name="R28" library="pel_dipol_comp" package="0402-RES" value="560" x="14.7828" y="4.1148" smashed="yes" rot="MR180">
-<attribute name="NAME" x="12.192" y="4.4196" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
+<attribute name="NAME" x="13.8684" y="3.7338" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
 <attribute name="VALUE" x="13.6398" y="5.4102" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
 </element>
 <element name="R29" library="pel_dipol_comp" package="0402-RES" value="7k7" x="16.764" y="4.1148" smashed="yes" rot="MR0">
-<attribute name="NAME" x="17.7546" y="4.6482" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="NAME" x="17.6022" y="3.1242" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
 <attribute name="VALUE" x="17.907" y="2.8194" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
 </element>
 <element name="R30" library="pel_dipol_comp" package="0402-RES" value="1k" x="18.5928" y="7.239" smashed="yes" rot="MR90">
-<attribute name="NAME" x="19.2024" y="6.477" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="NAME" x="19.05" y="6.477" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="17.2974" y="6.096" size="0.635" layer="28" font="vector" ratio="16" rot="MR90"/>
 </element>
 <element name="R31" library="pel_dipol_comp" package="0402-RES" value="5k4" x="16.764" y="8.9916" smashed="yes" rot="MR180">
-<attribute name="NAME" x="16.002" y="8.4582" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
+<attribute name="NAME" x="15.7734" y="10.0584" size="0.635" layer="26" font="vector" ratio="16" rot="MR180"/>
 <attribute name="VALUE" x="15.621" y="10.287" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
 </element>
-<element name="L1" library="res_cap" package="0603-IND" value="" x="16.0782" y="2.8194" rot="MR0"/>
-<element name="C19" library="pel_dipol_comp" package="0402-CAP" value="100nF" x="18.5928" y="5.2578" rot="MR270"/>
-<element name="C20" library="pel_dipol_comp" package="0402-CAP" value="100nF/DNP" x="14.7828" y="9.9822" rot="MR0"/>
-<element name="R37" library="pel_dipol_comp" package="0402-RES" value="10k/0Ohm" x="14.7828" y="8.4582" rot="MR0"/>
-<element name="R45" library="pel_dipol_comp" package="1206-RES" value="0.05Ohm" x="52.2732" y="7.4676" rot="MR270"/>
-<element name="R46" library="pel_dipol_comp" package="0402-RES" value="10R" x="49.7586" y="1.2954" rot="MR0"/>
-<element name="R47" library="pel_dipol_comp" package="0402-RES" value="10R" x="49.7586" y="9.7536" rot="MR180"/>
-<element name="R48" library="pel_dipol_comp" package="0402-RES" value="10R" x="39.0906" y="1.2954" rot="MR0"/>
-<element name="R49" library="pel_dipol_comp" package="0402-RES" value="10R" x="39.0906" y="9.7536" rot="MR180"/>
-<element name="R50" library="pel_dipol_comp" package="0402-RES" value="10R" x="28.4226" y="1.2954" rot="MR0"/>
-<element name="R51" library="pel_dipol_comp" package="0402-RES" value="10R" x="28.4226" y="9.7536" rot="MR180"/>
-<element name="L2" library="pel_dipol_comp" package="0402-IND" value="" x="49.7586" y="2.3622" rot="MR0"/>
-<element name="L3" library="pel_dipol_comp" package="0402-IND" value="" x="49.7586" y="8.6868" rot="MR180"/>
-<element name="L4" library="pel_dipol_comp" package="0402-IND" value="" x="39.0906" y="2.3622" rot="MR0"/>
-<element name="L5" library="pel_dipol_comp" package="0402-IND" value="" x="39.0906" y="8.6868" rot="MR180"/>
-<element name="L6" library="pel_dipol_comp" package="0402-IND" value="" x="28.4226" y="2.3622" rot="MR0"/>
-<element name="L7" library="pel_dipol_comp" package="0402-IND" value="" x="28.4226" y="8.6868" rot="MR180"/>
-<element name="Q1" library="open-bldc" package="SO8" value="IRF7828" x="46.9392" y="2.5908" rot="R270"/>
-<element name="Q2" library="open-bldc" package="SO8" value="IRF7828" x="46.9392" y="8" rot="R90"/>
-<element name="Q3" library="open-bldc" package="SO8" value="IRF7828" x="36.2712" y="2.5908" rot="R270"/>
-<element name="Q4" library="open-bldc" package="SO8" value="IRF7828" x="36.2712" y="8" rot="R90"/>
-<element name="Q5" library="open-bldc" package="SO8" value="IRF7828" x="25.6032" y="2.5908" rot="R270"/>
-<element name="Q6" library="open-bldc" package="SO8" value="IRF7828" x="25.6032" y="8" rot="R90"/>
-<element name="IC2" library="open-bldc" package="SO8" value="ADP3110A-SO8" x="25.6032" y="5.4864" rot="MR90"/>
-<element name="IC5" library="open-bldc" package="SO8" value="ADP3110A-SO8" x="36.2712" y="5.4864" rot="MR90"/>
-<element name="IC6" library="open-bldc" package="SO8" value="ADP3110A-SO8" x="46.9392" y="5.4864" rot="MR90"/>
-<element name="L8" library="res_cap" package="0603-IND" value="" x="10.5918" y="2.0574" rot="MR0"/>
-<element name="TP1" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="9.625">
-<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="9.625" size="1.778" layer="27" display="off"/>
+<element name="L1" library="res_cap" package="0603-IND" value="" x="16.0782" y="2.8194" smashed="yes" rot="MR0">
+<attribute name="NAME" x="17.907" y="2.5146" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="17.2212" y="1.524" size="0.508" layer="28" font="vector" ratio="20" rot="MR0"/>
 </element>
-<element name="TP2" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="6.875">
-<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="6.875" size="1.778" layer="27" display="off"/>
+<element name="C19" library="pel_dipol_comp" package="0402-CAP" value="100nF" x="18.5928" y="5.2578" smashed="yes" rot="MR270">
+<attribute name="NAME" x="19.6596" y="6.096" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
+<attribute name="VALUE" x="19.8882" y="6.4008" size="0.635" layer="28" font="vector" ratio="16" rot="MR270"/>
 </element>
-<element name="TP3" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="4.125">
-<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="4.125" size="1.778" layer="27" display="off"/>
+<element name="C20" library="pel_dipol_comp" package="0402-CAP" value="100nF/DNP" x="14.7828" y="9.9822" smashed="yes" rot="MR0">
+<attribute name="NAME" x="15.5448" y="10.4394" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="15.9258" y="8.6868" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
 </element>
-<element name="TP4" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="1.375">
-<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="1.375" size="1.778" layer="27" display="off"/>
+<element name="R37" library="pel_dipol_comp" package="0402-RES" value="10k/0Ohm" x="14.7828" y="8.4582" smashed="yes" rot="MR0">
+<attribute name="NAME" x="15.4686" y="8.9154" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="15.9258" y="7.1628" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
 </element>
-<element name="TP5" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="9.625" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="9.625" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R45" library="pel_dipol_comp" package="1206-RES" value="0.05Ohm" x="52.2732" y="7.4676" smashed="yes" rot="MR270">
+<attribute name="NAME" x="52.596" y="8.382" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
+<attribute name="VALUE" x="53.9062" y="8.6106" size="0.635" layer="28" font="vector" ratio="16" rot="MR270"/>
 </element>
-<element name="TP6" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="6.875" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="5.7184" y="2.4554" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R46" library="pel_dipol_comp" package="0402-RES" value="10R" x="49.7586" y="1.2954" smashed="yes" rot="MR0">
+<attribute name="NAME" x="48.9204" y="0.9906" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="50.9016" y="0" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
 </element>
-<element name="TP7" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="4.125" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="-0.2946" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R47" library="pel_dipol_comp" package="0402-RES" value="10R" x="49.7586" y="9.7536" smashed="yes" rot="MR180">
+<attribute name="NAME" x="48.8442" y="9.4488" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="48.6156" y="11.049" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
 </element>
-<element name="TP8" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="1.375" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="5.7184" y="-7.4642" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R48" library="pel_dipol_comp" package="0402-RES" value="10R" x="39.0906" y="1.2954" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38.2524" y="0.9906" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="40.2336" y="0" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
 </element>
-<element name="PAD1" library="wirepad" package="SMD2,54-5,08" value="" x="41.6814" y="5.2714" rot="R180"/>
-<element name="PAD2" library="wirepad" package="SMD2,54-5,08" value="" x="31.0134" y="5.2714" rot="R180"/>
-<element name="PAD5" library="wirepad" package="SMD2,54-5,08" value="" x="20.3454" y="5.2714" rot="R180"/>
-<element name="TP10" library="testpad" package="TP11SQ" value="TPSQTP11SQ" x="7.4676" y="10.1346" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="7.4676" y="10.1346" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R49" library="pel_dipol_comp" package="0402-RES" value="10R" x="39.0906" y="9.7536" smashed="yes" rot="MR180">
+<attribute name="NAME" x="38.2524" y="9.4488" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="37.9476" y="11.049" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
 </element>
-<element name="TP11" library="testpad" package="TP11SQ" value="TPSQTP11SQ" x="6.096" y="10.1346" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="6.096" y="10.1346" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R50" library="pel_dipol_comp" package="0402-RES" value="10R" x="28.4226" y="1.2954" smashed="yes" rot="MR0">
+<attribute name="NAME" x="27.5844" y="0.9906" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="29.5656" y="0" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
 </element>
-<element name="TP12" library="testpad" package="TP11SQ" value="TPSQTP11SQ" x="4.7244" y="10.1346" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="4.7244" y="10.1346" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R51" library="pel_dipol_comp" package="0402-RES" value="10R" x="28.4226" y="9.7536" smashed="yes" rot="MR180">
+<attribute name="NAME" x="27.5844" y="9.4488" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="27.2796" y="11.049" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
 </element>
-<element name="TP13" library="testpad" package="TP11SQ" value="TPSQTP11SQ" x="3.3528" y="10.1346" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="3.3528" y="10.1346" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="L2" library="pel_dipol_comp" package="0402-IND" value="" x="49.7586" y="2.3622" smashed="yes" rot="MR0">
+<attribute name="NAME" x="48.8442" y="2.0574" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="50.9016" y="1.0668" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
 </element>
-<element name="IC7" library="pel_stm32" package="LQFP48" value="STM32F050CX" x="10.8114" y="5.3966"/>
-<element name="C5" library="pel_dipol_comp" package="7343/D" value="" x="56.4642" y="5.4864" rot="R90"/>
-<element name="U$2" library="open-bldc" package="LOGO_SILK_SMALL" value="LOGO" x="17.145" y="5.2714" rot="R90"/>
+<element name="L3" library="pel_dipol_comp" package="0402-IND" value="" x="49.7586" y="8.6868" smashed="yes" rot="MR180">
+<attribute name="NAME" x="48.8442" y="8.382" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="48.6156" y="9.9822" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
+</element>
+<element name="L4" library="pel_dipol_comp" package="0402-IND" value="" x="39.0906" y="2.3622" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38.2524" y="2.0574" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="40.2336" y="1.0668" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
+</element>
+<element name="L5" library="pel_dipol_comp" package="0402-IND" value="" x="39.0906" y="8.6868" smashed="yes" rot="MR180">
+<attribute name="NAME" x="38.2524" y="8.3058" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="37.9476" y="9.9822" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
+</element>
+<element name="L6" library="pel_dipol_comp" package="0402-IND" value="" x="28.4226" y="2.3622" smashed="yes" rot="MR0">
+<attribute name="NAME" x="27.5844" y="2.0574" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="29.5656" y="1.0668" size="0.635" layer="28" font="vector" ratio="16" rot="MR0"/>
+</element>
+<element name="L7" library="pel_dipol_comp" package="0402-IND" value="" x="28.4226" y="8.6868" smashed="yes" rot="MR180">
+<attribute name="NAME" x="27.5844" y="8.382" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="27.2796" y="9.9822" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
+</element>
+<element name="Q1" library="open-bldc" package="SO8" value="IRF7828" x="46.9392" y="2.5908" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.482" y="2.3622" size="0.635" layer="25" font="vector" ratio="16"/>
+<attribute name="VALUE" x="45.0342" y="-0.7366" size="0.635" layer="27" font="vector" ratio="16"/>
+</element>
+<element name="Q2" library="open-bldc" package="SO8" value="IRF7828" x="46.9392" y="8" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.5488" y="8.2286" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="48.8442" y="11.3274" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
+</element>
+<element name="Q3" library="open-bldc" package="SO8" value="IRF7828" x="36.2712" y="2.5908" smashed="yes" rot="R270">
+<attribute name="NAME" x="35.7378" y="2.286" size="0.635" layer="25" font="vector" ratio="16"/>
+<attribute name="VALUE" x="34.3662" y="-0.7366" size="0.635" layer="27" font="vector" ratio="16"/>
+</element>
+<element name="Q4" library="open-bldc" package="SO8" value="IRF7828" x="36.2712" y="8" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.8808" y="8.3048" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="38.1762" y="11.3274" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
+</element>
+<element name="Q5" library="open-bldc" package="SO8" value="IRF7828" x="25.6032" y="2.5908" smashed="yes" rot="R270">
+<attribute name="NAME" x="25.0698" y="2.286" size="0.635" layer="25" font="vector" ratio="16"/>
+<attribute name="VALUE" x="23.6982" y="-0.7366" size="0.635" layer="27" font="vector" ratio="16"/>
+</element>
+<element name="Q6" library="open-bldc" package="SO8" value="IRF7828" x="25.6032" y="8" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.289" y="8.3048" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="27.5082" y="11.3274" size="0.635" layer="27" font="vector" ratio="16" rot="R180"/>
+</element>
+<element name="IC2" library="open-bldc" package="SO8" value="ADP3110A-SO8" x="25.6032" y="5.4864" smashed="yes" rot="MR90">
+<attribute name="NAME" x="25.2984" y="4.8006" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="VALUE" x="23.6982" y="8.8138" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
+</element>
+<element name="IC5" library="open-bldc" package="SO8" value="ADP3110A-SO8" x="36.2712" y="5.4864" smashed="yes" rot="MR90">
+<attribute name="NAME" x="35.9664" y="4.7244" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="VALUE" x="34.3662" y="8.8138" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
+</element>
+<element name="IC6" library="open-bldc" package="SO8" value="ADP3110A-SO8" x="46.9392" y="5.4864" smashed="yes" rot="MR90">
+<attribute name="NAME" x="46.6344" y="4.8006" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
+<attribute name="VALUE" x="45.0342" y="8.8138" size="0.635" layer="28" font="vector" ratio="16" rot="MR180"/>
+</element>
+<element name="L8" library="res_cap" package="0603-IND" value="" x="10.5918" y="2.0574" smashed="yes" rot="MR0">
+<attribute name="NAME" x="12.4968" y="1.7526" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
+<attribute name="VALUE" x="11.7348" y="0.762" size="0.508" layer="28" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="TP1" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="9.625" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="7.085" size="1" layer="37"/>
+<attribute name="VALUE" x="0.359" y="8.482" size="0.0254" layer="27"/>
+</element>
+<element name="TP2" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="6.875" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="4.335" size="1" layer="37"/>
+<attribute name="VALUE" x="0.359" y="5.732" size="0.0254" layer="27"/>
+</element>
+<element name="TP3" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="4.125" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="1.585" size="1" layer="37"/>
+<attribute name="VALUE" x="0.359" y="2.982" size="0.0254" layer="27"/>
+</element>
+<element name="TP4" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="1.375" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="-1.165" size="1" layer="37"/>
+<attribute name="VALUE" x="0.359" y="0.232" size="0.0254" layer="27"/>
+</element>
+<element name="TP5" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="9.625" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="7.085" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="2.391" y="8.482" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="TP6" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="6.875" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="4.335" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="2.391" y="5.732" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="TP7" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="4.125" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="1.585" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="2.391" y="2.982" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="TP8" library="testpad" package="TP20SQ" value="TPSQTP20SQ" x="1.375" y="1.375" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.375" y="-1.165" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="2.391" y="0.232" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="PAD1" library="wirepad" package="SMD2,54-5,08" value="" x="41.6814" y="5.2714" smashed="yes" rot="R180">
+<attribute name="VALUE" x="41.6814" y="5.2714" size="0.0254" layer="27" rot="R180"/>
+</element>
+<element name="PAD2" library="wirepad" package="SMD2,54-5,08" value="" x="31.0134" y="5.2714" smashed="yes" rot="R180">
+<attribute name="VALUE" x="31.0134" y="5.2714" size="0.0254" layer="27" rot="R180"/>
+</element>
+<element name="PAD5" library="wirepad" package="SMD2,54-5,08" value="" x="20.3454" y="5.2714" smashed="yes" rot="R180">
+<attribute name="VALUE" x="20.3454" y="5.2714" size="0.0254" layer="27" rot="R180"/>
+</element>
+<element name="TP10" library="testpad" package="TP11SQ" value="TPSQTP11SQ" x="7.4676" y="10.1346" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="7.4676" y="7.5946" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="7.9756" y="9.4996" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="TP11" library="testpad" package="TP11SQ" value="TPSQTP11SQ" x="6.096" y="10.1346" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="6.096" y="7.5946" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="6.604" y="9.4996" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="TP12" library="testpad" package="TP11SQ" value="TPSQTP11SQ" x="4.7244" y="10.1346" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="4.7244" y="7.5946" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="5.2324" y="9.4996" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="TP13" library="testpad" package="TP11SQ" value="TPSQTP11SQ" x="3.3528" y="10.1346" smashed="yes" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="3.3528" y="7.5946" size="1" layer="38" rot="MR0"/>
+<attribute name="VALUE" x="3.8608" y="9.4996" size="0.0254" layer="28" rot="MR0"/>
+</element>
+<element name="IC7" library="pel_stm32" package="LQFP48" value="STM32F050CX" x="10.8114" y="5.3966" smashed="yes">
+<attribute name="NAME" x="10.1002" y="5.0664" size="0.635" layer="25" font="vector" ratio="16"/>
+<attribute name="VALUE" x="8.2714" y="4.1266" size="0.635" layer="27" font="vector" ratio="24"/>
+</element>
+<element name="C5" library="pel_dipol_comp" package="7343/D" value="" x="56.4642" y="5.4864" smashed="yes" rot="R90">
+<attribute name="NAME" x="57.0992" y="5.7658" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="VALUE" x="59.6138" y="0.9398" size="0.635" layer="27" font="vector" ratio="16" rot="R90"/>
+</element>
+<element name="U$2" library="open-bldc" package="LOGO_SILK_SMALL" value="LOGO" x="17.145" y="5.2714" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
