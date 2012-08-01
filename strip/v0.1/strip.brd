@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="3" unitdist="mil" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
+<grid distance="3" unitdist="mil" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -134,6 +134,11 @@
 <text x="16.7894" y="2.2098" size="0.8128" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">OBLDC</text>
 <text x="17.526" y="8.382" size="0.8128" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">STRIP</text>
 <text x="17.8308" y="8.9154" size="0.8128" layer="21" font="vector" ratio="19" rot="R270" align="bottom-center">CCBYSA</text>
+<text x="21.1074" y="1.3716" size="1.524" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">U</text>
+<text x="31.623" y="1.3716" size="1.524" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">V</text>
+<text x="42.3672" y="1.3716" size="1.524" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">W</text>
+<text x="54.3306" y="6.2484" size="1.524" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">+</text>
+<text x="54.3306" y="6.2484" size="1.524" layer="22" font="vector" ratio="19" rot="R90" align="bottom-center">-</text>
 </plain>
 <libraries>
 <library name="open-bldc">
@@ -2373,50 +2378,6 @@ design rules under a new name.</description>
 <wire x1="43.5864" y1="8.4154" x2="43.7388" y2="8.4154" width="0.1524" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="19,1,8bc77bb7f7b507c5"/>
-<approved hash="5,1,84b714d6e6ce25ed"/>
-<approved hash="19,1,fb71378daa9f1713"/>
-<approved hash="19,1,ffd13b6323a4942a"/>
-<approved hash="19,1,7a863a7c6c12df82"/>
-<approved hash="19,1,67802157e7a24cca"/>
-<approved hash="19,1,f87e1c1a1a04fe60"/>
-<approved hash="19,1,fb781f1c19c7fda3"/>
-<approved hash="19,1,7b7b1f1f10a874cc"/>
-<approved hash="5,1,d77992c066fc4cb6"/>
-<approved hash="19,1,6779031d021e667a"/>
-<approved hash="19,1,30fe981a9ec33627"/>
-<approved hash="5,1,30bcd303c57e8cb0"/>
-<approved hash="19,1,b0fd981997acbf48"/>
-<approved hash="19,1,33f89b1c9d0035e4"/>
-<approved hash="19,1,acff841b851aadfe"/>
-<approved hash="19,1,ce7f1e1b180ac86e"/>
-<approved hash="5,1,abfd7e4e26f2c9b2"/>
-<approved hash="19,1,cd791d1d1bc9cbad"/>
-<approved hash="19,1,5178011c00105074"/>
-<approved hash="19,1,4d7a1d1e12a642c2"/>
-<approved hash="19,16,8bc77bb7f7b507c5"/>
-<approved hash="19,16,f0661c02002bec4f"/>
-<approved hash="19,16,09f99d1d813815dc"/>
-<approved hash="19,16,69c6cc2723def500"/>
-<approved hash="5,16,563e9130f90c4d71"/>
-<approved hash="5,16,b5ba86be7e021e75"/>
-<approved hash="5,16,5fcad830bb0d9d87"/>
-<approved hash="5,16,824669b63e0abc89"/>
-<approved hash="5,16,00960330790c7ddb"/>
-<approved hash="5,16,7713b0ae3a12c2c2"/>
-<approved hash="19,16,d48c070df84e2cc7"/>
-<approved hash="5,16,96628952093d4048"/>
-<approved hash="5,16,e5fa3cdd2dfa43e2"/>
-<approved hash="19,16,c7a5c0f7e00883bf"/>
-<approved hash="5,16,a72b67367c1cdcf2"/>
-<approved hash="19,16,7376031202047260"/>
-<approved hash="19,16,5ae5edcb898b0e3f"/>
-<approved hash="5,16,cdeaebf7f81e3d8f"/>
-<approved hash="19,16,6a091ded1cfa6b1e"/>
-<approved hash="5,16,f5ca7b7ed1ede8f2"/>
-<approved hash="5,16,6607f362f316635d"/>
-</errors>
 </board>
 </drawing>
 </eagle>
