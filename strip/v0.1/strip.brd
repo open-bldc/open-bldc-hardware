@@ -132,8 +132,8 @@
 <hole x="-2" y="2" drill="2.1"/>
 <hole x="60.95" y="9.95" drill="2.1"/>
 <text x="16.7894" y="2.2098" size="0.8128" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">OBLDC</text>
-<text x="17.526" y="8.382" size="0.8128" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">STRIP</text>
-<text x="17.8308" y="8.9154" size="0.8128" layer="21" font="vector" ratio="19" rot="R270" align="bottom-center">CCBYSA</text>
+<text x="16.764" y="8.382" size="0.8128" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">STRIP</text>
+<text x="17.7546" y="8.9154" size="0.8128" layer="21" font="vector" ratio="19" rot="R270" align="bottom-center">CCBYSA</text>
 <text x="21.1074" y="1.3716" size="1.524" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">U</text>
 <text x="31.623" y="1.3716" size="1.524" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">V</text>
 <text x="42.3672" y="1.3716" size="1.524" layer="21" font="vector" ratio="19" rot="R90" align="bottom-center">W</text>

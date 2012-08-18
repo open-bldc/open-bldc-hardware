@@ -9,7 +9,7 @@
 //0=Green, 1="normal color" 2=Blue 3=Brown
 #declare global_res_col = 1;
 //Set to on if you want to render the PCB upside-down
-#declare pcb_upsidedown = on;
+#declare pcb_upsidedown = off;
 //Set to x or z to rotate around the corresponding axis (referring to pcb_upsidedown)
 #declare pcb_rotdir = z;
 //Set the length off short pins over the PCB
