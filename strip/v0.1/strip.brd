@@ -145,8 +145,8 @@
 <text x="4.0386" y="5.584" size="0.8128" layer="22" font="vector" ratio="19" rot="MR90" align="bottom-center">J1</text>
 <hole x="61" y="10" drill="2.1"/>
 <hole x="-2" y="2" drill="2.1"/>
-<wire x1="0" y1="12.5" x2="0" y2="-0.5" width="0.1524" layer="102"/>
-<wire x1="59" y1="12.5" x2="59" y2="-0.5" width="0.1524" layer="102"/>
+<wire x1="0" y1="13" x2="0" y2="-1" width="0.1524" layer="102"/>
+<wire x1="59" y1="13" x2="59" y2="-1" width="0.1524" layer="102"/>
 </plain>
 <libraries>
 <library name="open-bldc">
