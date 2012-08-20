@@ -1,6 +1,6 @@
 //POVRay-File created by 3d41.ulp v20110101
 ///Users/esdentem/projects/open-bldc/open-bldc-hardware-git/strip/v0.1/strip.brd
-//8/18/12 1:13 PM
+//8/20/12 9:17 AM
 
 #version 3.5;
 
@@ -98,7 +98,7 @@
 #declare pcb_layer1_used = 1;
 #declare pcb_layer16_used = 1;
 #declare inc_testmode = off;
-#declare global_seed=seed(952);
+#declare global_seed=seed(798);
 #declare global_pcb_layer_dis = array[16]
 {
 	0.000000,
@@ -206,21 +206,63 @@ union{
 difference{
 union{
 //Board
-prism{-1.000000,0.000000,16
-<-4.000000,0.000000><59.000000,0.000000>
-<59.000000,0.000000><59.000000,8.500000>
-<59.000000,8.500000><63.000000,8.500000>
-<63.000000,8.500000><63.000000,11.500000>
-<63.000000,11.500000><0.000000,11.500000>
-<0.000000,11.500000><0.000000,4.000000>
-<0.000000,4.000000><-4.000000,4.000000>
-<-4.000000,4.000000><-4.000000,0.000000>
+prism{-1.000000,0.000000,52
+<(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,0.000000,0>)+<-3.000000,0,1.000000>).x,(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,0.000000,0>)+<-3.000000,0,1.000000>).z>
+<(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,10.001111,0>)+<-3.000000,0,1.000000>).x,(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,10.001111,0>)+<-3.000000,0,1.000000>).z>
+<(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,20.002222,0>)+<-3.000000,0,1.000000>).x,(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,20.002222,0>)+<-3.000000,0,1.000000>).z>
+<(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,30.003334,0>)+<-3.000000,0,1.000000>).x,(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,30.003334,0>)+<-3.000000,0,1.000000>).z>
+<(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,40.004445,0>)+<-3.000000,0,1.000000>).x,(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,40.004445,0>)+<-3.000000,0,1.000000>).z>
+<(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,50.005556,0>)+<-3.000000,0,1.000000>).x,(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,50.005556,0>)+<-3.000000,0,1.000000>).z>
+<(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,60.006667,0>)+<-3.000000,0,1.000000>).x,(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,60.006667,0>)+<-3.000000,0,1.000000>).z>
+<(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,70.007779,0>)+<-3.000000,0,1.000000>).x,(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,70.007779,0>)+<-3.000000,0,1.000000>).z>
+<(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,80.008890,0>)+<-3.000000,0,1.000000>).x,(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,80.008890,0>)+<-3.000000,0,1.000000>).z>
+<(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,90.010001,0>)+<-3.000000,0,1.000000>).x,(vrotate(<-3.000000,0,0.000000>-<-3.000000,0,1.000000>,<0,90.010001,0>)+<-3.000000,0,1.000000>).z>
+<-4.000000,1.000000>
+<-4.000000,1.000000><-4.000000,10.500000>
+<(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,0.000000,0>)+<-3.000000,0,10.500000>).x,(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,0.000000,0>)+<-3.000000,0,10.500000>).z>
+<(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,10.001111,0>)+<-3.000000,0,10.500000>).x,(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,10.001111,0>)+<-3.000000,0,10.500000>).z>
+<(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,20.002222,0>)+<-3.000000,0,10.500000>).x,(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,20.002222,0>)+<-3.000000,0,10.500000>).z>
+<(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,30.003334,0>)+<-3.000000,0,10.500000>).x,(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,30.003334,0>)+<-3.000000,0,10.500000>).z>
+<(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,40.004445,0>)+<-3.000000,0,10.500000>).x,(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,40.004445,0>)+<-3.000000,0,10.500000>).z>
+<(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,50.005556,0>)+<-3.000000,0,10.500000>).x,(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,50.005556,0>)+<-3.000000,0,10.500000>).z>
+<(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,60.006667,0>)+<-3.000000,0,10.500000>).x,(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,60.006667,0>)+<-3.000000,0,10.500000>).z>
+<(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,70.007779,0>)+<-3.000000,0,10.500000>).x,(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,70.007779,0>)+<-3.000000,0,10.500000>).z>
+<(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,80.008890,0>)+<-3.000000,0,10.500000>).x,(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,80.008890,0>)+<-3.000000,0,10.500000>).z>
+<(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,90.010001,0>)+<-3.000000,0,10.500000>).x,(vrotate(<-4.000000,0,10.500000>-<-3.000000,0,10.500000>,<0,90.010001,0>)+<-3.000000,0,10.500000>).z>
+<-3.000000,11.500000>
+<-3.000000,11.500000><62.000000,11.500000>
+<(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,0.000000,0>)+<62.000000,0,10.500000>).x,(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,0.000000,0>)+<62.000000,0,10.500000>).z>
+<(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,10.001111,0>)+<62.000000,0,10.500000>).x,(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,10.001111,0>)+<62.000000,0,10.500000>).z>
+<(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,20.002222,0>)+<62.000000,0,10.500000>).x,(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,20.002222,0>)+<62.000000,0,10.500000>).z>
+<(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,30.003334,0>)+<62.000000,0,10.500000>).x,(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,30.003334,0>)+<62.000000,0,10.500000>).z>
+<(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,40.004445,0>)+<62.000000,0,10.500000>).x,(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,40.004445,0>)+<62.000000,0,10.500000>).z>
+<(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,50.005556,0>)+<62.000000,0,10.500000>).x,(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,50.005556,0>)+<62.000000,0,10.500000>).z>
+<(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,60.006667,0>)+<62.000000,0,10.500000>).x,(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,60.006667,0>)+<62.000000,0,10.500000>).z>
+<(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,70.007779,0>)+<62.000000,0,10.500000>).x,(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,70.007779,0>)+<62.000000,0,10.500000>).z>
+<(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,80.008890,0>)+<62.000000,0,10.500000>).x,(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,80.008890,0>)+<62.000000,0,10.500000>).z>
+<(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,90.010001,0>)+<62.000000,0,10.500000>).x,(vrotate(<62.000000,0,11.500000>-<62.000000,0,10.500000>,<0,90.010001,0>)+<62.000000,0,10.500000>).z>
+<63.000000,10.500000>
+<63.000000,10.500000><63.000000,1.000000>
+<(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,0.000000,0>)+<62.000000,0,1.000000>).x,(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,0.000000,0>)+<62.000000,0,1.000000>).z>
+<(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,10.001111,0>)+<62.000000,0,1.000000>).x,(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,10.001111,0>)+<62.000000,0,1.000000>).z>
+<(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,20.002222,0>)+<62.000000,0,1.000000>).x,(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,20.002222,0>)+<62.000000,0,1.000000>).z>
+<(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,30.003334,0>)+<62.000000,0,1.000000>).x,(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,30.003334,0>)+<62.000000,0,1.000000>).z>
+<(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,40.004445,0>)+<62.000000,0,1.000000>).x,(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,40.004445,0>)+<62.000000,0,1.000000>).z>
+<(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,50.005556,0>)+<62.000000,0,1.000000>).x,(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,50.005556,0>)+<62.000000,0,1.000000>).z>
+<(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,60.006667,0>)+<62.000000,0,1.000000>).x,(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,60.006667,0>)+<62.000000,0,1.000000>).z>
+<(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,70.007779,0>)+<62.000000,0,1.000000>).x,(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,70.007779,0>)+<62.000000,0,1.000000>).z>
+<(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,80.008890,0>)+<62.000000,0,1.000000>).x,(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,80.008890,0>)+<62.000000,0,1.000000>).z>
+<(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,90.010001,0>)+<62.000000,0,1.000000>).x,(vrotate(<63.000000,0,1.000000>-<62.000000,0,1.000000>,<0,90.010001,0>)+<62.000000,0,1.000000>).z>
+<62.000000,0.000000>
+<62.000000,0.000000><-3.000000,0.000000>
 texture{col_brd}}
 }//End union(PCB)
 //Holes(real)/Parts
 //Holes(real)/Board
-cylinder{<-2.000000,1,2.000000><-2.000000,-5,2.000000>1.050000 texture{col_hls}}
+cylinder{<60.950000,1,2.000000><60.950000,-5,2.000000>1.050000 texture{col_hls}}
+cylinder{<-2.000000,1,9.950000><-2.000000,-5,9.950000>1.050000 texture{col_hls}}
 cylinder{<60.950000,1,9.950000><60.950000,-5,9.950000>1.050000 texture{col_hls}}
+cylinder{<-2.000000,1,2.000000><-2.000000,-5,2.000000>1.050000 texture{col_hls}}
 //Holes(real)/Vias
 }//End difference(reale Bohrungen/Durchbrüche)
 #end
@@ -239,7 +281,7 @@ union{
 #ifndef(pack_C11) #declare global_pack_C11=yes; object {CAP_SMD_CHIP_0402()translate<0,0,0> rotate<0,0.000000,0>rotate<0,-90.000000,0> rotate<0,0,0> translate<6.781800,0.000000,9.601200>translate<0,0.070000,0> }#end		//SMD Capacitor 0402 C11 100nF 0402-CAP
 #ifndef(pack_C12) #declare global_pack_C12=yes; object {CAP_SMD_CHIP_0402()translate<0,0,0> rotate<0,0.000000,0>rotate<0,-90.000000,0> rotate<0,0,0> translate<6.629400,0.000000,1.371600>translate<0,0.070000,0> }#end		//SMD Capacitor 0402 C12 100nF 0402-CAP
 #ifndef(pack_C13) #declare global_pack_C13=yes; object {CAP_SMD_CHIP_0402()translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<5.537200,-1.000000,0.762000>translate<0,-0.070000,0> }#end		//SMD Capacitor 0402 C13 100n 0402-CAP
-#ifndef(pack_C19) #declare global_pack_C19=yes; object {CAP_SMD_CHIP_0402()translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-270.000000,0> rotate<0,0,180> translate<18.897600,-1.000000,5.257800>translate<0,-0.070000,0> }#end		//SMD Capacitor 0402 C19 100nF 0402-CAP
+#ifndef(pack_C19) #declare global_pack_C19=yes; object {CAP_SMD_CHIP_0402()translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-270.000000,0> rotate<0,0,180> translate<18.897600,-1.000000,6.197600>translate<0,-0.070000,0> }#end		//SMD Capacitor 0402 C19 100nF 0402-CAP
 #ifndef(pack_C20) #declare global_pack_C20=yes; object {CAP_SMD_CHIP_0402()translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<15.316200,-1.000000,9.982200>translate<0,-0.070000,0> }#end		//SMD Capacitor 0402 C20 100nF/DNP 0402-CAP
 #ifndef(pack_C23) #declare global_pack_C23=yes; object {CAP_SMD_CHIP_0603()translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-270.000000,0> rotate<0,0,180> translate<23.088600,-1.000000,1.600200>translate<0,-0.070000,0> }#end		//SMD Capacitor 0603 C23 1u 0603-CAP
 #ifndef(pack_C24) #declare global_pack_C24=yes; object {CAP_SMD_CHIP_0603()translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-270.000000,0> rotate<0,0,180> translate<33.756600,-1.000000,1.600200>translate<0,-0.070000,0> }#end		//SMD Capacitor 0603 C24 1u 0603-CAP
@@ -258,7 +300,7 @@ union{
 #ifndef(pack_IC5) #declare global_pack_IC5=yes; object {IC_SMD_SO8("ADP3110A-SO8","",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-90.000000,0> rotate<0,0,180> translate<36.271200,-1.000000,5.486400>translate<0,-0.070000,0> }#end		//SMD IC SO8 Package IC5 ADP3110A-SO8 SO8
 #ifndef(pack_IC6) #declare global_pack_IC6=yes; object {IC_SMD_SO8("ADP3110A-SO8","",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-90.000000,0> rotate<0,0,180> translate<46.939200,-1.000000,5.486400>translate<0,-0.070000,0> }#end		//SMD IC SO8 Package IC6 ADP3110A-SO8 SO8
 #ifndef(pack_IC7) #declare global_pack_IC7=yes; object {QFP_LQFP_48_050MM("STM32F050CX","",)translate<0,0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,0> translate<10.811400,0.000000,5.396600>translate<0,0.070000,0> }#end		//LQFP48 IC7 STM32F050CX LQFP48
-#ifndef(pack_L1) #declare global_pack_L1=yes; object {RES_SMD_CHIP_0603("")translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<16.383000,-1.000000,2.819400>translate<0,-0.070000,0> }#end		//SMD Inductor 0603 L1  0603-IND
+#ifndef(pack_L1) #declare global_pack_L1=yes; object {RES_SMD_CHIP_0603("")translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<15.621000,-1.000000,2.819400>translate<0,-0.070000,0> }#end		//SMD Inductor 0603 L1  0603-IND
 #ifndef(pack_L2) #declare global_pack_L2=yes; object {RES_SMD_CHIP_0402("")translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<49.758600,-1.000000,2.362200>translate<0,-0.070000,0> }#end		//SMD Inductor 0402 L2  0402-IND
 #ifndef(pack_L3) #declare global_pack_L3=yes; object {RES_SMD_CHIP_0402("")translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-180.000000,0> rotate<0,0,180> translate<49.758600,-1.000000,8.686800>translate<0,-0.070000,0> }#end		//SMD Inductor 0402 L3  0402-IND
 #ifndef(pack_L4) #declare global_pack_L4=yes; object {RES_SMD_CHIP_0402("")translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<39.090600,-1.000000,2.362200>translate<0,-0.070000,0> }#end		//SMD Inductor 0402 L4  0402-IND
@@ -276,14 +318,14 @@ union{
 #ifndef(pack_Q6) #declare global_pack_Q6=yes; object {IC_SMD_SO8("IRF7828","",)translate<0,0,0> rotate<0,0.000000,0>rotate<0,-90.000000,0> rotate<0,0,0> translate<25.603200,0.000000,8.000000>translate<0,0.070000,0> }#end		//SMD IC SO8 Package Q6 IRF7828 SO8
 #ifndef(pack_R2) #declare global_pack_R2=yes; object {RES_SMD_CHIP_0402("152",)translate<0,0,0> rotate<0,0.000000,0>rotate<0,-180.000000,0> rotate<0,0,0> translate<3.810000,0.000000,7.848600>translate<0,0.070000,0> }#end		//SMD Resistor 0402 R2 1k5 0402-RES
 #ifndef(pack_R4) #declare global_pack_R4=yes; object {RES_SMD_CHIP_0402("152",)translate<0,0,0> rotate<0,0.000000,0>rotate<0,-180.000000,0> rotate<0,0,0> translate<3.810000,0.000000,5.715000>translate<0,0.070000,0> }#end		//SMD Resistor 0402 R4 1k5 0402-RES
-#ifndef(pack_R5) #declare global_pack_R5=yes; object {RES_SMD_CHIP_0402("152",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<19.888200,-1.000000,2.514600>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R5 1k5 0402-RES
+#ifndef(pack_R5) #declare global_pack_R5=yes; object {RES_SMD_CHIP_0402("152",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-90.000000,0> rotate<0,0,180> translate<18.897600,-1.000000,4.216400>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R5 1k5 0402-RES
 #ifndef(pack_R6) #declare global_pack_R6=yes; object {RES_SMD_CHIP_0402("152",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<30.480000,-1.000000,2.514600>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R6 1k5 0402-RES
 #ifndef(pack_R7) #declare global_pack_R7=yes; object {RES_SMD_CHIP_0402("152",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<41.224200,-1.000000,2.514600>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R7 1k5 0402-RES
 #ifndef(pack_R8) #declare global_pack_R8=yes; object {RES_SMD_CHIP_0402("152",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-270.000000,0> rotate<0,0,180> translate<22.402800,-1.000000,8.915400>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R8 1k5 0402-RES
 #ifndef(pack_R9) #declare global_pack_R9=yes; object {RES_SMD_CHIP_0402("152",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-270.000000,0> rotate<0,0,180> translate<33.070800,-1.000000,8.915400>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R9 1k5 0402-RES
 #ifndef(pack_R10) #declare global_pack_R10=yes; object {RES_SMD_CHIP_0402("152",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-270.000000,0> rotate<0,0,180> translate<43.738800,-1.000000,8.915400>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R10 1k5 0402-RES
-#ifndef(pack_R12) #declare global_pack_R12=yes; object {RES_SMD_CHIP_0402("103",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<12.725400,-1.000000,6.629400>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R12 10k 0402-RES
-#ifndef(pack_R13) #declare global_pack_R13=yes; object {RES_SMD_CHIP_0402("272",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-180.000000,0> rotate<0,0,180> translate<12.725400,-1.000000,5.486400>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R13 2k7 0402-RES
+#ifndef(pack_R12) #declare global_pack_R12=yes; object {RES_SMD_CHIP_0402("103",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<20.878800,-1.000000,1.473200>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R12 10k 0402-RES
+#ifndef(pack_R13) #declare global_pack_R13=yes; object {RES_SMD_CHIP_0402("272",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-180.000000,0> rotate<0,0,180> translate<20.878800,-1.000000,2.565400>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R13 2k7 0402-RES
 #ifndef(pack_R14) #declare global_pack_R14=yes; object {RES_SMD_CHIP_0402("103",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-270.000000,0> rotate<0,0,180> translate<21.336000,-1.000000,8.915400>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R14 10k 0402-RES
 #ifndef(pack_R15) #declare global_pack_R15=yes; object {RES_SMD_CHIP_0402("362",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-90.000000,0> rotate<0,0,180> translate<20.116800,-1.000000,8.915400>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R15 3k6 0402-RES
 #ifndef(pack_R16) #declare global_pack_R16=yes; object {RES_SMD_CHIP_0402("103",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-270.000000,0> rotate<0,0,180> translate<32.004000,-1.000000,8.915400>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R16 10k 0402-RES
@@ -295,7 +337,7 @@ union{
 #ifndef(pack_R27) #declare global_pack_R27=yes; object {RES_SMD_CHIP_0402("661",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<12.700000,-1.000000,7.696200>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R27 660 0402-RES
 #ifndef(pack_R28) #declare global_pack_R28=yes; object {RES_SMD_CHIP_0402("561",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-180.000000,0> rotate<0,0,180> translate<15.316200,-1.000000,4.114800>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R28 560 0402-RES
 #ifndef(pack_R29) #declare global_pack_R29=yes; object {RES_SMD_CHIP_0402("772",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<17.297400,-1.000000,4.114800>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R29 7k7 0402-RES
-#ifndef(pack_R30) #declare global_pack_R30=yes; object {RES_SMD_CHIP_0402("102",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-90.000000,0> rotate<0,0,180> translate<18.897600,-1.000000,7.239000>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R30 1k 0402-RES
+#ifndef(pack_R30) #declare global_pack_R30=yes; object {RES_SMD_CHIP_0402("102",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-90.000000,0> rotate<0,0,180> translate<18.897600,-1.000000,8.178800>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R30 1k 0402-RES
 #ifndef(pack_R31) #declare global_pack_R31=yes; object {RES_SMD_CHIP_0402("542",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-180.000000,0> rotate<0,0,180> translate<17.297400,-1.000000,8.991600>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R31 5k4 0402-RES
 #ifndef(pack_R37) #declare global_pack_R37=yes; object {RES_SMD_CHIP_0402("103",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,180> translate<15.316200,-1.000000,8.610600>translate<0,-0.070000,0> }#end		//SMD Resistor 0402 R37 10k/0Ohm 0402-RES
 #ifndef(pack_R45) #declare global_pack_R45=yes; object {RES_SMD_CHIP_1206("504",)translate<0,-0,0> rotate<0,0.000000,0>rotate<0,-270.000000,0> rotate<0,0,180> translate<52.273200,-1.000000,7.467600>translate<0,-0.070000,0> }#end		//SMD Resistor 1206 R45 0.005Ohm 1206-RES
@@ -340,8 +382,8 @@ object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-90.000000,0> textur
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-90.000000,0> texture{col_pds} translate<6.629400,0.000000,1.871600>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<6.037200,-1.072000,0.762000>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<5.037200,-1.072000,0.762000>}
-object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-270.000000,0> texture{col_pds} translate<18.897600,-1.072000,5.757800>}
-object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-270.000000,0> texture{col_pds} translate<18.897600,-1.072000,4.757800>}
+object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-270.000000,0> texture{col_pds} translate<18.897600,-1.072000,6.697600>}
+object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-270.000000,0> texture{col_pds} translate<18.897600,-1.072000,5.697600>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<15.816200,-1.072000,9.982200>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<14.816200,-1.072000,9.982200>}
 object{TOOLS_PCB_SMD(0.600000,0.900000,0.072000,0) rotate<0,-270.000000,0> texture{col_pds} translate<23.088600,-1.072000,2.350200>}
@@ -458,8 +500,10 @@ object{TOOLS_PCB_SMD(0.652400,0.600000,0.072000,0) rotate<0,-90.000000,0> textur
 object{TOOLS_PCB_SMD(0.652400,0.600000,0.072000,0) rotate<0,-90.000000,0> texture{col_pds} translate<3.378200,-1.072000,6.062600>}
 object{TOOLS_PCB_SMD(0.652400,0.600000,0.072000,0) rotate<0,-90.000000,0> texture{col_pds} translate<6.756400,-1.072000,5.215000>}
 object{TOOLS_PCB_SMD(0.652400,0.600000,0.072000,0) rotate<0,-90.000000,0> texture{col_pds} translate<6.756400,-1.072000,6.062600>}
-object{TOOLS_PCB_SMD(0.600000,0.900000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<17.133000,-1.072000,2.819400>}
-object{TOOLS_PCB_SMD(0.600000,0.900000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<15.633000,-1.072000,2.819400>}
+object{TOOLS_PCB_SMD(0.652400,0.600000,0.072000,0) rotate<0,-0.000000,0> texture{col_pds} translate<18.480400,-1.072000,1.727600>}
+object{TOOLS_PCB_SMD(0.652400,0.600000,0.072000,0) rotate<0,-0.000000,0> texture{col_pds} translate<19.328000,-1.072000,1.727600>}
+object{TOOLS_PCB_SMD(0.600000,0.900000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<16.371000,-1.072000,2.819400>}
+object{TOOLS_PCB_SMD(0.600000,0.900000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<14.871000,-1.072000,2.819400>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<50.258600,-1.072000,2.362200>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<49.258600,-1.072000,2.362200>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-0.000000,0> texture{col_pds} translate<49.258600,-1.072000,8.686800>}
@@ -535,8 +579,8 @@ object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> textu
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<3.310000,0.000000,7.848600>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<4.310000,0.000000,5.715000>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<3.310000,0.000000,5.715000>}
-object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<20.388200,-1.072000,2.514600>}
-object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<19.388200,-1.072000,2.514600>}
+object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-90.000000,0> texture{col_pds} translate<18.897600,-1.072000,3.716400>}
+object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-90.000000,0> texture{col_pds} translate<18.897600,-1.072000,4.716400>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<30.980000,-1.072000,2.514600>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<29.980000,-1.072000,2.514600>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<41.724200,-1.072000,2.514600>}
@@ -547,10 +591,10 @@ object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-270.000000,0> textu
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-270.000000,0> texture{col_pds} translate<33.070800,-1.072000,8.415400>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-270.000000,0> texture{col_pds} translate<43.738800,-1.072000,9.415400>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-270.000000,0> texture{col_pds} translate<43.738800,-1.072000,8.415400>}
-object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<13.225400,-1.072000,6.629400>}
-object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<12.225400,-1.072000,6.629400>}
-object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-0.000000,0> texture{col_pds} translate<12.225400,-1.072000,5.486400>}
-object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-0.000000,0> texture{col_pds} translate<13.225400,-1.072000,5.486400>}
+object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<21.378800,-1.072000,1.473200>}
+object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<20.378800,-1.072000,1.473200>}
+object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-0.000000,0> texture{col_pds} translate<20.378800,-1.072000,2.565400>}
+object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-0.000000,0> texture{col_pds} translate<21.378800,-1.072000,2.565400>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-270.000000,0> texture{col_pds} translate<21.336000,-1.072000,9.415400>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-270.000000,0> texture{col_pds} translate<21.336000,-1.072000,8.415400>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-90.000000,0> texture{col_pds} translate<20.116800,-1.072000,8.415400>}
@@ -573,8 +617,8 @@ object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-0.000000,0> texture
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-0.000000,0> texture{col_pds} translate<15.816200,-1.072000,4.114800>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<17.797400,-1.072000,4.114800>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<16.797400,-1.072000,4.114800>}
-object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-90.000000,0> texture{col_pds} translate<18.897600,-1.072000,6.739000>}
-object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-90.000000,0> texture{col_pds} translate<18.897600,-1.072000,7.739000>}
+object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-90.000000,0> texture{col_pds} translate<18.897600,-1.072000,7.678800>}
+object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-90.000000,0> texture{col_pds} translate<18.897600,-1.072000,8.678800>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-0.000000,0> texture{col_pds} translate<16.797400,-1.072000,8.991600>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-0.000000,0> texture{col_pds} translate<17.797400,-1.072000,8.991600>}
 object{TOOLS_PCB_SMD(0.500000,0.600000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<15.816200,-1.072000,8.610600>}
@@ -609,7 +653,7 @@ object{TOOLS_PCB_SMD(1.100000,1.100000,0.072000,0) rotate<0,-180.000000,0> textu
 object{TOOLS_PCB_SMD(1.100000,1.100000,0.072000,0) rotate<0,-180.000000,0> texture{col_pds} translate<3.352800,-1.072000,10.591800>}
 //Pads/Vias
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<8.077200,0,7.924800> texture{col_thl}}
-object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<15.316200,0,1.676400> texture{col_thl}}
+object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<14.554200,0,1.600200> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<9.372600,0,6.781800> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<5.029200,0,1.600200> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<16.916400,0,8.153400> texture{col_thl}}
@@ -686,11 +730,7 @@ object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<46.253400,0,3.276600>
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<46.253400,0,3.962400> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<34.848800,0,5.029200> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<45.516800,0,5.029200> texture{col_thl}}
-object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<4.191000,0,1.447800> texture{col_thl}}
-object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<9.677400,0,4.800600> texture{col_thl}}
-object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<9.677400,0,5.410200> texture{col_thl}}
-object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<17.602200,0,1.981200> texture{col_thl}}
-object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<19.278600,0,1.143000> texture{col_thl}}
+object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<19.354800,0,0.812800> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<5.334000,0,4.800600> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<5.308600,0,4.114800> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<14.249400,0,9.220200> texture{col_thl}}
@@ -700,8 +740,8 @@ object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<20.040600,0,9.982200>
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<30.708600,0,9.982200> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<41.376600,0,9.982200> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<7.391400,0,0.533400> texture{col_thl}}
-object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<17.068800,0,6.172200> texture{col_thl}}
-object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<16.764000,0,1.676400> texture{col_thl}}
+object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<17.068800,0,6.400800> texture{col_thl}}
+object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<17.653000,0,2.794000> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<13.944600,0,7.620000> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<16.840200,0,9.829800> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<8.839200,0,7.696200> texture{col_thl}}
@@ -860,7 +900,7 @@ object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<51.282600,0,8.991600>
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<51.282600,0,9.677400> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<51.282600,0,7.620000> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<51.282600,0,6.934200> texture{col_thl}}
-object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<21.412200,0,0.609600> texture{col_thl}}
+object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<21.488400,0,0.609600> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<21.412200,0,9.982200> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<32.080200,0,0.685800> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<32.080200,0,9.982200> texture{col_thl}}
@@ -879,7 +919,12 @@ object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<18.745200,0,0.533400>
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<12.636500,0,2.171700> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<12.877800,0,2.895600> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<12.573000,0,8.534400> texture{col_thl}}
-object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<13.690600,0,5.486400> texture{col_thl}}
+object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<15.392400,0,1.600200> texture{col_thl}}
+object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<16.916400,0,1.600200> texture{col_thl}}
+object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<9.677400,0,6.019800> texture{col_thl}}
+object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<9.677400,0,5.410200> texture{col_thl}}
+object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<9.677400,0,4.800600> texture{col_thl}}
+object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<4.038600,0,1.371600> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<29.946600,0,9.982200> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<31.394400,0,9.982200> texture{col_thl}}
 object{TOOLS_PCB_VIA(0.500000,0.300000,1,16,1,0) translate<13.296900,0,2.171700> texture{col_thl}}
@@ -902,9 +947,6 @@ box{<0,0,-0.076200><0.604152,0.070000,0.076200> rotate<0,-44.997030,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.298800,-1.070000,5.913600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.298800,-1.070000,7.020600>}
 box{<0,0,-0.076200><1.107000,0.070000,0.076200> rotate<0,90.000000,0> translate<1.298800,-1.070000,7.020600> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<1.298800,-1.070000,1.375000>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<1.371600,-1.070000,1.447800>}
-box{<0,0,-0.203200><0.102955,0.070000,0.203200> rotate<0,-44.997030,0> translate<1.298800,-1.070000,1.375000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.298800,-1.070000,4.913600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.871600,-1.070000,5.486400>}
 box{<0,0,-0.076200><0.810062,0.070000,0.076200> rotate<0,-44.997030,0> translate<1.298800,-1.070000,4.913600> }
@@ -938,6 +980,9 @@ box{<0,0,-0.076200><2.670035,0.070000,0.076200> rotate<0,-44.997030,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<2.052200,0.000000,0.621600>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<3.276600,0.000000,0.621600>}
 box{<0,0,-0.203200><1.224400,0.070000,0.203200> rotate<0,0.000000,0> translate<2.052200,0.000000,0.621600> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<3.276600,0.000000,2.121600>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<3.288600,0.000000,2.121600>}
+box{<0,0,-0.203200><0.012000,0.070000,0.203200> rotate<0,0.000000,0> translate<3.276600,0.000000,2.121600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.918800,0.000000,3.972600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<3.310000,0.000000,3.581400>}
 box{<0,0,-0.076200><0.553240,0.070000,0.076200> rotate<0,44.997030,0> translate<2.918800,0.000000,3.972600> }
@@ -959,21 +1004,21 @@ box{<0,0,-0.076200><2.198400,0.070000,0.076200> rotate<0,-90.000000,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<3.106800,-1.070000,5.791200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<3.378200,-1.070000,6.062600>}
 box{<0,0,-0.076200><0.383818,0.070000,0.076200> rotate<0,-44.997030,0> translate<3.106800,-1.070000,5.791200> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<3.276600,0.000000,2.121600>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<3.517200,0.000000,2.121600>}
-box{<0,0,-0.203200><0.240600,0.070000,0.203200> rotate<0,0.000000,0> translate<3.276600,0.000000,2.121600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<3.810000,0.000000,4.114800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<3.810000,0.000000,3.048000>}
 box{<0,0,-0.076200><1.066800,0.070000,0.076200> rotate<0,-90.000000,0> translate<3.810000,0.000000,3.048000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<3.810000,0.000000,5.148200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<3.810000,0.000000,6.324600>}
 box{<0,0,-0.076200><1.176400,0.070000,0.076200> rotate<0,90.000000,0> translate<3.810000,0.000000,6.324600> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<1.371600,-1.070000,1.447800>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<4.191000,-1.070000,1.447800>}
-box{<0,0,-0.203200><2.819400,0.070000,0.203200> rotate<0,0.000000,0> translate<1.371600,-1.070000,1.447800> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<3.517200,0.000000,2.121600>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<4.191000,0.000000,1.447800>}
-box{<0,0,-0.203200><0.952897,0.070000,0.203200> rotate<0,44.997030,0> translate<3.517200,0.000000,2.121600> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<1.298800,-1.070000,1.375000>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<4.035200,-1.070000,1.375000>}
+box{<0,0,-0.203200><2.736400,0.070000,0.203200> rotate<0,0.000000,0> translate<1.298800,-1.070000,1.375000> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<3.288600,0.000000,2.121600>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<4.038600,0.000000,1.371600>}
+box{<0,0,-0.203200><1.060660,0.070000,0.203200> rotate<0,44.997030,0> translate<3.288600,0.000000,2.121600> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<4.035200,-1.070000,1.375000>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<4.038600,-1.070000,1.371600>}
+box{<0,0,-0.203200><0.004808,0.070000,0.203200> rotate<0,44.997030,0> translate<4.035200,-1.070000,1.375000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<3.810000,0.000000,6.324600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.267200,0.000000,6.781800>}
 box{<0,0,-0.076200><0.646578,0.070000,0.076200> rotate<0,-44.997030,0> translate<3.810000,0.000000,6.324600> }
@@ -1295,9 +1340,9 @@ box{<0,0,-0.076200><0.304800,0.070000,0.076200> rotate<0,0.000000,0> translate<9
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<9.677400,-1.070000,5.410200>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<9.677400,-1.070000,4.800600>}
 box{<0,0,-0.203200><0.609600,0.070000,0.203200> rotate<0,-90.000000,0> translate<9.677400,-1.070000,4.800600> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<9.677400,-1.070000,5.943600>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<9.677400,-1.070000,6.019800>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<9.677400,-1.070000,5.410200>}
-box{<0,0,-0.203200><0.533400,0.070000,0.203200> rotate<0,-90.000000,0> translate<9.677400,-1.070000,5.410200> }
+box{<0,0,-0.203200><0.609600,0.070000,0.203200> rotate<0,-90.000000,0> translate<9.677400,-1.070000,5.410200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.677400,-1.070000,1.905000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.956800,-1.070000,2.184400>}
 box{<0,0,-0.076200><0.395131,0.070000,0.076200> rotate<0,-44.997030,0> translate<9.677400,-1.070000,1.905000> }
@@ -1307,12 +1352,12 @@ box{<0,0,-0.076200><1.447800,0.070000,0.076200> rotate<0,90.000000,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<9.677400,-1.070000,4.800600>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<10.017800,-1.070000,4.460200>}
 box{<0,0,-0.203200><0.481398,0.070000,0.203200> rotate<0,44.997030,0> translate<9.677400,-1.070000,4.800600> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<9.677400,-1.070000,6.019800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<10.017800,-1.070000,6.360200>}
+box{<0,0,-0.203200><0.481398,0.070000,0.203200> rotate<0,-44.997030,0> translate<9.677400,-1.070000,6.019800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.956800,-1.070000,3.632200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.058400,-1.070000,3.733800>}
 box{<0,0,-0.076200><0.143684,0.070000,0.076200> rotate<0,-44.997030,0> translate<9.956800,-1.070000,3.632200> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<9.677400,-1.070000,5.943600>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<10.094000,-1.070000,6.360200>}
-box{<0,0,-0.203200><0.589161,0.070000,0.203200> rotate<0,-44.997030,0> translate<9.677400,-1.070000,5.943600> }
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<8.610600,0.000000,2.514600>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<10.439400,0.000000,2.514600>}
 box{<0,0,-0.203200><1.828800,0.070000,0.203200> rotate<0,0.000000,0> translate<8.610600,0.000000,2.514600> }
@@ -1331,9 +1376,9 @@ box{<0,0,-0.076200><0.610000,0.070000,0.076200> rotate<0,90.000000,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<10.017800,-1.070000,4.460200>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<10.977400,-1.070000,4.460200>}
 box{<0,0,-0.203200><0.959600,0.070000,0.203200> rotate<0,0.000000,0> translate<10.017800,-1.070000,4.460200> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<10.094000,-1.070000,6.360200>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<10.017800,-1.070000,6.360200>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<10.977400,-1.070000,6.360200>}
-box{<0,0,-0.203200><0.883400,0.070000,0.203200> rotate<0,0.000000,0> translate<10.094000,-1.070000,6.360200> }
+box{<0,0,-0.203200><0.959600,0.070000,0.203200> rotate<0,0.000000,0> translate<10.017800,-1.070000,6.360200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.134600,-1.070000,10.896600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.049000,-1.070000,10.896600>}
 box{<0,0,-0.076200><0.914400,0.070000,0.076200> rotate<0,0.000000,0> translate<10.134600,-1.070000,10.896600> }
@@ -1379,9 +1424,6 @@ box{<0,0,-0.076200><0.352988,0.070000,0.076200> rotate<0,-44.997030,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.887200,-1.070000,8.534400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.887200,-1.070000,9.753600>}
 box{<0,0,-0.076200><1.219200,0.070000,0.076200> rotate<0,90.000000,0> translate<11.887200,-1.070000,9.753600> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<10.977400,-1.070000,6.360200>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<11.956200,-1.070000,6.360200>}
-box{<0,0,-0.203200><0.978800,0.070000,0.203200> rotate<0,0.000000,0> translate<10.977400,-1.070000,6.360200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.353800,-1.070000,8.305800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.963400,-1.070000,7.696200>}
 box{<0,0,-0.076200><0.862105,0.070000,0.076200> rotate<0,44.997030,0> translate<11.353800,-1.070000,8.305800> }
@@ -1400,9 +1442,6 @@ box{<0,0,-0.076200><0.938000,0.070000,0.076200> rotate<0,-90.000000,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.963400,-1.070000,7.696200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.200000,-1.070000,7.696200>}
 box{<0,0,-0.076200><0.236600,0.070000,0.076200> rotate<0,0.000000,0> translate<11.963400,-1.070000,7.696200> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<11.956200,-1.070000,6.360200>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<12.225400,-1.070000,6.629400>}
-box{<0,0,-0.203200><0.380706,0.070000,0.203200> rotate<0,-44.997030,0> translate<11.956200,-1.070000,6.360200> }
 cylinder{<0,0,0><0,0.070000,0>0.152400 translate<12.027600,-1.070000,2.459000>}
 cylinder{<0,0,0><0,0.070000,0>0.152400 translate<12.464200,-1.070000,2.895600>}
 box{<0,0,-0.152400><0.617446,0.070000,0.152400> rotate<0,-44.997030,0> translate<12.027600,-1.070000,2.459000> }
@@ -1448,9 +1487,6 @@ box{<0,0,-0.076200><0.914800,0.070000,0.076200> rotate<0,-90.000000,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.200000,-1.070000,7.696200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.200000,-1.070000,7.602600>}
 box{<0,0,-0.076200><0.093600,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.200000,-1.070000,7.602600> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<13.225400,-1.070000,5.486400>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<13.225400,-1.070000,6.629400>}
-box{<0,0,-0.203200><1.143000,0.070000,0.203200> rotate<0,90.000000,0> translate<13.225400,-1.070000,6.629400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.061400,0.000000,8.731800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.258800,0.000000,8.534400>}
 box{<0,0,-0.076200><0.279166,0.070000,0.076200> rotate<0,44.997030,0> translate<13.061400,0.000000,8.731800> }
@@ -1481,18 +1517,9 @@ box{<0,0,-0.076200><0.527600,0.070000,0.076200> rotate<0,90.000000,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.573000,-1.070000,9.829800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.563600,-1.070000,10.820400>}
 box{<0,0,-0.076200><1.400920,0.070000,0.076200> rotate<0,-44.997030,0> translate<12.573000,-1.070000,9.829800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.225400,-1.070000,5.486400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.690600,-1.070000,5.486400>}
-box{<0,0,-0.076200><0.465200,0.070000,0.076200> rotate<0,0.000000,0> translate<13.225400,-1.070000,5.486400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.296900,-1.070000,1.181100>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.792200,-1.070000,0.685800>}
 box{<0,0,-0.076200><0.700460,0.070000,0.076200> rotate<0,44.997030,0> translate<13.296900,-1.070000,1.181100> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.792200,0.000000,5.384800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.792200,0.000000,3.314700>}
-box{<0,0,-0.076200><2.070100,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.792200,0.000000,3.314700> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.690600,0.000000,5.486400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.792200,0.000000,5.384800>}
-box{<0,0,-0.076200><0.143684,0.070000,0.076200> rotate<0,44.997030,0> translate<13.690600,0.000000,5.486400> }
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<13.487400,-1.070000,4.462400>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<13.835000,-1.070000,4.114800>}
 box{<0,0,-0.203200><0.491581,0.070000,0.203200> rotate<0,44.997030,0> translate<13.487400,-1.070000,4.462400> }
@@ -1541,9 +1568,6 @@ box{<0,0,-0.076200><0.215526,0.070000,0.076200> rotate<0,44.997030,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.173200,0.000000,3.429000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.455600,0.000000,3.146600>}
 box{<0,0,-0.076200><0.399374,0.070000,0.076200> rotate<0,44.997030,0> translate<14.173200,0.000000,3.429000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.792200,0.000000,3.314700>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.460300,0.000000,2.646600>}
-box{<0,0,-0.076200><0.944836,0.070000,0.076200> rotate<0,44.997030,0> translate<13.792200,0.000000,3.314700> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.173200,-1.070000,6.858000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.513600,-1.070000,7.198400>}
 box{<0,0,-0.076200><0.481398,0.070000,0.076200> rotate<0,-44.997030,0> translate<14.173200,-1.070000,6.858000> }
@@ -1556,15 +1580,21 @@ box{<0,0,-0.203200><0.801576,0.070000,0.203200> rotate<0,44.997030,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<14.249400,-1.070000,9.415400>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<14.816200,-1.070000,9.982200>}
 box{<0,0,-0.203200><0.801576,0.070000,0.203200> rotate<0,-44.997030,0> translate<14.249400,-1.070000,9.415400> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<14.554200,-1.070000,1.600200>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<14.871000,-1.070000,1.917000>}
+box{<0,0,-0.203200><0.448023,0.070000,0.203200> rotate<0,-44.997030,0> translate<14.554200,-1.070000,1.600200> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<14.871000,-1.070000,2.819400>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<14.871000,-1.070000,1.917000>}
+box{<0,0,-0.203200><0.902400,0.070000,0.203200> rotate<0,-90.000000,0> translate<14.871000,-1.070000,1.917000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.513600,-1.070000,7.198400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.006800,-1.070000,7.198400>}
 box{<0,0,-0.076200><0.493200,0.070000,0.076200> rotate<0,0.000000,0> translate<14.513600,-1.070000,7.198400> }
 cylinder{<0,0,0><0,0.070000,0>0.152400 translate<15.036800,0.000000,8.965200>}
 cylinder{<0,0,0><0,0.070000,0>0.152400 translate<15.036800,0.000000,8.171200>}
 box{<0,0,-0.152400><0.794000,0.070000,0.152400> rotate<0,-90.000000,0> translate<15.036800,0.000000,8.171200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.460300,0.000000,2.646600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.061400,0.000000,2.646600>}
-box{<0,0,-0.076200><0.601100,0.070000,0.076200> rotate<0,0.000000,0> translate<14.460300,0.000000,2.646600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.061400,0.000000,1.931200>}
+box{<0,0,-0.076200><0.715400,0.070000,0.076200> rotate<0,-90.000000,0> translate<15.061400,0.000000,1.931200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.455600,0.000000,3.146600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.061400,0.000000,3.146600>}
 box{<0,0,-0.076200><0.605800,0.070000,0.076200> rotate<0,0.000000,0> translate<14.455600,0.000000,3.146600> }
@@ -1574,12 +1604,9 @@ box{<0,0,-0.152400><0.034790,0.070000,0.152400> rotate<0,44.997030,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.325600,-1.070000,4.724400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.240000,-1.070000,4.724400>}
 box{<0,0,-0.076200><0.914400,0.070000,0.076200> rotate<0,0.000000,0> translate<14.325600,-1.070000,4.724400> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<15.316200,-1.070000,1.676400>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<15.633000,-1.070000,1.993200>}
-box{<0,0,-0.203200><0.448023,0.070000,0.203200> rotate<0,-44.997030,0> translate<15.316200,-1.070000,1.676400> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<15.633000,-1.070000,1.993200>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<15.633000,-1.070000,2.819400>}
-box{<0,0,-0.203200><0.826200,0.070000,0.203200> rotate<0,90.000000,0> translate<15.633000,-1.070000,2.819400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.061400,0.000000,1.931200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.392400,0.000000,1.600200>}
+box{<0,0,-0.076200><0.468105,0.070000,0.076200> rotate<0,44.997030,0> translate<15.061400,0.000000,1.931200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.006800,-1.070000,5.298400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.737800,-1.070000,5.298400>}
 box{<0,0,-0.076200><0.731000,0.070000,0.076200> rotate<0,0.000000,0> translate<15.006800,-1.070000,5.298400> }
@@ -1592,9 +1619,15 @@ box{<0,0,-0.076200><0.033400,0.070000,0.076200> rotate<0,90.000000,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.816200,-1.070000,8.534400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.816200,-1.070000,8.610600>}
 box{<0,0,-0.076200><0.076200,0.070000,0.076200> rotate<0,90.000000,0> translate<15.816200,-1.070000,8.610600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.392400,-1.070000,1.600200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.925800,-1.070000,2.133600>}
+box{<0,0,-0.076200><0.754342,0.070000,0.076200> rotate<0,-44.997030,0> translate<15.392400,-1.070000,1.600200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.816200,-1.070000,8.610600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.197200,-1.070000,8.991600>}
 box{<0,0,-0.076200><0.538815,0.070000,0.076200> rotate<0,-44.997030,0> translate<15.816200,-1.070000,8.610600> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<16.371000,-1.070000,2.959800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<16.371000,-1.070000,2.819400>}
+box{<0,0,-0.203200><0.140400,0.070000,0.203200> rotate<0,-90.000000,0> translate<16.371000,-1.070000,2.819400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.737800,-1.070000,5.298400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.459200,-1.070000,6.019800>}
 box{<0,0,-0.076200><1.020214,0.070000,0.076200> rotate<0,-44.997030,0> translate<15.737800,-1.070000,5.298400> }
@@ -1604,21 +1637,39 @@ box{<0,0,-0.076200><0.909339,0.070000,0.076200> rotate<0,44.997030,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.459200,-1.070000,6.019800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.459200,-1.070000,7.891400>}
 box{<0,0,-0.076200><1.871600,0.070000,0.076200> rotate<0,90.000000,0> translate<16.459200,-1.070000,7.891400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.925800,-1.070000,2.133600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.764000,-1.070000,2.133600>}
+box{<0,0,-0.076200><0.838200,0.070000,0.076200> rotate<0,0.000000,0> translate<15.925800,-1.070000,2.133600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.816200,-1.070000,4.114800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.797400,-1.070000,4.114800>}
 box{<0,0,-0.076200><0.981200,0.070000,0.076200> rotate<0,0.000000,0> translate<15.816200,-1.070000,4.114800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.197200,-1.070000,8.991600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.797400,-1.070000,8.991600>}
 box{<0,0,-0.076200><0.600200,0.070000,0.076200> rotate<0,0.000000,0> translate<16.197200,-1.070000,8.991600> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<16.371000,-1.070000,2.959800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<16.840200,-1.070000,3.429000>}
+box{<0,0,-0.203200><0.663549,0.070000,0.203200> rotate<0,-44.997030,0> translate<16.371000,-1.070000,2.959800> }
 cylinder{<0,0,0><0,0.070000,0>0.152400 translate<15.061400,0.000000,8.146600>}
 cylinder{<0,0,0><0,0.070000,0>0.152400 translate<16.909600,0.000000,8.146600>}
 box{<0,0,-0.152400><1.848200,0.070000,0.152400> rotate<0,0.000000,0> translate<15.061400,0.000000,8.146600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.764000,-1.070000,2.133600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.916400,-1.070000,2.286000>}
+box{<0,0,-0.076200><0.215526,0.070000,0.076200> rotate<0,-44.997030,0> translate<16.764000,-1.070000,2.133600> }
 cylinder{<0,0,0><0,0.070000,0>0.152400 translate<16.909600,0.000000,8.146600>}
 cylinder{<0,0,0><0,0.070000,0>0.152400 translate<16.916400,0.000000,8.153400>}
 box{<0,0,-0.152400><0.009617,0.070000,0.152400> rotate<0,-44.997030,0> translate<16.909600,0.000000,8.146600> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<16.916400,-1.070000,1.600200>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<16.992600,-1.070000,1.600200>}
+box{<0,0,-0.203200><0.076200,0.070000,0.203200> rotate<0,0.000000,0> translate<16.916400,-1.070000,1.600200> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<16.992600,-1.070000,1.600200>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.221200,-1.070000,1.828800>}
+box{<0,0,-0.203200><0.323289,0.070000,0.203200> rotate<0,-44.997030,0> translate<16.992600,-1.070000,1.600200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.249400,-1.070000,0.990600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.297400,-1.070000,0.990600>}
 box{<0,0,-0.076200><3.048000,0.070000,0.076200> rotate<0,0.000000,0> translate<14.249400,-1.070000,0.990600> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<16.840200,-1.070000,3.429000>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.361600,-1.070000,3.429000>}
+box{<0,0,-0.203200><0.521400,0.070000,0.203200> rotate<0,0.000000,0> translate<16.840200,-1.070000,3.429000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.297400,-1.070000,0.990600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.526000,-1.070000,1.219200>}
 box{<0,0,-0.076200><0.323289,0.070000,0.076200> rotate<0,-44.997030,0> translate<17.297400,-1.070000,0.990600> }
@@ -1628,12 +1679,12 @@ box{<0,0,-0.203200><0.993000,0.070000,0.203200> rotate<0,90.000000,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.606800,-1.070000,8.801000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.606800,-1.070000,7.198400>}
 box{<0,0,-0.076200><1.602600,0.070000,0.076200> rotate<0,-90.000000,0> translate<17.606800,-1.070000,7.198400> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.133000,-1.070000,2.819400>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.797400,-1.070000,3.483800>}
-box{<0,0,-0.203200><0.939603,0.070000,0.203200> rotate<0,-44.997030,0> translate<17.133000,-1.070000,2.819400> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.361600,-1.070000,3.429000>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.797400,-1.070000,3.864800>}
+box{<0,0,-0.203200><0.616314,0.070000,0.203200> rotate<0,-44.997030,0> translate<17.361600,-1.070000,3.429000> }
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.797400,-1.070000,4.114800>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.797400,-1.070000,3.483800>}
-box{<0,0,-0.203200><0.631000,0.070000,0.203200> rotate<0,-90.000000,0> translate<17.797400,-1.070000,3.483800> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.797400,-1.070000,3.864800>}
+box{<0,0,-0.203200><0.250000,0.070000,0.203200> rotate<0,-90.000000,0> translate<17.797400,-1.070000,3.864800> }
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.606800,-1.070000,4.305400>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.797400,-1.070000,4.114800>}
 box{<0,0,-0.203200><0.269549,0.070000,0.203200> rotate<0,44.997030,0> translate<17.606800,-1.070000,4.305400> }
@@ -1643,63 +1694,78 @@ box{<0,0,-0.076200><0.269549,0.070000,0.076200> rotate<0,-44.997030,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.792200,-1.070000,0.685800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.907000,-1.070000,0.685800>}
 box{<0,0,-0.076200><4.114800,0.070000,0.076200> rotate<0,0.000000,0> translate<13.792200,-1.070000,0.685800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.797400,-1.070000,8.991600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.110200,-1.070000,8.678800>}
+box{<0,0,-0.076200><0.442366,0.070000,0.076200> rotate<0,44.997030,0> translate<17.797400,-1.070000,8.991600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.907000,-1.070000,0.685800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.135600,-1.070000,0.914400>}
 box{<0,0,-0.076200><0.323289,0.070000,0.076200> rotate<0,-44.997030,0> translate<17.907000,-1.070000,0.685800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.606800,-1.070000,7.198400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.147400,-1.070000,7.739000>}
-box{<0,0,-0.076200><0.764524,0.070000,0.076200> rotate<0,-44.997030,0> translate<17.606800,-1.070000,7.198400> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.221200,-1.070000,1.828800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.379200,-1.070000,1.828800>}
+box{<0,0,-0.203200><1.158000,0.070000,0.203200> rotate<0,0.000000,0> translate<17.221200,-1.070000,1.828800> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.379200,-1.070000,1.828800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.480400,-1.070000,1.727600>}
+box{<0,0,-0.203200><0.143118,0.070000,0.203200> rotate<0,44.997030,0> translate<18.379200,-1.070000,1.828800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.606800,-1.070000,5.298400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.357000,-1.070000,5.298400>}
-box{<0,0,-0.076200><0.750200,0.070000,0.076200> rotate<0,0.000000,0> translate<17.606800,-1.070000,5.298400> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.602200,-1.070000,1.981200>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.440400,-1.070000,1.981200>}
-box{<0,0,-0.203200><0.838200,0.070000,0.203200> rotate<0,0.000000,0> translate<17.602200,-1.070000,1.981200> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.068800,-1.070000,6.172200>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.483200,-1.070000,6.172200>}
-box{<0,0,-0.203200><1.414400,0.070000,0.203200> rotate<0,0.000000,0> translate<17.068800,-1.070000,6.172200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.498400,-1.070000,5.298400>}
+box{<0,0,-0.076200><0.891600,0.070000,0.076200> rotate<0,0.000000,0> translate<17.606800,-1.070000,5.298400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.487400,-1.070000,0.381000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.592800,-1.070000,0.381000>}
 box{<0,0,-0.076200><5.105400,0.070000,0.076200> rotate<0,0.000000,0> translate<13.487400,-1.070000,0.381000> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<17.068800,-1.070000,6.400800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.600800,-1.070000,6.400800>}
+box{<0,0,-0.203200><1.532000,0.070000,0.203200> rotate<0,0.000000,0> translate<17.068800,-1.070000,6.400800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.592800,-1.070000,0.381000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.745200,-1.070000,0.533400>}
 box{<0,0,-0.076200><0.215526,0.070000,0.076200> rotate<0,-44.997030,0> translate<18.592800,-1.070000,0.381000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.811000,0.000000,10.515600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.821400,0.000000,10.515600>}
 box{<0,0,-0.076200><7.010400,0.070000,0.076200> rotate<0,0.000000,0> translate<11.811000,0.000000,10.515600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.357000,-1.070000,5.298400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.897600,-1.070000,4.757800>}
-box{<0,0,-0.076200><0.764524,0.070000,0.076200> rotate<0,44.997030,0> translate<18.357000,-1.070000,5.298400> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.483200,-1.070000,6.172200>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.897600,-1.070000,5.757800>}
-box{<0,0,-0.203200><0.586050,0.070000,0.203200> rotate<0,44.997030,0> translate<18.483200,-1.070000,6.172200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.147400,-1.070000,7.739000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.897600,-1.070000,7.739000>}
-box{<0,0,-0.076200><0.750200,0.070000,0.076200> rotate<0,0.000000,0> translate<18.147400,-1.070000,7.739000> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.440400,-1.070000,1.981200>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<19.278600,-1.070000,1.143000>}
-box{<0,0,-0.203200><1.185394,0.070000,0.203200> rotate<0,44.997030,0> translate<18.440400,-1.070000,1.981200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.498400,-1.070000,5.298400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.897600,-1.070000,5.697600>}
+box{<0,0,-0.076200><0.564554,0.070000,0.076200> rotate<0,-44.997030,0> translate<18.498400,-1.070000,5.298400> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.600800,-1.070000,6.400800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.897600,-1.070000,6.697600>}
+box{<0,0,-0.203200><0.419739,0.070000,0.203200> rotate<0,-44.997030,0> translate<18.600800,-1.070000,6.400800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.110200,-1.070000,8.678800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.897600,-1.070000,8.678800>}
+box{<0,0,-0.076200><0.787400,0.070000,0.076200> rotate<0,0.000000,0> translate<18.110200,-1.070000,8.678800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.897600,-1.070000,3.716400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.108800,-1.070000,3.716400>}
+box{<0,0,-0.076200><0.211200,0.070000,0.076200> rotate<0,0.000000,0> translate<18.897600,-1.070000,3.716400> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<19.328000,-1.070000,1.727600>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<19.328000,-1.070000,0.839600>}
+box{<0,0,-0.203200><0.888000,0.070000,0.203200> rotate<0,-90.000000,0> translate<19.328000,-1.070000,0.839600> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<19.328000,-1.070000,0.839600>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<19.354800,-1.070000,0.812800>}
+box{<0,0,-0.203200><0.037901,0.070000,0.203200> rotate<0,44.997030,0> translate<19.328000,-1.070000,0.839600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.821400,0.000000,10.515600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.354800,0.000000,9.982200>}
 box{<0,0,-0.076200><0.754342,0.070000,0.076200> rotate<0,44.997030,0> translate<18.821400,0.000000,10.515600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.354800,-1.070000,2.548000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.388200,-1.070000,2.514600>}
-box{<0,0,-0.076200><0.047235,0.070000,0.076200> rotate<0,44.997030,0> translate<19.354800,-1.070000,2.548000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.388200,-1.070000,2.514600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.507200,-1.070000,2.633600>}
-box{<0,0,-0.076200><0.168291,0.070000,0.076200> rotate<0,-44.997030,0> translate<19.388200,-1.070000,2.514600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.897600,-1.070000,4.716400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.507200,-1.070000,5.326000>}
+box{<0,0,-0.076200><0.862105,0.070000,0.076200> rotate<0,-44.997030,0> translate<18.897600,-1.070000,4.716400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.507200,-1.070000,9.829800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.507200,-1.070000,2.633600>}
-box{<0,0,-0.076200><7.196200,0.070000,0.076200> rotate<0,-90.000000,0> translate<19.507200,-1.070000,2.633600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.507200,-1.070000,5.326000>}
+box{<0,0,-0.076200><4.503800,0.070000,0.076200> rotate<0,-90.000000,0> translate<19.507200,-1.070000,5.326000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.354800,-1.070000,9.982200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.507200,-1.070000,9.829800>}
 box{<0,0,-0.076200><0.215526,0.070000,0.076200> rotate<0,44.997030,0> translate<19.354800,-1.070000,9.982200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.812000,-1.070000,3.090800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.812000,-1.070000,4.419600>}
-box{<0,0,-0.076200><1.328800,0.070000,0.076200> rotate<0,90.000000,0> translate<19.812000,-1.070000,4.419600> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<19.354800,-1.070000,0.812800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<19.718400,-1.070000,0.812800>}
+box{<0,0,-0.203200><0.363600,0.070000,0.203200> rotate<0,0.000000,0> translate<19.354800,-1.070000,0.812800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.916400,-1.070000,2.286000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.735800,-1.070000,2.286000>}
+box{<0,0,-0.076200><2.819400,0.070000,0.076200> rotate<0,0.000000,0> translate<16.916400,-1.070000,2.286000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.812000,-1.070000,7.653400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.812000,-1.070000,6.477000>}
 box{<0,0,-0.076200><1.176400,0.070000,0.076200> rotate<0,-90.000000,0> translate<19.812000,-1.070000,6.477000> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<18.821400,-1.070000,2.971800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<19.972400,-1.070000,2.971800>}
+box{<0,0,-0.203200><1.151000,0.070000,0.203200> rotate<0,0.000000,0> translate<18.821400,-1.070000,2.971800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.735800,-1.070000,2.286000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.989800,-1.070000,2.032000>}
+box{<0,0,-0.076200><0.359210,0.070000,0.076200> rotate<0,44.997030,0> translate<19.735800,-1.070000,2.286000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.812000,-1.070000,7.653400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<20.007200,-1.070000,7.848600>}
 box{<0,0,-0.076200><0.276054,0.070000,0.076200> rotate<0,-44.997030,0> translate<19.812000,-1.070000,7.653400> }
@@ -1712,12 +1778,15 @@ box{<0,0,-0.203200><0.107763,0.070000,0.203200> rotate<0,44.997030,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.812000,-1.070000,6.477000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<20.167600,-1.070000,6.121400>}
 box{<0,0,-0.076200><0.502894,0.070000,0.076200> rotate<0,44.997030,0> translate<19.812000,-1.070000,6.477000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.812000,-1.070000,4.419600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.108800,-1.070000,3.716400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<20.243800,-1.070000,4.851400>}
-box{<0,0,-0.076200><0.610657,0.070000,0.076200> rotate<0,-44.997030,0> translate<19.812000,-1.070000,4.419600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.812000,-1.070000,3.090800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<20.388200,-1.070000,2.514600>}
-box{<0,0,-0.076200><0.814870,0.070000,0.076200> rotate<0,44.997030,0> translate<19.812000,-1.070000,3.090800> }
+box{<0,0,-0.076200><1.605132,0.070000,0.076200> rotate<0,-44.997030,0> translate<19.108800,-1.070000,3.716400> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<19.718400,-1.070000,0.812800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<20.378800,-1.070000,1.473200>}
+box{<0,0,-0.203200><0.933947,0.070000,0.203200> rotate<0,-44.997030,0> translate<19.718400,-1.070000,0.812800> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<19.972400,-1.070000,2.971800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<20.378800,-1.070000,2.565400>}
+box{<0,0,-0.203200><0.574736,0.070000,0.203200> rotate<0,44.997030,0> translate<19.972400,-1.070000,2.971800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<20.116800,-1.070000,8.415400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<20.726400,-1.070000,8.415400>}
 box{<0,0,-0.076200><0.609600,0.070000,0.076200> rotate<0,0.000000,0> translate<20.116800,-1.070000,8.415400> }
@@ -1730,18 +1799,27 @@ box{<0,0,-0.203200><0.374767,0.070000,0.203200> rotate<0,44.997030,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<20.726400,-1.070000,7.126400>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<20.991400,-1.070000,7.391400>}
 box{<0,0,-0.203200><0.374767,0.070000,0.203200> rotate<0,-44.997030,0> translate<20.726400,-1.070000,7.126400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.989800,-1.070000,2.032000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.209000,-1.070000,2.032000>}
+box{<0,0,-0.076200><1.219200,0.070000,0.076200> rotate<0,0.000000,0> translate<19.989800,-1.070000,2.032000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<20.726400,-1.070000,8.415400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.336000,-1.070000,8.415400>}
 box{<0,0,-0.076200><0.609600,0.070000,0.076200> rotate<0,0.000000,0> translate<20.726400,-1.070000,8.415400> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.378800,-1.070000,2.201800>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.378800,-1.070000,1.473200>}
+box{<0,0,-0.203200><0.728600,0.070000,0.203200> rotate<0,-90.000000,0> translate<21.378800,-1.070000,1.473200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.209000,-1.070000,2.032000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.378800,-1.070000,2.201800>}
+box{<0,0,-0.076200><0.240133,0.070000,0.076200> rotate<0,-44.997030,0> translate<21.209000,-1.070000,2.032000> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.378800,-1.070000,2.565400>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.378800,-1.070000,2.201800>}
+box{<0,0,-0.203200><0.363600,0.070000,0.203200> rotate<0,-90.000000,0> translate<21.378800,-1.070000,2.201800> }
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.336000,-1.070000,9.415400>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.412200,-1.070000,9.491600>}
 box{<0,0,-0.203200><0.107763,0.070000,0.203200> rotate<0,-44.997030,0> translate<21.336000,-1.070000,9.415400> }
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.412200,-1.070000,9.491600>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.412200,-1.070000,9.982200>}
 box{<0,0,-0.203200><0.490600,0.070000,0.203200> rotate<0,90.000000,0> translate<21.412200,-1.070000,9.982200> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.412200,-1.070000,0.609600>}
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.652800,-1.070000,0.850200>}
-box{<0,0,-0.203200><0.340260,0.070000,0.203200> rotate<0,-44.997030,0> translate<21.412200,-1.070000,0.609600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<20.007200,-1.070000,7.848600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.683600,-1.070000,7.848600>}
 box{<0,0,-0.076200><1.676400,0.070000,0.076200> rotate<0,0.000000,0> translate<20.007200,-1.070000,7.848600> }
@@ -1775,12 +1853,15 @@ box{<0,0,-0.076200><2.635600,0.070000,0.076200> rotate<0,0.000000,0> translate<2
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<20.991400,-1.070000,7.391400>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<22.803200,-1.070000,7.391400>}
 box{<0,0,-0.203200><1.811800,0.070000,0.203200> rotate<0,0.000000,0> translate<20.991400,-1.070000,7.391400> }
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.488400,-1.070000,0.609600>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<22.848000,-1.070000,0.609600>}
+box{<0,0,-0.203200><1.359600,0.070000,0.203200> rotate<0,0.000000,0> translate<21.488400,-1.070000,0.609600> }
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<22.803200,0.000000,0.685800>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<22.879400,0.000000,0.609600>}
 box{<0,0,-0.203200><0.107763,0.070000,0.203200> rotate<0,44.997030,0> translate<22.803200,0.000000,0.685800> }
-cylinder{<0,0,0><0,0.070000,0>0.203200 translate<21.652800,-1.070000,0.850200>}
+cylinder{<0,0,0><0,0.070000,0>0.203200 translate<22.848000,-1.070000,0.609600>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<23.088600,-1.070000,0.850200>}
-box{<0,0,-0.203200><1.435800,0.070000,0.203200> rotate<0,0.000000,0> translate<21.652800,-1.070000,0.850200> }
+box{<0,0,-0.203200><0.340260,0.070000,0.203200> rotate<0,-44.997030,0> translate<22.848000,-1.070000,0.609600> }
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<22.803200,-1.070000,2.635600>}
 cylinder{<0,0,0><0,0.070000,0>0.203200 translate<23.088600,-1.070000,2.350200>}
 box{<0,0,-0.203200><0.403617,0.070000,0.203200> rotate<0,44.997030,0> translate<22.803200,-1.070000,2.635600> }
@@ -2290,54 +2371,54 @@ texture{col_wrs}
 #if(pcb_polygons=on)
 union{
 //Polygons
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,0.000000,9.548803>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,0.000000,9.701191>}
-box{<0,0,-0.076200><0.152387,0.070000,0.076200> rotate<0,90.000000,0> translate<0.330197,0.000000,9.701191> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,-1.070000,9.548803>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,-1.070000,9.701191>}
-box{<0,0,-0.076200><0.152387,0.070000,0.076200> rotate<0,90.000000,0> translate<0.330197,-1.070000,9.701191> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,0.000000,9.548803>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,0.000000,9.548803>}
-box{<0,0,-0.076200><0.892391,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,0.000000,9.548803> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,-1.070000,9.548803>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,-1.070000,9.548803>}
-box{<0,0,-0.076200><0.892391,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,-1.070000,9.548803> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,0.000000,9.601200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,0.000000,9.601200>}
-box{<0,0,-0.076200><0.892391,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,0.000000,9.601200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,-1.070000,9.601200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,-1.070000,9.601200>}
-box{<0,0,-0.076200><0.892391,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,-1.070000,9.601200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,0.000000,9.701191>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,0.000000,9.701191>}
-box{<0,0,-0.076200><0.892391,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,0.000000,9.701191> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,-1.070000,9.701191>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.380997,-1.070000,9.701191>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,-1.070000,9.548803>}
+box{<0,0,-0.076200><0.152388,0.070000,0.076200> rotate<0,89.992885,0> translate<0.380997,-1.070000,9.701191> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.380997,-1.070000,9.701191>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,-1.070000,9.701191>}
-box{<0,0,-0.076200><0.892391,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,-1.070000,9.701191> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,0.000000,10.955197>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,0.000000,11.076200>}
-box{<0,0,-0.076200><0.121003,0.070000,0.076200> rotate<0,90.000000,0> translate<0.330197,0.000000,11.076200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,-1.070000,10.955197>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,-1.070000,11.076200>}
-box{<0,0,-0.076200><0.121003,0.070000,0.076200> rotate<0,90.000000,0> translate<0.330197,-1.070000,11.076200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,0.000000,10.955197>}
+box{<0,0,-0.076200><0.841591,0.070000,0.076200> rotate<0,0.000000,0> translate<0.380997,-1.070000,9.701191> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,0.000000,9.548803>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,0.000000,9.701191>}
+box{<0,0,-0.076200><0.152387,0.070000,0.076200> rotate<0,90.000000,0> translate<0.381000,0.000000,9.701191> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,0.000000,9.548803>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,0.000000,9.548803>}
+box{<0,0,-0.076200><0.841588,0.070000,0.076200> rotate<0,0.000000,0> translate<0.381000,0.000000,9.548803> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,-1.070000,9.548803>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,-1.070000,9.548803>}
+box{<0,0,-0.076200><0.841588,0.070000,0.076200> rotate<0,0.000000,0> translate<0.381000,-1.070000,9.548803> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,0.000000,9.601200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,0.000000,9.601200>}
+box{<0,0,-0.076200><0.841588,0.070000,0.076200> rotate<0,0.000000,0> translate<0.381000,0.000000,9.601200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,-1.070000,9.601200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,-1.070000,9.601200>}
+box{<0,0,-0.076200><0.841588,0.070000,0.076200> rotate<0,0.000000,0> translate<0.381000,-1.070000,9.601200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,0.000000,9.701191>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,0.000000,9.701191>}
+box{<0,0,-0.076200><0.841588,0.070000,0.076200> rotate<0,0.000000,0> translate<0.381000,0.000000,9.701191> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,0.000000,10.955197>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,0.000000,11.076200>}
+box{<0,0,-0.076200><0.121003,0.070000,0.076200> rotate<0,90.000000,0> translate<0.381000,0.000000,11.076200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,-1.070000,10.955197>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,-1.070000,11.076200>}
+box{<0,0,-0.076200><0.121003,0.070000,0.076200> rotate<0,90.000000,0> translate<0.381000,-1.070000,11.076200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,0.000000,10.955197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222603,0.000000,10.955197>}
-box{<0,0,-0.076200><0.892406,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,0.000000,10.955197> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,-1.070000,10.955197>}
+box{<0,0,-0.076200><0.841603,0.070000,0.076200> rotate<0,0.000000,0> translate<0.381000,0.000000,10.955197> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,-1.070000,10.955197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222603,-1.070000,10.955197>}
-box{<0,0,-0.076200><0.892406,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,-1.070000,10.955197> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,-1.070000,10.972800>}
+box{<0,0,-0.076200><0.841603,0.070000,0.076200> rotate<0,0.000000,0> translate<0.381000,-1.070000,10.955197> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,-1.070000,10.972800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.472600,-1.070000,10.972800>}
-box{<0,0,-0.076200><2.142403,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,-1.070000,10.972800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,0.000000,10.972800>}
+box{<0,0,-0.076200><2.091600,0.070000,0.076200> rotate<0,0.000000,0> translate<0.381000,-1.070000,10.972800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,0.000000,10.972800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.985116,0.000000,10.972800>}
-box{<0,0,-0.076200><2.654919,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,0.000000,10.972800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,-1.070000,11.076200>}
+box{<0,0,-0.076200><2.604116,0.070000,0.076200> rotate<0,0.000000,0> translate<0.381000,0.000000,10.972800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,-1.070000,11.076200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.472600,-1.070000,11.076200>}
-box{<0,0,-0.076200><2.142403,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,-1.070000,11.076200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.330197,0.000000,11.076200>}
+box{<0,0,-0.076200><2.091600,0.070000,0.076200> rotate<0,0.000000,0> translate<0.381000,-1.070000,11.076200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<0.381000,0.000000,11.076200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<3.088516,0.000000,11.076200>}
-box{<0,0,-0.076200><2.758319,0.070000,0.076200> rotate<0,0.000000,0> translate<0.330197,0.000000,11.076200> }
+box{<0,0,-0.076200><2.707516,0.070000,0.076200> rotate<0,0.000000,0> translate<0.381000,0.000000,11.076200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,0.000000,9.701191>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<1.222588,0.000000,9.548803>}
 box{<0,0,-0.076200><0.152387,0.070000,0.076200> rotate<0,-90.000000,0> translate<1.222588,0.000000,9.548803> }
@@ -2546,8 +2627,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.628997,0.000000,8.860487>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.628997,0.000000,9.548803>}
 box{<0,0,-0.076200><0.688316,0.070000,0.076200> rotate<0,90.000000,0> translate<2.628997,0.000000,9.548803> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.628997,0.000000,8.860487>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.780600,0.000000,9.012091>}
-box{<0,0,-0.076200><0.214399,0.070000,0.076200> rotate<0,-44.997030,0> translate<2.628997,0.000000,8.860487> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.780600,0.000000,9.012094>}
+box{<0,0,-0.076200><0.214401,0.070000,0.076200> rotate<0,-44.997621,0> translate<2.628997,0.000000,8.860487> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.628997,0.000000,8.991600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.760109,0.000000,8.991600>}
 box{<0,0,-0.076200><0.131112,0.070000,0.076200> rotate<0,0.000000,0> translate<2.628997,0.000000,8.991600> }
@@ -2585,8 +2666,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.628997,0.000000,10.668000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.823400,0.000000,10.668000>}
 box{<0,0,-0.076200><0.194403,0.070000,0.076200> rotate<0,0.000000,0> translate<2.628997,0.000000,10.668000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.780600,0.000000,9.331131>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.780600,0.000000,9.012091>}
-box{<0,0,-0.076200><0.319041,0.070000,0.076200> rotate<0,-90.000000,0> translate<2.780600,0.000000,9.012091> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.780600,0.000000,9.012094>}
+box{<0,0,-0.076200><0.319038,0.070000,0.076200> rotate<0,-90.000000,0> translate<2.780600,0.000000,9.012094> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.780600,0.000000,9.331131>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<2.944266,0.000000,9.494797>}
 box{<0,0,-0.076200><0.231458,0.070000,0.076200> rotate<0,-44.997030,0> translate<2.780600,0.000000,9.331131> }
@@ -2621,8 +2702,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<3.944266,0.000000,9.494797>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<3.946909,0.000000,9.494797>}
 box{<0,0,-0.076200><0.002644,0.070000,0.076200> rotate<0,0.000000,0> translate<3.944266,0.000000,9.494797> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.005997,0.000000,0.330197>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.005997,0.000000,0.918400>}
-box{<0,0,-0.076200><0.588203,0.070000,0.076200> rotate<0,90.000000,0> translate<4.005997,0.000000,0.918400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.005997,0.000000,0.842200>}
+box{<0,0,-0.076200><0.512003,0.070000,0.076200> rotate<0,90.000000,0> translate<4.005997,0.000000,0.842200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.005997,0.000000,0.330197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.049000,0.000000,0.330197>}
 box{<0,0,-0.076200><0.043003,0.070000,0.076200> rotate<0,0.000000,0> translate<4.005997,0.000000,0.330197> }
@@ -2635,12 +2716,9 @@ box{<0,0,-0.076200><0.946991,0.070000,0.076200> rotate<0,0.000000,0> translate<4
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.005997,0.000000,0.762000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.049000,0.000000,0.762000>}
 box{<0,0,-0.076200><0.043003,0.070000,0.076200> rotate<0,0.000000,0> translate<4.005997,0.000000,0.762000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.005997,0.000000,0.914400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.049000,0.000000,0.914400>}
-box{<0,0,-0.076200><0.043003,0.070000,0.076200> rotate<0,0.000000,0> translate<4.005997,0.000000,0.914400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.005997,0.000000,0.918400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.049000,0.000000,0.918400>}
-box{<0,0,-0.076200><0.043003,0.070000,0.076200> rotate<0,0.000000,0> translate<4.005997,0.000000,0.918400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.005997,0.000000,0.842200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.049000,0.000000,0.842200>}
+box{<0,0,-0.076200><0.043003,0.070000,0.076200> rotate<0,0.000000,0> translate<4.005997,0.000000,0.842200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.049000,0.000000,0.574003>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.049000,0.000000,0.330197>}
 box{<0,0,-0.076200><0.243806,0.070000,0.076200> rotate<0,-90.000000,0> translate<4.049000,0.000000,0.330197> }
@@ -2650,9 +2728,9 @@ box{<0,0,-0.076200><0.903987,0.070000,0.076200> rotate<0,0.000000,0> translate<4
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.049000,0.000000,0.726391>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.952987,0.000000,0.726391>}
 box{<0,0,-0.076200><0.903987,0.070000,0.076200> rotate<0,0.000000,0> translate<4.049000,0.000000,0.726391> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.049000,0.000000,0.918400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.049000,0.000000,0.842200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.049000,0.000000,0.726391>}
-box{<0,0,-0.076200><0.192009,0.070000,0.076200> rotate<0,-90.000000,0> translate<4.049000,0.000000,0.726391> }
+box{<0,0,-0.076200><0.115809,0.070000,0.076200> rotate<0,-90.000000,0> translate<4.049000,0.000000,0.726391> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.952987,0.000000,0.726391>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<4.952987,0.000000,0.574003>}
 box{<0,0,-0.076200><0.152388,0.070000,0.076200> rotate<0,-90.000000,0> translate<4.952987,0.000000,0.574003> }
@@ -2666,14 +2744,14 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.532091,0.000000,9.753600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.202400,0.000000,9.753600>}
 box{<0,0,-0.076200><0.670309,0.070000,0.076200> rotate<0,0.000000,0> translate<5.532091,0.000000,9.753600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.570597,-1.070000,1.312366>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.570597,-1.070000,1.321075>}
-box{<0,0,-0.076200><0.008709,0.070000,0.076200> rotate<0,90.000000,0> translate<5.570597,-1.070000,1.321075> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.570597,-1.070000,1.321072>}
+box{<0,0,-0.076200><0.008706,0.070000,0.076200> rotate<0,90.000000,0> translate<5.570597,-1.070000,1.321072> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.570597,-1.070000,1.312366>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.584450,-1.070000,1.326222>}
 box{<0,0,-0.076200><0.019593,0.070000,0.076200> rotate<0,-45.003491,0> translate<5.570597,-1.070000,1.312366> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.570597,-1.070000,1.321075>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.570597,-1.070000,1.321072>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.609397,-1.070000,1.359872>}
-box{<0,0,-0.076200><0.054869,0.070000,0.076200> rotate<0,-44.994723,0> translate<5.570597,-1.070000,1.321075> }
+box{<0,0,-0.076200><0.054871,0.070000,0.076200> rotate<0,-44.997030,0> translate<5.570597,-1.070000,1.321072> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.584450,-1.070000,1.326222>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.659747,-1.070000,1.369694>}
 box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,-29.997566,0> translate<5.584450,-1.070000,1.326222> }
@@ -2726,17 +2804,17 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.684491,0.000000,9.601200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.264828,0.000000,9.601200>}
 box{<0,0,-0.076200><0.580337,0.070000,0.076200> rotate<0,0.000000,0> translate<5.684491,0.000000,9.601200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.726928,-1.070000,9.706800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.789731,-1.070000,9.643997>}
-box{<0,0,-0.076200><0.088817,0.070000,0.076200> rotate<0,44.997030,0> translate<5.726928,-1.070000,9.706800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.789734,-1.070000,9.643997>}
+box{<0,0,-0.076200><0.088819,0.070000,0.076200> rotate<0,44.995605,0> translate<5.726928,-1.070000,9.706800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.726928,-1.070000,9.706800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.955325,-1.070000,9.706800>}
 box{<0,0,-0.076200><0.228397,0.070000,0.076200> rotate<0,0.000000,0> translate<5.726928,-1.070000,9.706800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.743725,-1.070000,1.392197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.988394,-1.070000,1.392197>}
 box{<0,0,-0.076200><0.244669,0.070000,0.076200> rotate<0,0.000000,0> translate<5.743725,-1.070000,1.392197> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.789731,-1.070000,9.643997>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.789734,-1.070000,9.643997>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.202172,-1.070000,9.643997>}
-box{<0,0,-0.076200><0.412441,0.070000,0.076200> rotate<0,0.000000,0> translate<5.789731,-1.070000,9.643997> }
+box{<0,0,-0.076200><0.412438,0.070000,0.076200> rotate<0,0.000000,0> translate<5.789734,-1.070000,9.643997> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<5.816591,-1.070000,1.633600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.108872,-1.070000,1.633600>}
 box{<0,0,-0.076200><0.292281,0.070000,0.076200> rotate<0,0.000000,0> translate<5.816591,-1.070000,1.633600> }
@@ -2845,15 +2923,15 @@ box{<0,0,-0.076200><0.086939,0.070000,0.076200> rotate<0,-44.997030,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.279050,0.000000,9.615422>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.306563,0.000000,9.631303>}
 box{<0,0,-0.076200><0.031767,0.070000,0.076200> rotate<0,-29.993179,0> translate<6.279050,0.000000,9.615422> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.324850,-1.070000,7.356281>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.324850,-1.070000,7.356278>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.349997,-1.070000,7.331134>}
-box{<0,0,-0.076200><0.035563,0.070000,0.076200> rotate<0,44.997030,0> translate<6.324850,-1.070000,7.356281> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.324850,-1.070000,7.356281>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.387666,-1.070000,7.419097>}
-box{<0,0,-0.076200><0.088835,0.070000,0.076200> rotate<0,-44.997030,0> translate<6.324850,-1.070000,7.356281> }
+box{<0,0,-0.076200><0.035561,0.070000,0.076200> rotate<0,44.993470,0> translate<6.324850,-1.070000,7.356278> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.324850,-1.070000,7.356278>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.387666,-1.070000,7.419094>}
+box{<0,0,-0.076200><0.088835,0.070000,0.076200> rotate<0,-44.997030,0> translate<6.324850,-1.070000,7.356278> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.329622,-1.070000,1.761050>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.363131,-1.070000,1.819097>}
-box{<0,0,-0.076200><0.067025,0.070000,0.076200> rotate<0,-59.999004,0> translate<6.329622,-1.070000,1.761050> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.363131,-1.070000,1.819094>}
+box{<0,0,-0.076200><0.067022,0.070000,0.076200> rotate<0,-59.997669,0> translate<6.329622,-1.070000,1.761050> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.330672,-1.070000,1.392197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.414650,-1.070000,1.369694>}
 box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,14.999808,0> translate<6.330672,-1.070000,1.392197> }
@@ -2869,15 +2947,15 @@ box{<0,0,-0.076200><1.193803,0.070000,0.076200> rotate<0,0.000000,0> translate<6
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.349997,-1.070000,7.315200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.467025,-1.070000,7.315200>}
 box{<0,0,-0.076200><0.117028,0.070000,0.076200> rotate<0,0.000000,0> translate<6.349997,-1.070000,7.315200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.363131,-1.070000,1.819097>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.363131,-1.070000,1.819094>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.548625,-1.070000,1.633600>}
-box{<0,0,-0.076200><0.262330,0.070000,0.076200> rotate<0,44.997513,0> translate<6.363131,-1.070000,1.819097> }
+box{<0,0,-0.076200><0.262328,0.070000,0.076200> rotate<0,44.997030,0> translate<6.363131,-1.070000,1.819094> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.383331,-1.070000,7.010400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.543800,-1.070000,7.010400>}
 box{<0,0,-0.076200><1.160469,0.070000,0.076200> rotate<0,0.000000,0> translate<6.383331,-1.070000,7.010400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.387666,-1.070000,7.419097>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.387666,-1.070000,7.419094>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.421175,-1.070000,7.361050>}
-box{<0,0,-0.076200><0.067025,0.070000,0.076200> rotate<0,59.999004,0> translate<6.387666,-1.070000,7.419097> }
+box{<0,0,-0.076200><0.067022,0.070000,0.076200> rotate<0,59.997669,0> translate<6.387666,-1.070000,7.419094> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.387666,-1.070000,9.458500>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.421175,-1.070000,9.516547>}
 box{<0,0,-0.076200><0.067025,0.070000,0.076200> rotate<0,-59.999004,0> translate<6.387666,-1.070000,9.458500> }
@@ -2903,8 +2981,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.489947,-1.070000,1.326222>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.551422,-1.070000,1.264747>}
 box{<0,0,-0.076200><0.086939,0.070000,0.076200> rotate<0,44.997030,0> translate<6.489947,-1.070000,1.326222> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.535731,-1.070000,6.858000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.533231,-1.070000,6.858000>}
-box{<0,0,-0.076200><0.997500,0.070000,0.076200> rotate<0,0.000000,0> translate<6.535731,-1.070000,6.858000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.533228,-1.070000,6.858000>}
+box{<0,0,-0.076200><0.997497,0.070000,0.076200> rotate<0,0.000000,0> translate<6.535731,-1.070000,6.858000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.548625,-1.070000,1.633600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<6.997000,-1.070000,1.633600>}
 box{<0,0,-0.076200><0.448375,0.070000,0.076200> rotate<0,0.000000,0> translate<6.548625,-1.070000,1.633600> }
@@ -3220,12 +3298,12 @@ box{<0,0,-0.076200><0.244672,0.070000,0.076200> rotate<0,90.000000,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.259597,0.000000,1.066800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.629600,0.000000,1.066800>}
 box{<0,0,-0.076200><0.370003,0.070000,0.076200> rotate<0,0.000000,0> translate<7.259597,0.000000,1.066800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.265528,0.000000,8.575997>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.265525,0.000000,8.575997>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.277131,0.000000,8.575997>}
-box{<0,0,-0.076200><0.011603,0.070000,0.076200> rotate<0,0.000000,0> translate<7.265528,0.000000,8.575997> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.265528,0.000000,8.575997>}
+box{<0,0,-0.076200><0.011606,0.070000,0.076200> rotate<0,0.000000,0> translate<7.265525,0.000000,8.575997> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.265525,0.000000,8.575997>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.284547,0.000000,8.586975>}
-box{<0,0,-0.076200><0.021960,0.070000,0.076200> rotate<0,-29.992698,0> translate<7.265528,0.000000,8.575997> }
+box{<0,0,-0.076200><0.021962,0.070000,0.076200> rotate<0,-29.988623,0> translate<7.265525,0.000000,8.575997> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.277131,0.000000,8.575997>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,8.412331>}
 box{<0,0,-0.076200><0.231458,0.070000,0.076200> rotate<0,44.997030,0> translate<7.277131,0.000000,8.575997> }
@@ -3392,8 +3470,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,4.114800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.690716,0.000000,4.114800>}
 box{<0,0,-0.076200><2.249919,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,4.114800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,4.267200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,4.267200>}
-box{<0,0,-0.076200><5.995803,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,4.267200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,4.267200>}
+box{<0,0,-0.076200><6.376803,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,4.267200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,4.320134>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.469094,0.000000,4.369147>}
 box{<0,0,-0.076200><0.056595,0.070000,0.076200> rotate<0,-59.996483,0> translate<7.440797,0.000000,4.320134> }
@@ -3404,8 +3482,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,4.973063>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.469094,0.000000,4.924050>}
 box{<0,0,-0.076200><0.056595,0.070000,0.076200> rotate<0,59.996483,0> translate<7.440797,0.000000,4.973063> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,5.029200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.157319,0.000000,5.029200>}
-box{<0,0,-0.076200><1.716522,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,5.029200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.157316,0.000000,5.029200>}
+box{<0,0,-0.076200><1.716519,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,5.029200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,5.181600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.157312,0.000000,5.181600>}
 box{<0,0,-0.076200><1.716516,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,5.181600> }
@@ -3419,17 +3497,17 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,5.638800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.157316,0.000000,5.638800>}
 box{<0,0,-0.076200><1.716519,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,5.638800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,5.791200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.309716,0.000000,5.791200>}
-box{<0,0,-0.076200><1.868919,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,5.791200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.157312,0.000000,5.791200>}
+box{<0,0,-0.076200><1.716516,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,5.791200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,5.943600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.399116,0.000000,5.943600>}
-box{<0,0,-0.076200><5.958319,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,5.943600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,5.943600>}
+box{<0,0,-0.076200><1.707203,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,5.943600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,6.096000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,6.096000>}
-box{<0,0,-0.076200><6.376803,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,6.096000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,6.096000>}
+box{<0,0,-0.076200><1.707203,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,6.096000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,6.248400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.670306,0.000000,6.248400>}
-box{<0,0,-0.076200><6.229509,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,6.248400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.157319,0.000000,6.248400>}
+box{<0,0,-0.076200><1.716522,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,6.248400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.440797,0.000000,6.400800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.004912,0.000000,6.400800>}
 box{<0,0,-0.076200><1.564116,0.070000,0.076200> rotate<0,0.000000,0> translate<7.440797,0.000000,6.400800> }
@@ -3488,8 +3566,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.447200,-1.070000,6.771972>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.447200,-1.070000,5.948425>}
 box{<0,0,-0.076200><0.823547,0.070000,0.076200> rotate<0,-90.000000,0> translate<7.447200,-1.070000,5.948425> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.447200,-1.070000,6.771972>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.543800,-1.070000,6.868569>}
-box{<0,0,-0.076200><0.136611,0.070000,0.076200> rotate<0,-44.996103,0> translate<7.447200,-1.070000,6.771972> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.543800,-1.070000,6.868572>}
+box{<0,0,-0.076200><0.136613,0.070000,0.076200> rotate<0,-44.997030,0> translate<7.447200,-1.070000,6.771972> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.462850,-1.070000,7.256103>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.538147,-1.070000,7.299575>}
 box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,-29.997566,0> translate<7.462850,-1.070000,7.256103> }
@@ -3569,8 +3647,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.528394,-1.070000,1.246578>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.626000,-1.070000,1.246578>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<7.528394,-1.070000,1.246578> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.528394,-1.070000,1.344219>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.528394,-1.070000,1.689825>}
-box{<0,0,-0.076200><0.345606,0.070000,0.076200> rotate<0,90.000000,0> translate<7.528394,-1.070000,1.689825> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.528394,-1.070000,1.689822>}
+box{<0,0,-0.076200><0.345603,0.070000,0.076200> rotate<0,90.000000,0> translate<7.528394,-1.070000,1.689822> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.528394,-1.070000,1.344219>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.626000,-1.070000,1.344219>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<7.528394,-1.070000,1.344219> }
@@ -3583,9 +3661,9 @@ box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<7
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.528394,-1.070000,1.676400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.626000,-1.070000,1.676400>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<7.528394,-1.070000,1.676400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.528394,-1.070000,1.689825>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.528394,-1.070000,1.689822>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.626000,-1.070000,1.787431>}
-box{<0,0,-0.076200><0.138036,0.070000,0.076200> rotate<0,-44.997030,0> translate<7.528394,-1.070000,1.689825> }
+box{<0,0,-0.076200><0.138038,0.070000,0.076200> rotate<0,-44.997947,0> translate<7.528394,-1.070000,1.689822> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.538147,-1.070000,7.299575>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.543800,-1.070000,7.305231>}
 box{<0,0,-0.076200><0.007997,0.070000,0.076200> rotate<0,-45.012861,0> translate<7.538147,-1.070000,7.299575> }
@@ -3599,8 +3677,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.543791,-1.070000,10.515588>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.543791,-1.070000,9.711600>}
 box{<0,0,-0.076200><0.803987,0.070000,0.076200> rotate<0,-90.000000,0> translate<7.543791,-1.070000,9.711600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.543800,-1.070000,7.305231>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.543800,-1.070000,6.868569>}
-box{<0,0,-0.076200><0.436662,0.070000,0.076200> rotate<0,-90.000000,0> translate<7.543800,-1.070000,6.868569> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.543800,-1.070000,6.868572>}
+box{<0,0,-0.076200><0.436659,0.070000,0.076200> rotate<0,-90.000000,0> translate<7.543800,-1.070000,6.868572> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.543809,-1.070000,10.515603>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.543809,-1.070000,10.667991>}
 box{<0,0,-0.076200><0.152387,0.070000,0.076200> rotate<0,90.000000,0> translate<7.543809,-1.070000,10.667991> }
@@ -3632,8 +3710,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.626000,-1.070000,1.787431>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.626000,-1.070000,1.344219>}
 box{<0,0,-0.076200><0.443213,0.070000,0.076200> rotate<0,-90.000000,0> translate<7.626000,-1.070000,1.344219> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.629600,0.000000,0.967741>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.632000,0.000000,0.965341>}
-box{<0,0,-0.076200><0.003394,0.070000,0.076200> rotate<0,44.997030,0> translate<7.629600,0.000000,0.967741> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.632000,0.000000,0.965344>}
+box{<0,0,-0.076200><0.003392,0.070000,0.076200> rotate<0,44.959706,0> translate<7.629600,0.000000,0.967741> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.629600,0.000000,1.533600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.629600,0.000000,0.967741>}
 box{<0,0,-0.076200><0.565859,0.070000,0.076200> rotate<0,-90.000000,0> translate<7.629600,0.000000,0.967741> }
@@ -3643,9 +3721,9 @@ box{<0,0,-0.076200><1.241859,0.070000,0.076200> rotate<0,-90.000000,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.632000,0.000000,0.430866>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.732672,0.000000,0.330197>}
 box{<0,0,-0.076200><0.142369,0.070000,0.076200> rotate<0,44.996141,0> translate<7.632000,0.000000,0.430866> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.632000,0.000000,0.965341>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.632000,0.000000,0.965344>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.632000,0.000000,0.430866>}
-box{<0,0,-0.076200><0.534475,0.070000,0.076200> rotate<0,-90.000000,0> translate<7.632000,0.000000,0.430866> }
+box{<0,0,-0.076200><0.534478,0.070000,0.076200> rotate<0,-90.000000,0> translate<7.632000,0.000000,0.430866> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.638738,-1.070000,9.448800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<7.894800,-1.070000,9.448800>}
 box{<0,0,-0.076200><0.256062,0.070000,0.076200> rotate<0,0.000000,0> translate<7.638738,-1.070000,9.448800> }
@@ -3851,8 +3929,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.606597,0.000000,8.077200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.595713,0.000000,8.077200>}
 box{<0,0,-0.076200><2.989116,0.070000,0.076200> rotate<0,0.000000,0> translate<8.606597,0.000000,8.077200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.610597,-1.070000,7.307541>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.610597,-1.070000,7.637675>}
-box{<0,0,-0.076200><0.330134,0.070000,0.076200> rotate<0,90.000000,0> translate<8.610597,-1.070000,7.637675> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.610597,-1.070000,7.637672>}
+box{<0,0,-0.076200><0.330131,0.070000,0.076200> rotate<0,90.000000,0> translate<8.610597,-1.070000,7.637672> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.610597,-1.070000,7.307541>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.844206,-1.070000,7.073928>}
 box{<0,0,-0.076200><0.330376,0.070000,0.076200> rotate<0,44.997413,0> translate<8.610597,-1.070000,7.307541> }
@@ -3865,27 +3943,27 @@ box{<0,0,-0.076200><0.977200,0.070000,0.076200> rotate<0,0.000000,0> translate<8
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.610597,-1.070000,7.620000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.587800,-1.070000,7.620000>}
 box{<0,0,-0.076200><0.977203,0.070000,0.076200> rotate<0,0.000000,0> translate<8.610597,-1.070000,7.620000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.610597,-1.070000,7.637675>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.610597,-1.070000,7.637672>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.657397,-1.070000,7.684472>}
-box{<0,0,-0.076200><0.066183,0.070000,0.076200> rotate<0,-44.995117,0> translate<8.610597,-1.070000,7.637675> }
+box{<0,0,-0.076200><0.066185,0.070000,0.076200> rotate<0,-44.997030,0> translate<8.610597,-1.070000,7.637672> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.657397,-1.070000,7.684472>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.657397,-1.070000,7.750656>}
-box{<0,0,-0.076200><0.066184,0.070000,0.076200> rotate<0,90.000000,0> translate<8.657397,-1.070000,7.750656> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.657397,-1.070000,7.750656>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.657397,-1.070000,7.750659>}
+box{<0,0,-0.076200><0.066187,0.070000,0.076200> rotate<0,90.000000,0> translate<8.657397,-1.070000,7.750659> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.657397,-1.070000,7.750659>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.994341,-1.070000,8.087600>}
-box{<0,0,-0.076200><0.476510,0.070000,0.076200> rotate<0,-44.997030,0> translate<8.657397,-1.070000,7.750656> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.679141,-1.070000,7.772400>}
+box{<0,0,-0.076200><0.476508,0.070000,0.076200> rotate<0,-44.996764,0> translate<8.657397,-1.070000,7.750659> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.679138,-1.070000,7.772400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.587800,-1.070000,7.772400>}
-box{<0,0,-0.076200><0.908659,0.070000,0.076200> rotate<0,0.000000,0> translate<8.679141,-1.070000,7.772400> }
+box{<0,0,-0.076200><0.908662,0.070000,0.076200> rotate<0,0.000000,0> translate<8.679138,-1.070000,7.772400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.754872,0.000000,8.716400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.838850,0.000000,8.738903>}
 box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,-14.999808,0> translate<8.754872,0.000000,8.716400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.755337,-1.070000,7.162800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.933078,-1.070000,7.162800>}
 box{<0,0,-0.076200><0.177741,0.070000,0.076200> rotate<0,0.000000,0> translate<8.755337,-1.070000,7.162800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.831541,-1.070000,7.924800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.831537,-1.070000,7.924800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.597856,-1.070000,7.924800>}
-box{<0,0,-0.076200><0.766316,0.070000,0.076200> rotate<0,0.000000,0> translate<8.831541,-1.070000,7.924800> }
+box{<0,0,-0.076200><0.766319,0.070000,0.076200> rotate<0,0.000000,0> translate<8.831537,-1.070000,7.924800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.838850,0.000000,8.738903>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.887863,0.000000,8.767200>}
 box{<0,0,-0.076200><0.056595,0.070000,0.076200> rotate<0,-29.997577,0> translate<8.838850,0.000000,8.738903> }
@@ -3907,9 +3985,9 @@ box{<0,0,-0.076200><2.483456,0.070000,0.076200> rotate<0,0.000000,0> translate<8
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.963972,-1.070000,0.665200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.157397,-1.070000,0.858625>}
 box{<0,0,-0.076200><0.273544,0.070000,0.076200> rotate<0,-44.997030,0> translate<8.963972,-1.070000,0.665200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.983941,-1.070000,8.077200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.983937,-1.070000,8.077200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.684428,-1.070000,8.077200>}
-box{<0,0,-0.076200><0.700487,0.070000,0.076200> rotate<0,0.000000,0> translate<8.983941,-1.070000,8.077200> }
+box{<0,0,-0.076200><0.700491,0.070000,0.076200> rotate<0,0.000000,0> translate<8.983937,-1.070000,8.077200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<8.994341,-1.070000,8.087600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.061772,-1.070000,8.087600>}
 box{<0,0,-0.076200><0.067431,0.070000,0.076200> rotate<0,0.000000,0> translate<8.994341,-1.070000,8.087600> }
@@ -3935,11 +4013,14 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.114172,-1.070000,5.065397>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.117922,-1.070000,5.061644>}
 box{<0,0,-0.076200><0.005306,0.070000,0.076200> rotate<0,45.020892,0> translate<9.114172,-1.070000,5.065397> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.114172,-1.070000,5.755000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.144000,-1.070000,5.784831>}
-box{<0,0,-0.076200><0.042186,0.070000,0.076200> rotate<0,-45.000031,0> translate<9.114172,-1.070000,5.755000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.117922,-1.070000,5.758753>}
+box{<0,0,-0.076200><0.005306,0.070000,0.076200> rotate<0,-45.020892,0> translate<9.114172,-1.070000,5.755000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.117922,-1.070000,5.061644>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.144000,-1.070000,5.087725>}
 box{<0,0,-0.076200><0.036882,0.070000,0.076200> rotate<0,-45.000463,0> translate<9.117922,-1.070000,5.061644> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.117922,-1.070000,5.758753>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.144000,-1.070000,5.732672>}
+box{<0,0,-0.076200><0.036882,0.070000,0.076200> rotate<0,45.000463,0> translate<9.117922,-1.070000,5.758753> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.132272,-1.070000,7.361997>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.587800,-1.070000,7.361997>}
 box{<0,0,-0.076200><0.455528,0.070000,0.076200> rotate<0,0.000000,0> translate<9.132272,-1.070000,7.361997> }
@@ -3952,9 +4033,9 @@ box{<0,0,-0.076200><0.244135,0.070000,0.076200> rotate<0,-44.996512,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.144000,-1.070000,5.123072>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.144000,-1.070000,5.087725>}
 box{<0,0,-0.076200><0.035347,0.070000,0.076200> rotate<0,-90.000000,0> translate<9.144000,-1.070000,5.087725> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.144000,-1.070000,5.784831>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.144000,-1.070000,5.732672>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.144000,-1.070000,5.697325>}
-box{<0,0,-0.076200><0.087506,0.070000,0.076200> rotate<0,-90.000000,0> translate<9.144000,-1.070000,5.697325> }
+box{<0,0,-0.076200><0.035347,0.070000,0.076200> rotate<0,-90.000000,0> translate<9.144000,-1.070000,5.697325> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,4.581313>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.458113,0.000000,4.271200>}
 box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<9.148000,0.000000,4.581313> }
@@ -3962,20 +4043,29 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,5.019884>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,4.581313>}
 box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,-90.000000,0> translate<9.148000,0.000000,4.581313> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,5.019884>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.233516,0.000000,5.105397>}
-box{<0,0,-0.076200><0.120935,0.070000,0.076200> rotate<0,-44.995983,0> translate<9.148000,0.000000,5.019884> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.233516,0.000000,5.105400>}
+box{<0,0,-0.076200><0.120937,0.070000,0.076200> rotate<0,-44.997030,0> translate<9.148000,0.000000,5.019884> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,5.190913>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.233516,0.000000,5.105397>}
-box{<0,0,-0.076200><0.120937,0.070000,0.076200> rotate<0,44.997030,0> translate<9.148000,0.000000,5.190913> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.233516,0.000000,5.105400>}
+box{<0,0,-0.076200><0.120935,0.070000,0.076200> rotate<0,44.995983,0> translate<9.148000,0.000000,5.190913> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,5.629484>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,5.190913>}
 box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,-90.000000,0> translate<9.148000,0.000000,5.190913> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,5.629484>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.458113,0.000000,5.939597>}
-box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,-44.997030,0> translate<9.148000,0.000000,5.629484> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.233516,0.000000,5.715000>}
+box{<0,0,-0.076200><0.120937,0.070000,0.076200> rotate<0,-44.997030,0> translate<9.148000,0.000000,5.629484> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,5.800512>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.233516,0.000000,5.715000>}
+box{<0,0,-0.076200><0.120935,0.070000,0.076200> rotate<0,44.995983,0> translate<9.148000,0.000000,5.800512> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,6.239084>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,5.800512>}
+box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,-90.000000,0> translate<9.148000,0.000000,5.800512> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.148000,0.000000,6.239084>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.161319,0.000000,6.252400>}
+box{<0,0,-0.076200><0.018833,0.070000,0.076200> rotate<0,-44.990308,0> translate<9.148000,0.000000,6.239084> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.153313,0.000000,6.252400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.591884,0.000000,6.252400>}
-box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<9.153313,0.000000,6.252400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.161319,0.000000,6.252400>}
+box{<0,0,-0.076200><0.008006,0.070000,0.076200> rotate<0,0.000000,0> translate<9.153313,0.000000,6.252400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.153313,0.000000,7.311197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.591884,0.000000,7.311197>}
 box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<9.153313,0.000000,7.311197> }
@@ -4064,8 +4154,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.307597,-1.070000,4.048425>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.307597,-1.070000,4.349878>}
 box{<0,0,-0.076200><0.301453,0.070000,0.076200> rotate<0,90.000000,0> translate<9.307597,-1.070000,4.349878> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.307597,-1.070000,4.114800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.608856,-1.070000,4.114800>}
-box{<0,0,-0.076200><0.301259,0.070000,0.076200> rotate<0,0.000000,0> translate<9.307597,-1.070000,4.114800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.608859,-1.070000,4.114800>}
+box{<0,0,-0.076200><0.301262,0.070000,0.076200> rotate<0,0.000000,0> translate<9.307597,-1.070000,4.114800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.307597,-1.070000,4.267200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.390272,-1.070000,4.267200>}
 box{<0,0,-0.076200><0.082675,0.070000,0.076200> rotate<0,0.000000,0> translate<9.307597,-1.070000,4.267200> }
@@ -4082,23 +4172,20 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.413934,-1.070000,1.371600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.897400,-1.070000,1.371600>}
 box{<0,0,-0.076200><0.483466,0.070000,0.076200> rotate<0,0.000000,0> translate<9.413934,-1.070000,1.371600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.437072,-1.070000,4.220400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.503256,-1.070000,4.220400>}
-box{<0,0,-0.076200><0.066184,0.070000,0.076200> rotate<0,0.000000,0> translate<9.437072,-1.070000,4.220400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.503259,-1.070000,4.220400>}
+box{<0,0,-0.076200><0.066187,0.070000,0.076200> rotate<0,0.000000,0> translate<9.437072,-1.070000,4.220400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.458113,0.000000,4.271200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.896684,0.000000,4.271200>}
 box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<9.458113,0.000000,4.271200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.458113,0.000000,5.939597>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.896684,0.000000,5.939597>}
-box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<9.458113,0.000000,5.939597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.478200,-1.070000,3.974125>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.478200,-1.070000,3.875794>}
 box{<0,0,-0.076200><0.098331,0.070000,0.076200> rotate<0,-90.000000,0> translate<9.478200,-1.070000,3.875794> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.478200,-1.070000,3.974125>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.613869,-1.070000,4.109791>}
 box{<0,0,-0.076200><0.191862,0.070000,0.076200> rotate<0,-44.996370,0> translate<9.478200,-1.070000,3.974125> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.503256,-1.070000,4.220400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.503259,-1.070000,4.220400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.613869,-1.070000,4.109791>}
-box{<0,0,-0.076200><0.156427,0.070000,0.076200> rotate<0,44.996221,0> translate<9.503256,-1.070000,4.220400> }
+box{<0,0,-0.076200><0.156425,0.070000,0.076200> rotate<0,44.997030,0> translate<9.503259,-1.070000,4.220400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.529000,0.000000,3.514513>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.839113,0.000000,3.204400>}
 box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<9.529000,0.000000,3.514513> }
@@ -4132,9 +4219,6 @@ box{<0,0,-0.076200><0.531381,0.070000,0.076200> rotate<0,0.000000,0> translate<9
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.587800,-1.070000,7.887272>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.610303,-1.070000,7.971250>}
 box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,-74.994252,0> translate<9.587800,-1.070000,7.887272> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.591884,0.000000,6.252400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.901997,0.000000,6.562513>}
-box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,-44.997030,0> translate<9.591884,0.000000,6.252400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.591884,0.000000,7.311197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.901997,0.000000,7.001084>}
 box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<9.591884,0.000000,7.311197> }
@@ -4150,9 +4234,6 @@ box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,-29.997566,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.740281,0.000000,7.162800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.055600,0.000000,7.162800>}
 box{<0,0,-0.076200><3.315319,0.070000,0.076200> rotate<0,0.000000,0> translate<9.740281,0.000000,7.162800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.740284,0.000000,6.400800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.517906,0.000000,6.400800>}
-box{<0,0,-0.076200><3.777622,0.070000,0.076200> rotate<0,0.000000,0> translate<9.740284,0.000000,6.400800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.790547,-1.070000,8.151494>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.874525,-1.070000,8.173997>}
 box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,-14.999808,0> translate<9.790547,-1.070000,8.151494> }
@@ -4201,21 +4282,27 @@ box{<0,0,-0.076200><0.026269,0.070000,0.076200> rotate<0,0.000000,0> translate<9
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.874525,-1.070000,8.173997>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.901831,-1.070000,8.173997>}
 box{<0,0,-0.076200><0.027306,0.070000,0.076200> rotate<0,0.000000,0> translate<9.874525,-1.070000,8.173997> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.888678,0.000000,6.549197>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.896684,0.000000,6.549197>}
+box{<0,0,-0.076200><0.008006,0.070000,0.076200> rotate<0,0.000000,0> translate<9.888678,0.000000,6.549197> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.888678,0.000000,6.549197>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.901997,0.000000,6.562513>}
+box{<0,0,-0.076200><0.018833,0.070000,0.076200> rotate<0,-44.990308,0> translate<9.888678,0.000000,6.549197> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.892681,0.000000,6.553200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.365503,0.000000,6.553200>}
+box{<0,0,-0.076200><3.472822,0.070000,0.076200> rotate<0,0.000000,0> translate<9.892681,0.000000,6.553200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.892681,0.000000,7.010400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.055600,0.000000,7.010400>}
 box{<0,0,-0.076200><3.162919,0.070000,0.076200> rotate<0,0.000000,0> translate<9.892681,0.000000,7.010400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.892684,0.000000,6.553200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.365506,0.000000,6.553200>}
-box{<0,0,-0.076200><3.472822,0.070000,0.076200> rotate<0,0.000000,0> translate<9.892684,0.000000,6.553200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.894272,-1.070000,10.316400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.374925,-1.070000,10.316400>}
 box{<0,0,-0.076200><0.480653,0.070000,0.076200> rotate<0,0.000000,0> translate<9.894272,-1.070000,10.316400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.896684,0.000000,4.271200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,4.581313>}
 box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,-44.997030,0> translate<9.896684,0.000000,4.271200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.896684,0.000000,5.939597>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.629484>}
-box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<9.896684,0.000000,5.939597> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.896684,0.000000,6.549197>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,6.239084>}
+box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<9.896684,0.000000,6.549197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.897400,-1.070000,0.403825>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.971031,-1.070000,0.330197>}
 box{<0,0,-0.076200><0.104128,0.070000,0.076200> rotate<0,44.995814,0> translate<9.897400,-1.070000,0.403825> }
@@ -4246,12 +4333,12 @@ box{<0,0,-0.076200><0.166397,0.070000,0.076200> rotate<0,0.000000,0> translate<9
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<9.997547,-1.070000,10.025494>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.081525,-1.070000,10.047997>}
 box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,-14.999808,0> translate<9.997547,-1.070000,10.025494> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.045081,0.000000,5.791200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.246716,0.000000,5.791200>}
-box{<0,0,-0.076200><3.201634,0.070000,0.076200> rotate<0,0.000000,0> translate<10.045081,0.000000,5.791200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.045081,0.000000,6.400800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.517903,0.000000,6.400800>}
+box{<0,0,-0.076200><3.472822,0.070000,0.076200> rotate<0,0.000000,0> translate<10.045081,0.000000,6.400800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.045084,0.000000,4.419600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,4.419600>}
-box{<0,0,-0.076200><3.391516,0.070000,0.076200> rotate<0,0.000000,0> translate<10.045084,0.000000,4.419600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,4.419600>}
+box{<0,0,-0.076200><3.772516,0.070000,0.076200> rotate<0,0.000000,0> translate<10.045084,0.000000,4.419600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.081525,-1.070000,10.047997>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.398803,-1.070000,10.047997>}
 box{<0,0,-0.076200><0.317278,0.070000,0.076200> rotate<0,0.000000,0> translate<10.081525,-1.070000,10.047997> }
@@ -4276,12 +4363,18 @@ box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.119194,-1.070000,7.494978>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.216800,-1.070000,7.494978>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<10.119194,-1.070000,7.494978> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.121281,0.000000,5.105397>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.121281,0.000000,5.105400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.019884>}
-box{<0,0,-0.076200><0.120935,0.070000,0.076200> rotate<0,44.995983,0> translate<10.121281,0.000000,5.105397> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.121281,0.000000,5.105397>}
+box{<0,0,-0.076200><0.120937,0.070000,0.076200> rotate<0,44.997030,0> translate<10.121281,0.000000,5.105400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.121281,0.000000,5.105400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.190913>}
-box{<0,0,-0.076200><0.120937,0.070000,0.076200> rotate<0,-44.997030,0> translate<10.121281,0.000000,5.105397> }
+box{<0,0,-0.076200><0.120935,0.070000,0.076200> rotate<0,-44.995983,0> translate<10.121281,0.000000,5.105400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.121281,0.000000,5.715000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.629484>}
+box{<0,0,-0.076200><0.120937,0.070000,0.076200> rotate<0,44.997030,0> translate<10.121281,0.000000,5.715000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.121281,0.000000,5.715000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.800512>}
+box{<0,0,-0.076200><0.120935,0.070000,0.076200> rotate<0,-44.995983,0> translate<10.121281,0.000000,5.715000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.168825,-1.070000,6.893597>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.216800,-1.070000,6.941572>}
 box{<0,0,-0.076200><0.067847,0.070000,0.076200> rotate<0,-44.997030,0> translate<10.168825,-1.070000,6.893597> }
@@ -4289,35 +4382,50 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.173312,0.000000,2.997197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.220113,0.000000,3.043997>}
 box{<0,0,-0.076200><0.066185,0.070000,0.076200> rotate<0,-44.997030,0> translate<10.173312,0.000000,2.997197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.197481,0.000000,5.029200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.399113,0.000000,5.029200>}
-box{<0,0,-0.076200><3.201631,0.070000,0.076200> rotate<0,0.000000,0> translate<10.197481,0.000000,5.029200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,5.029200>}
+box{<0,0,-0.076200><3.620119,0.070000,0.076200> rotate<0,0.000000,0> translate<10.197481,0.000000,5.029200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.197481,0.000000,5.181600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,5.181600>}
+box{<0,0,-0.076200><3.620119,0.070000,0.076200> rotate<0,0.000000,0> translate<10.197481,0.000000,5.181600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.197481,0.000000,5.638800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.161200,0.000000,5.638800>}
-box{<0,0,-0.076200><2.963719,0.070000,0.076200> rotate<0,0.000000,0> translate<10.197481,0.000000,5.638800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,5.638800>}
+box{<0,0,-0.076200><3.620119,0.070000,0.076200> rotate<0,0.000000,0> translate<10.197481,0.000000,5.638800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.197481,0.000000,5.791200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,5.791200>}
+box{<0,0,-0.076200><3.620119,0.070000,0.076200> rotate<0,0.000000,0> translate<10.197481,0.000000,5.791200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.197481,0.000000,6.248400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.670303,0.000000,6.248400>}
+box{<0,0,-0.076200><3.472822,0.070000,0.076200> rotate<0,0.000000,0> translate<10.197481,0.000000,6.248400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.197484,0.000000,4.572000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,4.572000>}
-box{<0,0,-0.076200><3.239116,0.070000,0.076200> rotate<0,0.000000,0> translate<10.197484,0.000000,4.572000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.197484,0.000000,5.181600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.246713,0.000000,5.181600>}
-box{<0,0,-0.076200><3.049228,0.070000,0.076200> rotate<0,0.000000,0> translate<10.197484,0.000000,5.181600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,4.572000>}
+box{<0,0,-0.076200><3.620116,0.070000,0.076200> rotate<0,0.000000,0> translate<10.197484,0.000000,4.572000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,4.581313>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.019884>}
 box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,90.000000,0> translate<10.206797,0.000000,5.019884> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,4.724400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,4.724400>}
-box{<0,0,-0.076200><3.229803,0.070000,0.076200> rotate<0,0.000000,0> translate<10.206797,0.000000,4.724400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,4.724400>}
+box{<0,0,-0.076200><3.610803,0.070000,0.076200> rotate<0,0.000000,0> translate<10.206797,0.000000,4.724400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,4.876800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,4.876800>}
-box{<0,0,-0.076200><3.229803,0.070000,0.076200> rotate<0,0.000000,0> translate<10.206797,0.000000,4.876800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,4.876800>}
+box{<0,0,-0.076200><3.610803,0.070000,0.076200> rotate<0,0.000000,0> translate<10.206797,0.000000,4.876800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.190913>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.629484>}
 box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,90.000000,0> translate<10.206797,0.000000,5.629484> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.334000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.161200,0.000000,5.334000>}
-box{<0,0,-0.076200><2.954403,0.070000,0.076200> rotate<0,0.000000,0> translate<10.206797,0.000000,5.334000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,5.334000>}
+box{<0,0,-0.076200><3.610803,0.070000,0.076200> rotate<0,0.000000,0> translate<10.206797,0.000000,5.334000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.486400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.161200,0.000000,5.486400>}
-box{<0,0,-0.076200><2.954403,0.070000,0.076200> rotate<0,0.000000,0> translate<10.206797,0.000000,5.486400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,5.486400>}
+box{<0,0,-0.076200><3.610803,0.070000,0.076200> rotate<0,0.000000,0> translate<10.206797,0.000000,5.486400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.800512>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,6.239084>}
+box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,90.000000,0> translate<10.206797,0.000000,6.239084> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,5.943600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,5.943600>}
+box{<0,0,-0.076200><3.610803,0.070000,0.076200> rotate<0,0.000000,0> translate<10.206797,0.000000,5.943600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.206797,0.000000,6.096000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,6.096000>}
+box{<0,0,-0.076200><3.610803,0.070000,0.076200> rotate<0,0.000000,0> translate<10.206797,0.000000,6.096000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.216800,-1.070000,7.494978>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.216800,-1.070000,6.941572>}
 box{<0,0,-0.076200><0.553406,0.070000,0.076200> rotate<0,-90.000000,0> translate<10.216800,-1.070000,6.941572> }
@@ -4364,8 +4472,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.421725,-1.070000,10.363200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.947400,-1.070000,10.363200>}
 box{<0,0,-0.076200><0.525675,0.070000,0.076200> rotate<0,0.000000,0> translate<10.421725,-1.070000,10.363200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.426081,0.000000,4.114800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,4.114800>}
-box{<0,0,-0.076200><3.010519,0.070000,0.076200> rotate<0,0.000000,0> translate<10.426081,0.000000,4.114800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,4.114800>}
+box{<0,0,-0.076200><3.391519,0.070000,0.076200> rotate<0,0.000000,0> translate<10.426081,0.000000,4.114800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.451484,0.000000,4.089397>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.586694,0.000000,4.089397>}
 box{<0,0,-0.076200><0.135209,0.070000,0.076200> rotate<0,0.000000,0> translate<10.451484,0.000000,4.089397> }
@@ -4379,47 +4487,44 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.551191,-1.070000,10.047994>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.868472,-1.070000,10.047997>}
 box{<0,0,-0.076200><0.317281,0.070000,0.076200> rotate<0,-0.000564,0> translate<10.551191,-1.070000,10.047994> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.586694,0.000000,4.089397>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.208691,0.000000,3.467397>}
-box{<0,0,-0.076200><0.879639,0.070000,0.076200> rotate<0,44.997174,0> translate<10.586694,0.000000,4.089397> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.208694,0.000000,3.467397>}
+box{<0,0,-0.076200><0.879641,0.070000,0.076200> rotate<0,44.997030,0> translate<10.586694,0.000000,4.089397> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.713691,0.000000,3.962400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,3.962400>}
-box{<0,0,-0.076200><2.722909,0.070000,0.076200> rotate<0,0.000000,0> translate<10.713691,0.000000,3.962400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,3.962400>}
+box{<0,0,-0.076200><3.103909,0.070000,0.076200> rotate<0,0.000000,0> translate<10.713691,0.000000,3.962400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.866091,0.000000,3.810000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,3.810000>}
-box{<0,0,-0.076200><2.570509,0.070000,0.076200> rotate<0,0.000000,0> translate<10.866091,0.000000,3.810000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,3.810000>}
+box{<0,0,-0.076200><2.951509,0.070000,0.076200> rotate<0,0.000000,0> translate<10.866091,0.000000,3.810000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.868472,-1.070000,10.047997>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.947400,-1.070000,10.026847>}
-box{<0,0,-0.076200><0.081713,0.070000,0.076200> rotate<0,14.999872,0> translate<10.868472,-1.070000,10.047997> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.947400,-1.070000,10.026844>}
+box{<0,0,-0.076200><0.081714,0.070000,0.076200> rotate<0,15.001988,0> translate<10.868472,-1.070000,10.047997> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.880662,-1.070000,10.490200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.947400,-1.070000,10.423466>}
-box{<0,0,-0.076200><0.094379,0.070000,0.076200> rotate<0,44.995689,0> translate<10.880662,-1.070000,10.490200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.947400,-1.070000,10.423466>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.947400,-1.070000,10.026847>}
-box{<0,0,-0.076200><0.396619,0.070000,0.076200> rotate<0,-90.000000,0> translate<10.947400,-1.070000,10.026847> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.947400,-1.070000,10.423463>}
+box{<0,0,-0.076200><0.094381,0.070000,0.076200> rotate<0,44.997030,0> translate<10.880662,-1.070000,10.490200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.947400,-1.070000,10.423463>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<10.947400,-1.070000,10.026844>}
+box{<0,0,-0.076200><0.396619,0.070000,0.076200> rotate<0,-90.000000,0> translate<10.947400,-1.070000,10.026844> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.018491,0.000000,3.657600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,3.657600>}
-box{<0,0,-0.076200><2.418109,0.070000,0.076200> rotate<0,0.000000,0> translate<11.018491,0.000000,3.657600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,3.657600>}
+box{<0,0,-0.076200><2.799109,0.070000,0.076200> rotate<0,0.000000,0> translate<11.018491,0.000000,3.657600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.038719,-1.070000,5.348894>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.038719,-1.070000,5.471500>}
 box{<0,0,-0.076200><0.122606,0.070000,0.076200> rotate<0,90.000000,0> translate<11.038719,-1.070000,5.471500> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.038719,-1.070000,5.348894>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.645200,-1.070000,5.348894>}
-box{<0,0,-0.076200><0.606481,0.070000,0.076200> rotate<0,0.000000,0> translate<11.038719,-1.070000,5.348894> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.348894>}
+box{<0,0,-0.076200><0.868878,0.070000,0.076200> rotate<0,0.000000,0> translate<11.038719,-1.070000,5.348894> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.038719,-1.070000,5.471500>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.471500>}
 box{<0,0,-0.076200><0.868878,0.070000,0.076200> rotate<0,0.000000,0> translate<11.038719,-1.070000,5.471500> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.170891,0.000000,3.505200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,3.505200>}
-box{<0,0,-0.076200><2.265709,0.070000,0.076200> rotate<0,0.000000,0> translate<11.170891,0.000000,3.505200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.208691,0.000000,3.467397>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.208694,0.000000,3.467397>}
-box{<0,0,-0.076200><0.000003,0.070000,0.076200> rotate<0,0.000000,0> translate<11.208691,0.000000,3.467397> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,3.505200>}
+box{<0,0,-0.076200><2.646709,0.070000,0.076200> rotate<0,0.000000,0> translate<11.170891,0.000000,3.505200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.208694,0.000000,3.467397>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.416997,0.000000,3.259094>}
 box{<0,0,-0.076200><0.294585,0.070000,0.076200> rotate<0,44.997030,0> translate<11.208694,0.000000,3.467397> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.323291,0.000000,3.352800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.586316,0.000000,3.352800>}
-box{<0,0,-0.076200><1.263025,0.070000,0.076200> rotate<0,0.000000,0> translate<11.323291,0.000000,3.352800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.586319,0.000000,3.352800>}
+box{<0,0,-0.076200><1.263028,0.070000,0.076200> rotate<0,0.000000,0> translate<11.323291,0.000000,3.352800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.357800,0.000000,8.315112>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.667912,0.000000,8.005000>}
 box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<11.357800,0.000000,8.315112> }
@@ -4495,51 +4600,105 @@ box{<0,0,-0.076200><0.594859,0.070000,0.076200> rotate<0,-90.000000,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.629600,0.000000,2.671656>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.032400,0.000000,3.074456>}
 box{<0,0,-0.076200><0.569645,0.070000,0.076200> rotate<0,-44.997030,0> translate<11.629600,0.000000,2.671656> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.645197,-1.070000,5.437594>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.645200,-1.070000,5.348894>}
-box{<0,0,-0.076200><0.088700,0.070000,0.076200> rotate<0,89.992042,0> translate<11.645197,-1.070000,5.437594> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.645197,-1.070000,5.437594>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.176578,-1.070000,5.437594>}
-box{<0,0,-0.076200><0.531381,0.070000,0.076200> rotate<0,0.000000,0> translate<11.645197,-1.070000,5.437594> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.667912,0.000000,8.005000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.106484,0.000000,8.005000>}
 box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<11.667912,0.000000,8.005000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.701397,-1.070000,6.965397>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.701397,-1.070000,7.060228>}
+box{<0,0,-0.076200><0.094831,0.070000,0.076200> rotate<0,90.000000,0> translate<11.701397,-1.070000,7.060228> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.701397,-1.070000,6.965397>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.714172,-1.070000,6.965397>}
+box{<0,0,-0.076200><0.012775,0.070000,0.076200> rotate<0,0.000000,0> translate<11.701397,-1.070000,6.965397> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.701397,-1.070000,7.010400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.217462,-1.070000,7.010400>}
+box{<0,0,-0.076200><1.516066,0.070000,0.076200> rotate<0,0.000000,0> translate<11.701397,-1.070000,7.010400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.701397,-1.070000,7.060228>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.748197,-1.070000,7.107025>}
+box{<0,0,-0.076200><0.066183,0.070000,0.076200> rotate<0,-44.995117,0> translate<11.701397,-1.070000,7.060228> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.714172,-1.070000,6.965397>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,6.771972>}
+box{<0,0,-0.076200><0.273544,0.070000,0.076200> rotate<0,44.997030,0> translate<11.714172,-1.070000,6.965397> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.748197,-1.070000,7.107025>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.748197,-1.070000,7.131031>}
+box{<0,0,-0.076200><0.024006,0.070000,0.076200> rotate<0,90.000000,0> translate<11.748197,-1.070000,7.131031> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.748197,-1.070000,7.131031>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.813225,-1.070000,7.066000>}
+box{<0,0,-0.076200><0.091966,0.070000,0.076200> rotate<0,44.998407,0> translate<11.748197,-1.070000,7.131031> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.813225,-1.070000,7.066000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.586772,-1.070000,7.066000>}
+box{<0,0,-0.076200><0.773547,0.070000,0.076200> rotate<0,0.000000,0> translate<11.813225,-1.070000,7.066000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.821569,-1.070000,6.858000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.369862,-1.070000,6.858000>}
+box{<0,0,-0.076200><1.548294,0.070000,0.076200> rotate<0,0.000000,0> translate<11.821569,-1.070000,6.858000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.843631,-1.070000,5.884463>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.885094,-1.070000,5.812650>}
+box{<0,0,-0.076200><0.082923,0.070000,0.076200> rotate<0,59.995122,0> translate<11.843631,-1.070000,5.884463> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.843631,-1.070000,5.884463>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.948425>}
+box{<0,0,-0.076200><0.090459,0.070000,0.076200> rotate<0,-44.995631,0> translate<11.843631,-1.070000,5.884463> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.885094,-1.070000,5.812650>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.728672>}
+box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,74.994252,0> translate<11.885094,-1.070000,5.812650> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.890844,-1.070000,5.791200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,5.791200>}
+box{<0,0,-0.076200><1.875956,0.070000,0.076200> rotate<0,0.000000,0> translate<11.890844,-1.070000,5.791200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.892088,-1.070000,5.033850>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.091725>}
+box{<0,0,-0.076200><0.059917,0.070000,0.076200> rotate<0,-74.993373,0> translate<11.892088,-1.070000,5.033850> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.892088,-1.070000,5.033850>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.924725,-1.070000,5.042597>}
+box{<0,0,-0.076200><0.033789,0.070000,0.076200> rotate<0,-15.001767,0> translate<11.892088,-1.070000,5.033850> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.902769,-1.070000,5.943600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,5.943600>}
+box{<0,0,-0.076200><1.864031,0.070000,0.076200> rotate<0,0.000000,0> translate<11.902769,-1.070000,5.943600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.091725>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.348894>}
+box{<0,0,-0.076200><0.257169,0.070000,0.076200> rotate<0,90.000000,0> translate<11.907597,-1.070000,5.348894> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.181600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,5.181600>}
+box{<0,0,-0.076200><1.859203,0.070000,0.076200> rotate<0,0.000000,0> translate<11.907597,-1.070000,5.181600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.334000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,5.334000>}
+box{<0,0,-0.076200><1.859203,0.070000,0.076200> rotate<0,0.000000,0> translate<11.907597,-1.070000,5.334000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.471500>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.535200>}
-box{<0,0,-0.076200><0.063700,0.070000,0.076200> rotate<0,90.000000,0> translate<11.907597,-1.070000,5.535200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.728672>}
+box{<0,0,-0.076200><0.257172,0.070000,0.076200> rotate<0,90.000000,0> translate<11.907597,-1.070000,5.728672> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.486400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.176578,-1.070000,5.486400>}
-box{<0,0,-0.076200><0.268981,0.070000,0.076200> rotate<0,0.000000,0> translate<11.907597,-1.070000,5.486400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.535200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.176578,-1.070000,5.535200>}
-box{<0,0,-0.076200><0.268981,0.070000,0.076200> rotate<0,0.000000,0> translate<11.907597,-1.070000,5.535200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,5.486400>}
+box{<0,0,-0.076200><1.859203,0.070000,0.076200> rotate<0,0.000000,0> translate<11.907597,-1.070000,5.486400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.638800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,5.638800>}
+box{<0,0,-0.076200><1.859203,0.070000,0.076200> rotate<0,0.000000,0> translate<11.907597,-1.070000,5.638800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,5.948425>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,6.771972>}
+box{<0,0,-0.076200><0.823547,0.070000,0.076200> rotate<0,90.000000,0> translate<11.907597,-1.070000,6.771972> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,6.096000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,6.096000>}
+box{<0,0,-0.076200><1.859203,0.070000,0.076200> rotate<0,0.000000,0> translate<11.907597,-1.070000,6.096000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,6.248400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,6.248400>}
+box{<0,0,-0.076200><1.859203,0.070000,0.076200> rotate<0,0.000000,0> translate<11.907597,-1.070000,6.248400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,6.400800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,6.400800>}
+box{<0,0,-0.076200><1.859203,0.070000,0.076200> rotate<0,0.000000,0> translate<11.907597,-1.070000,6.400800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,6.553200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.674663,-1.070000,6.553200>}
+box{<0,0,-0.076200><1.767066,0.070000,0.076200> rotate<0,0.000000,0> translate<11.907597,-1.070000,6.553200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.907597,-1.070000,6.705600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.522263,-1.070000,6.705600>}
+box{<0,0,-0.076200><1.614666,0.070000,0.076200> rotate<0,0.000000,0> translate<11.907597,-1.070000,6.705600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<11.924725,-1.070000,5.042597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.219394,-1.070000,5.042597>}
+box{<0,0,-0.076200><0.294669,0.070000,0.076200> rotate<0,0.000000,0> translate<11.924725,-1.070000,5.042597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.032400,0.000000,3.074456>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.285341,0.000000,3.327397>}
 box{<0,0,-0.076200><0.357712,0.070000,0.076200> rotate<0,-44.997030,0> translate<12.032400,0.000000,3.074456> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.106484,0.000000,8.005000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.230097,0.000000,8.128616>}
-box{<0,0,-0.076200><0.174817,0.070000,0.076200> rotate<0,-44.997754,0> translate<12.106484,0.000000,8.005000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.176578,-1.070000,5.535200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.176578,-1.070000,5.437594>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,-90.000000,0> translate<12.176578,-1.070000,5.437594> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.176594,-1.070000,5.042597>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.176594,-1.070000,5.437578>}
-box{<0,0,-0.076200><0.394981,0.070000,0.076200> rotate<0,90.000000,0> translate<12.176594,-1.070000,5.437578> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.176594,-1.070000,5.042597>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.219394,-1.070000,5.042597>}
-box{<0,0,-0.076200><0.042800,0.070000,0.076200> rotate<0,0.000000,0> translate<12.176594,-1.070000,5.042597> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.176594,-1.070000,5.181600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.274200,-1.070000,5.181600>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<12.176594,-1.070000,5.181600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.176594,-1.070000,5.334000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.274200,-1.070000,5.334000>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<12.176594,-1.070000,5.334000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.176594,-1.070000,5.437578>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.274200,-1.070000,5.437578>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<12.176594,-1.070000,5.437578> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.178681,0.000000,8.077200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.230100,0.000000,8.128616>}
+box{<0,0,-0.076200><0.174819,0.070000,0.076200> rotate<0,-44.997030,0> translate<12.106484,0.000000,8.005000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.178684,0.000000,8.077200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.281512,0.000000,8.077200>}
-box{<0,0,-0.076200><0.102831,0.070000,0.076200> rotate<0,0.000000,0> translate<12.178681,0.000000,8.077200> }
+box{<0,0,-0.076200><0.102828,0.070000,0.076200> rotate<0,0.000000,0> translate<12.178684,0.000000,8.077200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.219394,-1.070000,4.511219>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.219394,-1.070000,5.042597>}
 box{<0,0,-0.076200><0.531378,0.070000,0.076200> rotate<0,90.000000,0> translate<12.219394,-1.070000,5.042597> }
@@ -4553,26 +4712,23 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.219394,-1.070000,4.724400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.317000,-1.070000,4.724400>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<12.219394,-1.070000,4.724400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.219394,-1.070000,4.876800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.274200,-1.070000,4.876800>}
-box{<0,0,-0.076200><0.054806,0.070000,0.076200> rotate<0,0.000000,0> translate<12.219394,-1.070000,4.876800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.317000,-1.070000,4.876800>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<12.219394,-1.070000,4.876800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.219394,-1.070000,5.029200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.274200,-1.070000,5.029200>}
-box{<0,0,-0.076200><0.054806,0.070000,0.076200> rotate<0,0.000000,0> translate<12.219394,-1.070000,5.029200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.230097,0.000000,8.128616>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.317000,-1.070000,5.029200>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<12.219394,-1.070000,5.029200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.230100,0.000000,8.128616>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.353713,0.000000,8.005000>}
-box{<0,0,-0.076200><0.174819,0.070000,0.076200> rotate<0,44.997030,0> translate<12.230097,0.000000,8.128616> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.274200,-1.070000,4.856200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.317000,-1.070000,4.856200>}
-box{<0,0,-0.076200><0.042800,0.070000,0.076200> rotate<0,0.000000,0> translate<12.274200,-1.070000,4.856200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.274200,-1.070000,5.437578>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.274200,-1.070000,4.856200>}
-box{<0,0,-0.076200><0.581378,0.070000,0.076200> rotate<0,-90.000000,0> translate<12.274200,-1.070000,4.856200> }
+box{<0,0,-0.076200><0.174817,0.070000,0.076200> rotate<0,44.997754,0> translate<12.230100,0.000000,8.128616> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.285341,0.000000,3.327397>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.560913,0.000000,3.327397>}
-box{<0,0,-0.076200><0.275572,0.070000,0.076200> rotate<0,0.000000,0> translate<12.285341,0.000000,3.327397> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.317000,-1.070000,4.856200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.560916,0.000000,3.327397>}
+box{<0,0,-0.076200><0.275575,0.070000,0.076200> rotate<0,0.000000,0> translate<12.285341,0.000000,3.327397> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.317000,-1.070000,5.042597>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.317000,-1.070000,4.511219>}
-box{<0,0,-0.076200><0.344981,0.070000,0.076200> rotate<0,-90.000000,0> translate<12.317000,-1.070000,4.511219> }
+box{<0,0,-0.076200><0.531378,0.070000,0.076200> rotate<0,-90.000000,0> translate<12.317000,-1.070000,4.511219> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.317000,-1.070000,5.042597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.611672,-1.070000,5.042597>}
+box{<0,0,-0.076200><0.294672,0.070000,0.076200> rotate<0,0.000000,0> translate<12.317000,-1.070000,5.042597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.317019,-1.070000,4.413594>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.317019,-1.070000,4.511200>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,90.000000,0> translate<12.317019,-1.070000,4.511200> }
@@ -4588,24 +4744,69 @@ box{<0,0,-0.076200><1.121559,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.353713,0.000000,8.005000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.792284,0.000000,8.005000>}
 box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<12.353713,0.000000,8.005000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.560913,0.000000,3.327397>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.560916,0.000000,3.327397>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.658513,0.000000,3.424997>}
-box{<0,0,-0.076200><0.138027,0.070000,0.076200> rotate<0,-44.997030,0> translate<12.560913,0.000000,3.327397> }
+box{<0,0,-0.076200><0.138025,0.070000,0.076200> rotate<0,-44.997947,0> translate<12.560916,0.000000,3.327397> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.586772,-1.070000,7.066000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.700000,-1.070000,7.179228>}
+box{<0,0,-0.076200><0.160129,0.070000,0.076200> rotate<0,-44.997030,0> translate<12.586772,-1.070000,7.066000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.611672,-1.070000,5.042597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.695650,-1.070000,5.020094>}
+box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,14.999808,0> translate<12.611672,-1.070000,5.042597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.658513,0.000000,3.424997>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.097084,0.000000,3.424997>}
 box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<12.658513,0.000000,3.424997> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.661669,-1.070000,5.029200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.093931,-1.070000,5.029200>}
+box{<0,0,-0.076200><0.432263,0.070000,0.076200> rotate<0,0.000000,0> translate<12.661669,-1.070000,5.029200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.683572,-1.070000,7.162800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.716425,-1.070000,7.162800>}
+box{<0,0,-0.076200><0.032853,0.070000,0.076200> rotate<0,0.000000,0> translate<12.683572,-1.070000,7.162800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.695650,-1.070000,5.020094>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.770947,-1.070000,4.976622>}
+box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,29.997566,0> translate<12.695650,-1.070000,5.020094> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.700000,-1.070000,7.179228>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.813225,-1.070000,7.066000>}
+box{<0,0,-0.076200><0.160127,0.070000,0.076200> rotate<0,44.997821,0> translate<12.700000,-1.070000,7.179228> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.770947,-1.070000,4.976622>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.832422,-1.070000,4.915147>}
+box{<0,0,-0.076200><0.086939,0.070000,0.076200> rotate<0,44.997030,0> translate<12.770947,-1.070000,4.976622> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.792284,0.000000,8.005000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.915900,0.000000,8.128616>}
-box{<0,0,-0.076200><0.174819,0.070000,0.076200> rotate<0,-44.997030,0> translate<12.792284,0.000000,8.005000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.915897,0.000000,8.128616>}
+box{<0,0,-0.076200><0.174817,0.070000,0.076200> rotate<0,-44.997754,0> translate<12.792284,0.000000,8.005000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.813225,-1.070000,7.066000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.161862,-1.070000,7.066000>}
+box{<0,0,-0.076200><0.348637,0.070000,0.076200> rotate<0,0.000000,0> translate<12.813225,-1.070000,7.066000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.832422,-1.070000,4.915147>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.875894,-1.070000,4.839850>}
+box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,59.996495,0> translate<12.832422,-1.070000,4.915147> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.854563,-1.070000,4.876800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.901038,-1.070000,4.876800>}
+box{<0,0,-0.076200><0.046475,0.070000,0.076200> rotate<0,0.000000,0> translate<12.854563,-1.070000,4.876800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.857200,-1.070000,4.413594>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.438578,-1.070000,4.413594>}
 box{<0,0,-0.076200><0.581378,0.070000,0.076200> rotate<0,0.000000,0> translate<12.857200,-1.070000,4.413594> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.864484,0.000000,8.077200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.864481,0.000000,8.077200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.967313,0.000000,8.077200>}
-box{<0,0,-0.076200><0.102828,0.070000,0.076200> rotate<0,0.000000,0> translate<12.864484,0.000000,8.077200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.915900,0.000000,8.128616>}
+box{<0,0,-0.076200><0.102831,0.070000,0.076200> rotate<0,0.000000,0> translate<12.864481,0.000000,8.077200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.875894,-1.070000,4.839850>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.877797,-1.070000,4.832738>}
+box{<0,0,-0.076200><0.007363,0.070000,0.076200> rotate<0,75.015071,0> translate<12.875894,-1.070000,4.839850> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.877797,-1.070000,4.832738>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.879703,-1.070000,4.839850>}
+box{<0,0,-0.076200><0.007364,0.070000,0.076200> rotate<0,-74.991583,0> translate<12.877797,-1.070000,4.832738> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.879703,-1.070000,4.839850>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.923175,-1.070000,4.915147>}
+box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,-59.996495,0> translate<12.879703,-1.070000,4.839850> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.915897,0.000000,8.128616>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.039513,0.000000,8.005000>}
-box{<0,0,-0.076200><0.174817,0.070000,0.076200> rotate<0,44.997754,0> translate<12.915900,0.000000,8.128616> }
+box{<0,0,-0.076200><0.174819,0.070000,0.076200> rotate<0,44.997030,0> translate<12.915897,0.000000,8.128616> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.923175,-1.070000,4.915147>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.984650,-1.070000,4.976622>}
+box{<0,0,-0.076200><0.086939,0.070000,0.076200> rotate<0,-44.997030,0> translate<12.923175,-1.070000,4.915147> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<12.984650,-1.070000,4.976622>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.059947,-1.070000,5.020094>}
+box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,-29.997566,0> translate<12.984650,-1.070000,4.976622> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.039513,0.000000,8.005000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.055600,0.000000,8.005000>}
 box{<0,0,-0.076200><0.016087,0.070000,0.076200> rotate<0,0.000000,0> translate<13.039513,0.000000,8.005000> }
@@ -4615,30 +4816,27 @@ box{<0,0,-0.076200><0.294585,0.070000,0.076200> rotate<0,44.997030,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.055600,0.000000,8.005000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.055600,0.000000,6.863103>}
 box{<0,0,-0.076200><1.141897,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.055600,0.000000,6.863103> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.059947,-1.070000,5.020094>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.143925,-1.070000,5.042597>}
+box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,-14.999808,0> translate<13.059947,-1.070000,5.020094> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.097084,0.000000,3.424997>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.407197,0.000000,3.114884>}
 box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<13.097084,0.000000,3.424997> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.161200,0.000000,5.267113>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,4.991713>}
-box{<0,0,-0.076200><0.389474,0.070000,0.076200> rotate<0,44.997030,0> translate<13.161200,0.000000,5.267113> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.161200,0.000000,5.705684>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.161200,0.000000,5.267113>}
-box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.161200,0.000000,5.267113> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.161200,0.000000,5.705684>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.471312,0.000000,6.015797>}
-box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,-44.997030,0> translate<13.161200,0.000000,5.705684> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.143925,-1.070000,5.042597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.438594,-1.070000,5.042597>}
+box{<0,0,-0.076200><0.294669,0.070000,0.076200> rotate<0,0.000000,0> translate<13.143925,-1.070000,5.042597> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.161862,-1.070000,7.066000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.538200,-1.070000,6.689663>}
+box{<0,0,-0.076200><0.532222,0.070000,0.076200> rotate<0,44.997030,0> translate<13.161862,-1.070000,7.066000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.169281,0.000000,3.352800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,3.352800>}
-box{<0,0,-0.076200><0.267319,0.070000,0.076200> rotate<0,0.000000,0> translate<13.169281,0.000000,3.352800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,3.352800>}
+box{<0,0,-0.076200><0.648319,0.070000,0.076200> rotate<0,0.000000,0> translate<13.169281,0.000000,3.352800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.263903,0.000000,6.654800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.263906,0.000000,6.654800>}
-box{<0,0,-0.076200><0.000003,0.070000,0.076200> rotate<0,0.000000,0> translate<13.263903,0.000000,6.654800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.263906,0.000000,6.654800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,6.101106>}
-box{<0,0,-0.076200><0.783041,0.070000,0.076200> rotate<0,44.997030,0> translate<13.263906,0.000000,6.654800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,6.101103>}
+box{<0,0,-0.076200><0.783046,0.070000,0.076200> rotate<0,44.997030,0> translate<13.263903,0.000000,6.654800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.321681,0.000000,3.200400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,3.200400>}
-box{<0,0,-0.076200><0.114919,0.070000,0.076200> rotate<0,0.000000,0> translate<13.321681,0.000000,3.200400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.898903,0.000000,3.200400>}
+box{<0,0,-0.076200><0.577222,0.070000,0.076200> rotate<0,0.000000,0> translate<13.321681,0.000000,3.200400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.407197,0.000000,2.701097>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.407197,0.000000,3.114884>}
 box{<0,0,-0.076200><0.413787,0.070000,0.076200> rotate<0,90.000000,0> translate<13.407197,0.000000,3.114884> }
@@ -4646,23 +4844,35 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.407197,0.000000,2.701097>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.516184,0.000000,2.701097>}
 box{<0,0,-0.076200><0.108987,0.070000,0.076200> rotate<0,0.000000,0> translate<13.407197,0.000000,2.701097> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.407197,0.000000,2.743200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.860803,0.000000,2.743200>}
-box{<0,0,-0.076200><0.453606,0.070000,0.076200> rotate<0,0.000000,0> translate<13.407197,0.000000,2.743200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,2.743200>}
+box{<0,0,-0.076200><0.774803,0.070000,0.076200> rotate<0,0.000000,0> translate<13.407197,0.000000,2.743200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.407197,0.000000,2.895600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.708403,0.000000,2.895600>}
-box{<0,0,-0.076200><0.301206,0.070000,0.076200> rotate<0,0.000000,0> translate<13.407197,0.000000,2.895600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,2.895600>}
+box{<0,0,-0.076200><0.774803,0.070000,0.076200> rotate<0,0.000000,0> translate<13.407197,0.000000,2.895600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.407197,0.000000,3.048000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.556003,0.000000,3.048000>}
-box{<0,0,-0.076200><0.148806,0.070000,0.076200> rotate<0,0.000000,0> translate<13.407197,0.000000,3.048000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,3.167403>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.902909,0.000000,2.701097>}
-box{<0,0,-0.076200><0.659459,0.070000,0.076200> rotate<0,44.996838,0> translate<13.436600,0.000000,3.167403> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,4.991713>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.436600,0.000000,3.167403>}
-box{<0,0,-0.076200><1.824309,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.436600,0.000000,3.167403> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.051303,0.000000,3.048000>}
+box{<0,0,-0.076200><0.644106,0.070000,0.076200> rotate<0,0.000000,0> translate<13.407197,0.000000,3.048000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.438578,-1.070000,4.511200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.438578,-1.070000,4.413594>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.438578,-1.070000,4.413594> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.438594,-1.070000,4.511219>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.438594,-1.070000,5.042597>}
+box{<0,0,-0.076200><0.531378,0.070000,0.076200> rotate<0,90.000000,0> translate<13.438594,-1.070000,5.042597> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.438594,-1.070000,4.511219>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.536200,-1.070000,4.511219>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<13.438594,-1.070000,4.511219> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.438594,-1.070000,4.572000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.536200,-1.070000,4.572000>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<13.438594,-1.070000,4.572000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.438594,-1.070000,4.724400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.536200,-1.070000,4.724400>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<13.438594,-1.070000,4.724400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.438594,-1.070000,4.876800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.536200,-1.070000,4.876800>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<13.438594,-1.070000,4.876800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.438594,-1.070000,5.029200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.536200,-1.070000,5.029200>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<13.438594,-1.070000,5.029200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.457997,-1.070000,2.751897>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.457997,-1.070000,2.882200>}
 box{<0,0,-0.076200><0.130303,0.070000,0.076200> rotate<0,90.000000,0> translate<13.457997,-1.070000,2.882200> }
@@ -4672,21 +4882,27 @@ box{<0,0,-0.076200><0.079228,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.457997,-1.070000,2.882200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.924172,-1.070000,2.882200>}
 box{<0,0,-0.076200><0.466175,0.070000,0.076200> rotate<0,0.000000,0> translate<13.457997,-1.070000,2.882200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.471312,0.000000,6.015797>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,6.015797>}
-box{<0,0,-0.076200><0.346288,0.070000,0.076200> rotate<0,0.000000,0> translate<13.471312,0.000000,6.015797> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.516184,0.000000,2.701097>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.677900,0.000000,2.539381>}
-box{<0,0,-0.076200><0.228700,0.070000,0.076200> rotate<0,44.997030,0> translate<13.516184,0.000000,2.701097> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.677897,0.000000,2.539381>}
+box{<0,0,-0.076200><0.228698,0.070000,0.076200> rotate<0,44.997584,0> translate<13.516184,0.000000,2.701097> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.536200,-1.070000,5.042597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.536200,-1.070000,4.511219>}
+box{<0,0,-0.076200><0.531378,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.536200,-1.070000,4.511219> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.536200,-1.070000,5.042597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,5.042597>}
+box{<0,0,-0.076200><0.230600,0.070000,0.076200> rotate<0,0.000000,0> translate<13.536200,-1.070000,5.042597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.537225,-1.070000,2.751897>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.677900,-1.070000,2.611222>}
-box{<0,0,-0.076200><0.198944,0.070000,0.076200> rotate<0,44.997030,0> translate<13.537225,-1.070000,2.751897> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.677897,-1.070000,2.611222>}
+box{<0,0,-0.076200><0.198942,0.070000,0.076200> rotate<0,44.997667,0> translate<13.537225,-1.070000,2.751897> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.538200,-1.070000,6.689663>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,6.461063>}
+box{<0,0,-0.076200><0.323289,0.070000,0.076200> rotate<0,44.997030,0> translate<13.538200,-1.070000,6.689663> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.545922,-1.070000,2.743200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.809878,-1.070000,2.743200>}
-box{<0,0,-0.076200><0.263956,0.070000,0.076200> rotate<0,0.000000,0> translate<13.545922,-1.070000,2.743200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.809875,-1.070000,2.743200>}
+box{<0,0,-0.076200><0.263953,0.070000,0.076200> rotate<0,0.000000,0> translate<13.545922,-1.070000,2.743200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.626481,0.000000,2.590800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.729319,0.000000,2.590800>}
-box{<0,0,-0.076200><0.102837,0.070000,0.076200> rotate<0,0.000000,0> translate<13.626481,0.000000,2.590800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.729316,0.000000,2.590800>}
+box{<0,0,-0.076200><0.102834,0.070000,0.076200> rotate<0,0.000000,0> translate<13.626481,0.000000,2.590800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.665197,-1.070000,8.948525>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.665197,-1.070000,9.737663>}
 box{<0,0,-0.076200><0.789138,0.070000,0.076200> rotate<0,90.000000,0> translate<13.665197,-1.070000,9.737663> }
@@ -4718,20 +4934,20 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.669200,-1.070000,9.460525>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.669200,-1.070000,8.979872>}
 box{<0,0,-0.076200><0.480653,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.669200,-1.070000,8.979872> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.669200,-1.070000,9.460525>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.716000,-1.070000,9.507325>}
-box{<0,0,-0.076200><0.066185,0.070000,0.076200> rotate<0,-44.997030,0> translate<13.669200,-1.070000,9.460525> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.677900,0.000000,2.539381>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.716000,-1.070000,9.507322>}
+box{<0,0,-0.076200><0.066183,0.070000,0.076200> rotate<0,-44.995117,0> translate<13.669200,-1.070000,9.460525> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.677897,0.000000,2.539381>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.839613,0.000000,2.701097>}
-box{<0,0,-0.076200><0.228698,0.070000,0.076200> rotate<0,-44.997584,0> translate<13.677900,0.000000,2.539381> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.677900,-1.070000,2.611222>}
+box{<0,0,-0.076200><0.228700,0.070000,0.076200> rotate<0,-44.997030,0> translate<13.677897,0.000000,2.539381> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.677897,-1.070000,2.611222>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.818572,-1.070000,2.751897>}
-box{<0,0,-0.076200><0.198942,0.070000,0.076200> rotate<0,-44.997667,0> translate<13.677900,-1.070000,2.611222> }
+box{<0,0,-0.076200><0.198944,0.070000,0.076200> rotate<0,-44.997030,0> translate<13.677897,-1.070000,2.611222> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.681134,-1.070000,9.753600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.833259,-1.070000,9.753600>}
 box{<0,0,-0.076200><0.152125,0.070000,0.076200> rotate<0,0.000000,0> translate<13.681134,-1.070000,9.753600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.716000,-1.070000,9.636341>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.716000,-1.070000,9.507325>}
-box{<0,0,-0.076200><0.129016,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.716000,-1.070000,9.507325> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.716000,-1.070000,9.507322>}
+box{<0,0,-0.076200><0.129019,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.716000,-1.070000,9.507322> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.716000,-1.070000,9.636341>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.028456,-1.070000,9.948797>}
 box{<0,0,-0.076200><0.441880,0.070000,0.076200> rotate<0,-44.997030,0> translate<13.716000,-1.070000,9.636341> }
@@ -4741,12 +4957,12 @@ box{<0,0,-0.076200><0.072339,0.070000,0.076200> rotate<0,44.995280,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.729044,-1.070000,8.184122>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.838997,-1.070000,8.294072>}
 box{<0,0,-0.076200><0.155495,0.070000,0.076200> rotate<0,-44.996216,0> translate<13.729044,-1.070000,8.184122> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766797,0.000000,7.157691>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766797,0.000000,7.777506>}
-box{<0,0,-0.076200><0.619816,0.070000,0.076200> rotate<0,90.000000,0> translate<13.766797,0.000000,7.777506> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766797,0.000000,7.157691>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766797,0.000000,7.157694>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766797,0.000000,7.777503>}
+box{<0,0,-0.076200><0.619809,0.070000,0.076200> rotate<0,90.000000,0> translate<13.766797,0.000000,7.777503> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766797,0.000000,7.157694>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,6.742488>}
-box{<0,0,-0.076200><0.587186,0.070000,0.076200> rotate<0,44.997030,0> translate<13.766797,0.000000,7.157691> }
+box{<0,0,-0.076200><0.587188,0.070000,0.076200> rotate<0,44.997246,0> translate<13.766797,0.000000,7.157694> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766797,0.000000,7.162800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,7.162800>}
 box{<0,0,-0.076200><0.415203,0.070000,0.076200> rotate<0,0.000000,0> translate<13.766797,0.000000,7.162800> }
@@ -4762,21 +4978,24 @@ box{<0,0,-0.076200><0.364403,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766797,0.000000,7.772400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.131200,0.000000,7.772400>}
 box{<0,0,-0.076200><0.364403,0.070000,0.076200> rotate<0,0.000000,0> translate<13.766797,0.000000,7.772400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766797,0.000000,7.777506>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766797,0.000000,7.777503>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,8.192709>}
-box{<0,0,-0.076200><0.587186,0.070000,0.076200> rotate<0,-44.997030,0> translate<13.766797,0.000000,7.777506> }
+box{<0,0,-0.076200><0.587188,0.070000,0.076200> rotate<0,-44.997246,0> translate<13.766797,0.000000,7.777503> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,6.461063>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.766800,-1.070000,5.042597>}
+box{<0,0,-0.076200><1.418466,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.766800,-1.070000,5.042597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.774522,-1.070000,8.229600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.236000,-1.070000,8.229600>}
 box{<0,0,-0.076200><0.461478,0.070000,0.076200> rotate<0,0.000000,0> translate<13.774522,-1.070000,8.229600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.774522,-1.070000,8.839200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.809872,-1.070000,8.839200>}
 box{<0,0,-0.076200><0.035350,0.070000,0.076200> rotate<0,0.000000,0> translate<13.774522,-1.070000,8.839200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.780197,-1.070000,7.597131>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.780197,-1.070000,7.597134>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.780197,-1.070000,8.132972>}
-box{<0,0,-0.076200><0.535841,0.070000,0.076200> rotate<0,90.000000,0> translate<13.780197,-1.070000,8.132972> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.780197,-1.070000,7.597131>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.058897,-1.070000,7.318431>}
-box{<0,0,-0.076200><0.394141,0.070000,0.076200> rotate<0,44.997030,0> translate<13.780197,-1.070000,7.597131> }
+box{<0,0,-0.076200><0.535838,0.070000,0.076200> rotate<0,90.000000,0> translate<13.780197,-1.070000,8.132972> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.780197,-1.070000,7.597134>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.058900,-1.070000,7.318431>}
+box{<0,0,-0.076200><0.394146,0.070000,0.076200> rotate<0,44.997030,0> translate<13.780197,-1.070000,7.597134> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.780197,-1.070000,7.620000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.086428,-1.070000,7.620000>}
 box{<0,0,-0.076200><0.306231,0.070000,0.076200> rotate<0,0.000000,0> translate<13.780197,-1.070000,7.620000> }
@@ -4789,12 +5008,15 @@ box{<0,0,-0.076200><2.070866,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.780197,-1.070000,8.077200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.332625,-1.070000,8.077200>}
 box{<0,0,-0.076200><0.552428,0.070000,0.076200> rotate<0,0.000000,0> translate<13.780197,-1.070000,8.077200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,6.101106>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,6.015797>}
-box{<0,0,-0.076200><0.085309,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.817600,0.000000,6.015797> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,3.281703>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.100000,0.000000,2.999303>}
+box{<0,0,-0.076200><0.399374,0.070000,0.076200> rotate<0,44.997030,0> translate<13.817600,0.000000,3.281703> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,6.101103>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.817600,0.000000,3.281703>}
+box{<0,0,-0.076200><2.819400,0.070000,0.076200> rotate<0,-90.000000,0> translate<13.817600,0.000000,3.281703> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.818572,-1.070000,2.751897>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.299225,-1.070000,2.751897>}
-box{<0,0,-0.076200><0.480653,0.070000,0.076200> rotate<0,0.000000,0> translate<13.818572,-1.070000,2.751897> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.240800,-1.070000,2.751897>}
+box{<0,0,-0.076200><0.422228,0.070000,0.076200> rotate<0,0.000000,0> translate<13.818572,-1.070000,2.751897> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.833534,-1.070000,9.906000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.985659,-1.070000,9.906000>}
 box{<0,0,-0.076200><0.152125,0.070000,0.076200> rotate<0,0.000000,0> translate<13.833534,-1.070000,9.906000> }
@@ -4811,20 +5033,20 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.838997,-1.070000,8.686800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.962272,-1.070000,8.686800>}
 box{<0,0,-0.076200><0.123275,0.070000,0.076200> rotate<0,0.000000,0> translate<13.838997,-1.070000,8.686800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.839613,0.000000,2.701097>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.902909,0.000000,2.701097>}
-box{<0,0,-0.076200><0.063297,0.070000,0.076200> rotate<0,0.000000,0> translate<13.839613,0.000000,2.701097> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,2.701097>}
+box{<0,0,-0.076200><0.342387,0.070000,0.076200> rotate<0,0.000000,0> translate<13.839613,0.000000,2.701097> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.890125,0.000000,0.330197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,0.430866>}
 box{<0,0,-0.076200><0.142369,0.070000,0.076200> rotate<0,-44.996141,0> translate<13.890125,0.000000,0.330197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.890125,0.000000,0.330197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,0.330197>}
 box{<0,0,-0.076200><4.216475,0.070000,0.076200> rotate<0,0.000000,0> translate<13.890125,0.000000,0.330197> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.909728,-1.070000,7.467600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.909731,-1.070000,7.467600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.076600,-1.070000,7.467600>}
-box{<0,0,-0.076200><0.166872,0.070000,0.076200> rotate<0,0.000000,0> translate<13.909728,-1.070000,7.467600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.914088,0.000000,7.010400>}
+box{<0,0,-0.076200><0.166869,0.070000,0.076200> rotate<0,0.000000,0> translate<13.909731,-1.070000,7.467600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.914091,0.000000,7.010400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,7.010400>}
-box{<0,0,-0.076200><0.267912,0.070000,0.076200> rotate<0,0.000000,0> translate<13.914088,0.000000,7.010400> }
+box{<0,0,-0.076200><0.267909,0.070000,0.076200> rotate<0,0.000000,0> translate<13.914091,0.000000,7.010400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.914091,0.000000,7.924800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.154138,0.000000,7.924800>}
 box{<0,0,-0.076200><0.240047,0.070000,0.076200> rotate<0,0.000000,0> translate<13.914091,0.000000,7.924800> }
@@ -4832,14 +5054,14 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.924172,-1.070000,2.882200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.117597,-1.070000,3.075625>}
 box{<0,0,-0.076200><0.273544,0.070000,0.076200> rotate<0,-44.997030,0> translate<13.924172,-1.070000,2.882200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.937572,-1.070000,2.895600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,2.895600>}
-box{<0,0,-0.076200><1.065228,0.070000,0.076200> rotate<0,0.000000,0> translate<13.937572,-1.070000,2.895600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.240800,-1.070000,2.895600>}
+box{<0,0,-0.076200><0.303228,0.070000,0.076200> rotate<0,0.000000,0> translate<13.937572,-1.070000,2.895600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.985934,-1.070000,10.058400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.138063,-1.070000,10.058400>}
 box{<0,0,-0.076200><0.152128,0.070000,0.076200> rotate<0,0.000000,0> translate<13.985934,-1.070000,10.058400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,0.430866>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,1.600706>}
-box{<0,0,-0.076200><1.169841,0.070000,0.076200> rotate<0,90.000000,0> translate<13.990797,0.000000,1.600706> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,1.600703>}
+box{<0,0,-0.076200><1.169838,0.070000,0.076200> rotate<0,90.000000,0> translate<13.990797,0.000000,1.600703> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,0.457200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.844113,0.000000,0.457200>}
 box{<0,0,-0.076200><3.853316,0.070000,0.076200> rotate<0,0.000000,0> translate<13.990797,0.000000,0.457200> }
@@ -4856,17 +5078,17 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,1.066800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.996600,0.000000,1.066800>}
 box{<0,0,-0.076200><3.005803,0.070000,0.076200> rotate<0,0.000000,0> translate<13.990797,0.000000,1.066800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,1.219200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.024713,0.000000,1.219200>}
-box{<0,0,-0.076200><1.033916,0.070000,0.076200> rotate<0,0.000000,0> translate<13.990797,0.000000,1.219200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.186513,0.000000,1.219200>}
+box{<0,0,-0.076200><0.195716,0.070000,0.076200> rotate<0,0.000000,0> translate<13.990797,0.000000,1.219200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,1.371600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.872313,0.000000,1.371600>}
-box{<0,0,-0.076200><0.881516,0.070000,0.076200> rotate<0,0.000000,0> translate<13.990797,0.000000,1.371600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.034113,0.000000,1.371600>}
+box{<0,0,-0.076200><0.043316,0.070000,0.076200> rotate<0,0.000000,0> translate<13.990797,0.000000,1.371600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,1.524000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.786800,0.000000,1.524000>}
-box{<0,0,-0.076200><0.796003,0.070000,0.076200> rotate<0,0.000000,0> translate<13.990797,0.000000,1.524000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,1.600706>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.032394,0.000000,1.642300>}
-box{<0,0,-0.076200><0.058825,0.070000,0.076200> rotate<0,-44.994878,0> translate<13.990797,0.000000,1.600706> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.024800,0.000000,1.524000>}
+box{<0,0,-0.076200><0.034003,0.070000,0.076200> rotate<0,0.000000,0> translate<13.990797,0.000000,1.524000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,1.600703>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.024800,0.000000,1.634709>}
+box{<0,0,-0.076200><0.048090,0.070000,0.076200> rotate<0,-44.999663,0> translate<13.990797,0.000000,1.600703> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,9.710278>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<13.990797,0.000000,10.160000>}
 box{<0,0,-0.076200><0.449722,0.070000,0.076200> rotate<0,90.000000,0> translate<13.990797,0.000000,10.160000> }
@@ -4897,30 +5119,33 @@ box{<0,0,-0.076200><0.231625,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.009072,-1.070000,8.640000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.032456,-1.070000,8.640000>}
 box{<0,0,-0.076200><0.023384,0.070000,0.076200> rotate<0,0.000000,0> translate<14.009072,-1.070000,8.640000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.024800,0.000000,1.380912>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.334913,0.000000,1.070800>}
+box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<14.024800,0.000000,1.380912> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.024800,0.000000,1.634709>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.024800,0.000000,1.380912>}
+box{<0,0,-0.076200><0.253797,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.024800,0.000000,1.380912> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.028456,-1.070000,9.948797>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.188863,-1.070000,10.109200>}
 box{<0,0,-0.076200><0.226846,0.070000,0.076200> rotate<0,-44.996472,0> translate<14.028456,-1.070000,9.948797> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.030113,0.000000,9.749597>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.406600,0.000000,9.749597>}
 box{<0,0,-0.076200><0.376487,0.070000,0.076200> rotate<0,0.000000,0> translate<14.030113,0.000000,9.749597> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.032394,0.000000,1.642300>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.278184,0.000000,1.642300>}
-box{<0,0,-0.076200><0.245791,0.070000,0.076200> rotate<0,0.000000,0> translate<14.032394,0.000000,1.642300> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.032456,-1.070000,8.640000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.236000,-1.070000,8.436456>}
-box{<0,0,-0.076200><0.287854,0.070000,0.076200> rotate<0,44.997030,0> translate<14.032456,-1.070000,8.640000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.236000,-1.070000,8.436459>}
+box{<0,0,-0.076200><0.287852,0.070000,0.076200> rotate<0,44.996590,0> translate<14.032456,-1.070000,8.640000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.036734,-1.070000,10.109200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.188863,-1.070000,10.109200>}
 box{<0,0,-0.076200><0.152128,0.070000,0.076200> rotate<0,0.000000,0> translate<14.036734,-1.070000,10.109200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.051622,-1.070000,4.009650>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.095094,-1.070000,4.084947>}
 box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,-59.996495,0> translate<14.051622,-1.070000,4.009650> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.058897,-1.070000,7.318431>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.058900,-1.070000,7.318431>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.076600,-1.070000,7.336134>}
-box{<0,0,-0.076200><0.025036,0.070000,0.076200> rotate<0,-44.997030,0> translate<14.058897,-1.070000,7.318431> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.066488,0.000000,6.858000>}
+box{<0,0,-0.076200><0.025034,0.070000,0.076200> rotate<0,-45.002087,0> translate<14.058900,-1.070000,7.318431> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.066491,0.000000,6.858000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,6.858000>}
-box{<0,0,-0.076200><0.115512,0.070000,0.076200> rotate<0,0.000000,0> translate<14.066488,0.000000,6.858000> }
+box{<0,0,-0.076200><0.115509,0.070000,0.076200> rotate<0,0.000000,0> translate<14.066491,0.000000,6.858000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.066491,0.000000,8.077200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,8.077200>}
 box{<0,0,-0.076200><0.115509,0.070000,0.076200> rotate<0,0.000000,0> translate<14.066491,0.000000,8.077200> }
@@ -4931,11 +5156,14 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.076600,-1.070000,7.610172>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.270025,-1.070000,7.803597>}
 box{<0,0,-0.076200><0.273544,0.070000,0.076200> rotate<0,-44.997030,0> translate<14.076600,-1.070000,7.610172> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.089972,-1.070000,3.048000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,3.048000>}
-box{<0,0,-0.076200><0.912828,0.070000,0.076200> rotate<0,0.000000,0> translate<14.089972,-1.070000,3.048000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.240800,-1.070000,3.048000>}
+box{<0,0,-0.076200><0.150828,0.070000,0.076200> rotate<0,0.000000,0> translate<14.089972,-1.070000,3.048000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.095094,-1.070000,4.084947>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.117597,-1.070000,4.168925>}
 box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,-74.994252,0> translate<14.095094,-1.070000,4.084947> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.100000,0.000000,2.999303>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,2.917303>}
+box{<0,0,-0.076200><0.115966,0.070000,0.076200> rotate<0,44.997030,0> translate<14.100000,0.000000,2.999303> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.103091,-1.070000,4.114800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.767378,-1.070000,4.114800>}
 box{<0,0,-0.076200><0.664288,0.070000,0.076200> rotate<0,0.000000,0> translate<14.103091,-1.070000,4.114800> }
@@ -4943,14 +5171,14 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.117597,-1.070000,3.075625>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.117597,-1.070000,3.849172>}
 box{<0,0,-0.076200><0.773547,0.070000,0.076200> rotate<0,90.000000,0> translate<14.117597,-1.070000,3.849172> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.117597,-1.070000,3.200400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,3.200400>}
-box{<0,0,-0.076200><0.885203,0.070000,0.076200> rotate<0,0.000000,0> translate<14.117597,-1.070000,3.200400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.240800,-1.070000,3.200400>}
+box{<0,0,-0.076200><0.123203,0.070000,0.076200> rotate<0,0.000000,0> translate<14.117597,-1.070000,3.200400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.117597,-1.070000,3.352800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,3.352800>}
-box{<0,0,-0.076200><0.885203,0.070000,0.076200> rotate<0,0.000000,0> translate<14.117597,-1.070000,3.352800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.240800,-1.070000,3.352800>}
+box{<0,0,-0.076200><0.123203,0.070000,0.076200> rotate<0,0.000000,0> translate<14.117597,-1.070000,3.352800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.117597,-1.070000,3.505200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.445847,-1.070000,3.505200>}
-box{<0,0,-0.076200><0.328250,0.070000,0.076200> rotate<0,0.000000,0> translate<14.117597,-1.070000,3.505200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.339831,-1.070000,3.505200>}
+box{<0,0,-0.076200><0.222234,0.070000,0.076200> rotate<0,0.000000,0> translate<14.117597,-1.070000,3.505200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.117597,-1.070000,3.657600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.275675,-1.070000,3.657600>}
 box{<0,0,-0.076200><0.158078,0.070000,0.076200> rotate<0,0.000000,0> translate<14.117597,-1.070000,3.657600> }
@@ -4993,6 +5221,9 @@ box{<0,0,-0.076200><0.056595,0.070000,0.076200> rotate<0,-59.996483,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.157262,-1.070000,4.318000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.236000,-1.070000,4.318000>}
 box{<0,0,-0.076200><0.078738,0.070000,0.076200> rotate<0,0.000000,0> translate<14.157262,-1.070000,4.318000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,2.917303>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,2.701097>}
+box{<0,0,-0.076200><0.216206,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.182000,0.000000,2.701097> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,7.320134>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.182000,0.000000,6.742488>}
 box{<0,0,-0.076200><0.577647,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.182000,0.000000,6.742488> }
@@ -5017,33 +5248,30 @@ box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,74.994252,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.236000,-1.070000,8.173825>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.429425,-1.070000,7.980400>}
 box{<0,0,-0.076200><0.273544,0.070000,0.076200> rotate<0,44.997030,0> translate<14.236000,-1.070000,8.173825> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.236000,-1.070000,8.436456>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.236000,-1.070000,8.436459>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.236000,-1.070000,8.173825>}
-box{<0,0,-0.076200><0.262631,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.236000,-1.070000,8.173825> }
+box{<0,0,-0.076200><0.262634,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.236000,-1.070000,8.173825> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.240800,-1.070000,3.406172>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.240800,-1.070000,2.751897>}
+box{<0,0,-0.076200><0.654275,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.240800,-1.070000,2.751897> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.240800,-1.070000,3.406172>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.377244,-1.070000,3.542613>}
+box{<0,0,-0.076200><0.192958,0.070000,0.076200> rotate<0,-44.996374,0> translate<14.240800,-1.070000,3.406172> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.258503,-1.070000,3.687347>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.301975,-1.070000,3.612050>}
 box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,59.996495,0> translate<14.258503,-1.070000,3.687347> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.270025,-1.070000,7.803597>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.743572,-1.070000,7.803597>}
 box{<0,0,-0.076200><1.473547,0.070000,0.076200> rotate<0,0.000000,0> translate<14.270025,-1.070000,7.803597> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.278184,0.000000,1.642300>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.588297,0.000000,1.952413>}
-box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,-44.997030,0> translate<14.278184,0.000000,1.642300> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.299225,-1.070000,2.751897>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.639097,-1.070000,2.412025>}
-box{<0,0,-0.076200><0.480651,0.070000,0.076200> rotate<0,44.997030,0> translate<14.299225,-1.070000,2.751897> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.301975,-1.070000,3.612050>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.363450,-1.070000,3.550575>}
 box{<0,0,-0.076200><0.086939,0.070000,0.076200> rotate<0,44.997030,0> translate<14.301975,-1.070000,3.612050> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.307922,-1.070000,2.743200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,2.743200>}
-box{<0,0,-0.076200><0.694878,0.070000,0.076200> rotate<0,0.000000,0> translate<14.307922,-1.070000,2.743200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.312284,0.000000,1.676400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.786800,0.000000,1.676400>}
-box{<0,0,-0.076200><0.474516,0.070000,0.076200> rotate<0,0.000000,0> translate<14.312284,0.000000,1.676400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.334913,0.000000,1.070800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.773484,0.000000,1.070800>}
+box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<14.334913,0.000000,1.070800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.363450,-1.070000,3.550575>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.438747,-1.070000,3.507103>}
-box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,29.997566,0> translate<14.363450,-1.070000,3.550575> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.377244,-1.070000,3.542613>}
+box{<0,0,-0.076200><0.015927,0.070000,0.076200> rotate<0,29.993892,0> translate<14.363450,-1.070000,3.550575> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.406600,0.000000,9.916394>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.406600,0.000000,9.749597>}
 box{<0,0,-0.076200><0.166797,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.406600,0.000000,9.749597> }
@@ -5059,135 +5287,36 @@ box{<0,0,-0.076200><0.146000,0.070000,0.076200> rotate<0,-90.000000,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.429425,-1.070000,7.980400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.202972,-1.070000,7.980400>}
 box{<0,0,-0.076200><0.773547,0.070000,0.076200> rotate<0,0.000000,0> translate<14.429425,-1.070000,7.980400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.438747,-1.070000,3.507103>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.522725,-1.070000,3.484600>}
-box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,14.999808,0> translate<14.438747,-1.070000,3.507103> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.460322,-1.070000,2.590800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,2.590800>}
-box{<0,0,-0.076200><0.542478,0.070000,0.076200> rotate<0,0.000000,0> translate<14.460322,-1.070000,2.590800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.464684,0.000000,1.828800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.786800,0.000000,1.828800>}
-box{<0,0,-0.076200><0.322116,0.070000,0.076200> rotate<0,0.000000,0> translate<14.464684,0.000000,1.828800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.465297,-1.070000,1.396997>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.465297,-1.070000,1.757575>}
-box{<0,0,-0.076200><0.360578,0.070000,0.076200> rotate<0,90.000000,0> translate<14.465297,-1.070000,1.757575> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.465297,-1.070000,1.396997>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.775078,-1.070000,1.396997>}
-box{<0,0,-0.076200><0.309781,0.070000,0.076200> rotate<0,0.000000,0> translate<14.465297,-1.070000,1.396997> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.465297,-1.070000,1.524000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.736000,-1.070000,1.524000>}
-box{<0,0,-0.076200><0.270703,0.070000,0.076200> rotate<0,0.000000,0> translate<14.465297,-1.070000,1.524000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.465297,-1.070000,1.676400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.736000,-1.070000,1.676400>}
-box{<0,0,-0.076200><0.270703,0.070000,0.076200> rotate<0,0.000000,0> translate<14.465297,-1.070000,1.676400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.465297,-1.070000,1.757575>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.639097,-1.070000,1.931372>}
-box{<0,0,-0.076200><0.245788,0.070000,0.076200> rotate<0,-44.996515,0> translate<14.465297,-1.070000,1.757575> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.522725,-1.070000,3.484600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.767394,-1.070000,3.484600>}
-box{<0,0,-0.076200><0.244669,0.070000,0.076200> rotate<0,0.000000,0> translate<14.522725,-1.070000,3.484600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.536522,-1.070000,1.828800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.736000,-1.070000,1.828800>}
-box{<0,0,-0.076200><0.199478,0.070000,0.076200> rotate<0,0.000000,0> translate<14.536522,-1.070000,1.828800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.588297,0.000000,1.952413>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.588297,0.000000,2.217200>}
-box{<0,0,-0.076200><0.264787,0.070000,0.076200> rotate<0,90.000000,0> translate<14.588297,0.000000,2.217200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.588297,0.000000,1.981200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.872316,0.000000,1.981200>}
-box{<0,0,-0.076200><0.284019,0.070000,0.076200> rotate<0,0.000000,0> translate<14.588297,0.000000,1.981200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.588297,0.000000,2.133600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.024716,0.000000,2.133600>}
-box{<0,0,-0.076200><0.436419,0.070000,0.076200> rotate<0,0.000000,0> translate<14.588297,0.000000,2.133600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.588297,0.000000,2.217200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.777131,0.000000,2.217200>}
-box{<0,0,-0.076200><1.188834,0.070000,0.076200> rotate<0,0.000000,0> translate<14.588297,0.000000,2.217200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.612722,-1.070000,2.438400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,2.438400>}
-box{<0,0,-0.076200><0.390078,0.070000,0.076200> rotate<0,0.000000,0> translate<14.612722,-1.070000,2.438400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.639097,-1.070000,1.931372>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.639097,-1.070000,2.412025>}
-box{<0,0,-0.076200><0.480653,0.070000,0.076200> rotate<0,90.000000,0> translate<14.639097,-1.070000,2.412025> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.639097,-1.070000,1.981200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.800478,-1.070000,1.981200>}
-box{<0,0,-0.076200><0.161381,0.070000,0.076200> rotate<0,0.000000,0> translate<14.639097,-1.070000,1.981200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.639097,-1.070000,2.133600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.952878,-1.070000,2.133600>}
-box{<0,0,-0.076200><0.313781,0.070000,0.076200> rotate<0,0.000000,0> translate<14.639097,-1.070000,2.133600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.639097,-1.070000,2.286000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,2.286000>}
-box{<0,0,-0.076200><0.363703,0.070000,0.076200> rotate<0,0.000000,0> translate<14.639097,-1.070000,2.286000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.736000,-1.070000,1.436072>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.775078,-1.070000,1.396997>}
-box{<0,0,-0.076200><0.055263,0.070000,0.076200> rotate<0,44.994739,0> translate<14.736000,-1.070000,1.436072> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.736000,-1.070000,1.916725>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.736000,-1.070000,1.436072>}
-box{<0,0,-0.076200><0.480653,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.736000,-1.070000,1.436072> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.736000,-1.070000,1.916725>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.027353,-1.070000,2.208075>}
-box{<0,0,-0.076200><0.412033,0.070000,0.076200> rotate<0,-44.996723,0> translate<14.736000,-1.070000,1.916725> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.767378,-1.070000,4.163600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.767378,-1.070000,4.065994>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.767378,-1.070000,4.065994> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.767394,-1.070000,3.484600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.767394,-1.070000,4.065978>}
-box{<0,0,-0.076200><0.581378,0.070000,0.076200> rotate<0,90.000000,0> translate<14.767394,-1.070000,4.065978> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.767394,-1.070000,3.505200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.865000,-1.070000,3.505200>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<14.767394,-1.070000,3.505200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.767394,-1.070000,3.657600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.865000,-1.070000,3.657600>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<14.767394,-1.070000,3.657600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.767394,-1.070000,3.810000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.865000,-1.070000,3.810000>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<14.767394,-1.070000,3.810000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.767394,-1.070000,3.962400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.865000,-1.070000,3.962400>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<14.767394,-1.070000,3.962400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.767394,-1.070000,4.065978>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.865000,-1.070000,4.065978>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<14.767394,-1.070000,4.065978> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.786800,0.000000,1.457113>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.096913,0.000000,1.147000>}
-box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<14.786800,0.000000,1.457113> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.786800,0.000000,1.895684>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.786800,0.000000,1.457113>}
-box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.786800,0.000000,1.457113> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.786800,0.000000,1.895684>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.096913,0.000000,2.205797>}
-box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,-44.997030,0> translate<14.786800,0.000000,1.895684> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.865000,-1.070000,3.484600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.081231,-1.070000,3.484600>}
-box{<0,0,-0.076200><0.216231,0.070000,0.076200> rotate<0,0.000000,0> translate<14.865000,-1.070000,3.484600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.865000,-1.070000,4.065978>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.865000,-1.070000,3.484600>}
-box{<0,0,-0.076200><0.581378,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.865000,-1.070000,3.484600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.773484,0.000000,1.070800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.973297,0.000000,1.270616>}
+box{<0,0,-0.076200><0.282580,0.070000,0.076200> rotate<0,-44.997478,0> translate<14.773484,0.000000,1.070800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.884737,-1.070000,9.296397>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.940341,-1.070000,9.240797>}
-box{<0,0,-0.076200><0.078632,0.070000,0.076200> rotate<0,44.995420,0> translate<14.884737,-1.070000,9.296397> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.940338,-1.070000,9.240797>}
+box{<0,0,-0.076200><0.078630,0.070000,0.076200> rotate<0,44.997030,0> translate<14.884737,-1.070000,9.296397> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.884737,-1.070000,9.296397>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.940341,-1.070000,9.352000>}
-box{<0,0,-0.076200><0.078635,0.070000,0.076200> rotate<0,-44.997030,0> translate<14.884737,-1.070000,9.296397> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.884741,-1.070000,9.296400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.940338,-1.070000,9.352000>}
+box{<0,0,-0.076200><0.078632,0.070000,0.076200> rotate<0,-44.998640,0> translate<14.884737,-1.070000,9.296397> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.884737,-1.070000,9.296400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.927269,-1.070000,9.296400>}
-box{<0,0,-0.076200><1.042528,0.070000,0.076200> rotate<0,0.000000,0> translate<14.884741,-1.070000,9.296400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.940341,-1.070000,9.240797>}
+box{<0,0,-0.076200><1.042531,0.070000,0.076200> rotate<0,0.000000,0> translate<14.884737,-1.070000,9.296400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.921881,0.000000,1.219200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.024713,0.000000,1.219200>}
+box{<0,0,-0.076200><0.102831,0.070000,0.076200> rotate<0,0.000000,0> translate<14.921881,0.000000,1.219200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.940338,-1.070000,9.240797>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.202972,-1.070000,9.240797>}
-box{<0,0,-0.076200><0.262631,0.070000,0.076200> rotate<0,0.000000,0> translate<14.940341,-1.070000,9.240797> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.940341,-1.070000,9.352000>}
+box{<0,0,-0.076200><0.262634,0.070000,0.076200> rotate<0,0.000000,0> translate<14.940338,-1.070000,9.240797> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.940338,-1.070000,9.352000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.202972,-1.070000,9.352000>}
-box{<0,0,-0.076200><0.262631,0.070000,0.076200> rotate<0,0.000000,0> translate<14.940341,-1.070000,9.352000> }
+box{<0,0,-0.076200><0.262634,0.070000,0.076200> rotate<0,0.000000,0> translate<14.940338,-1.070000,9.352000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.973297,0.000000,1.270616>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.173113,0.000000,1.070800>}
+box{<0,0,-0.076200><0.282582,0.070000,0.076200> rotate<0,44.997030,0> translate<14.973297,0.000000,1.270616> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.987978,0.000000,10.014000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<14.987978,0.000000,9.916394>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,-90.000000,0> translate<14.987978,0.000000,9.916394> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,2.232625>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.027353,-1.070000,2.208075>}
-box{<0,0,-0.076200><0.034721,0.070000,0.076200> rotate<0,44.993384,0> translate<15.002800,-1.070000,2.232625> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,3.406172>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,2.232625>}
-box{<0,0,-0.076200><1.173547,0.070000,0.076200> rotate<0,-90.000000,0> translate<15.002800,-1.070000,2.232625> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.002800,-1.070000,3.406172>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.081231,-1.070000,3.484600>}
-box{<0,0,-0.076200><0.110916,0.070000,0.076200> rotate<0,-44.995889,0> translate<15.002800,-1.070000,3.406172> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.061366,0.000000,7.646613>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.061366,0.000000,7.646581>}
 box{<0,0,-0.076200><0.000031,0.070000,0.076200> rotate<0,-90.000000,0> translate<15.061366,0.000000,7.646581> }
@@ -5221,12 +5350,9 @@ box{<0,0,-0.076200><0.581378,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.085619,0.000000,10.014000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.666997,0.000000,10.014000>}
 box{<0,0,-0.076200><0.581378,0.070000,0.076200> rotate<0,0.000000,0> translate<15.085619,0.000000,10.014000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.096913,0.000000,1.147000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.535484,0.000000,1.147000>}
-box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<15.096913,0.000000,1.147000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.096913,0.000000,2.205797>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.535484,0.000000,2.205797>}
-box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<15.096913,0.000000,2.205797> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.173113,0.000000,1.070800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.611684,0.000000,1.070800>}
+box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<15.173113,0.000000,1.070800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.202972,-1.070000,7.980400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.316200,-1.070000,8.093628>}
 box{<0,0,-0.076200><0.160129,0.070000,0.076200> rotate<0,-44.997030,0> translate<15.202972,-1.070000,7.980400> }
@@ -5257,12 +5383,24 @@ box{<0,0,-0.076200><0.066824,0.070000,0.076200> rotate<0,44.998925,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.363450,-1.070000,9.417975>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.438747,-1.070000,9.374503>}
 box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,29.997566,0> translate<15.363450,-1.070000,9.417975> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.416997,0.000000,2.129597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.416997,0.000000,2.217200>}
+box{<0,0,-0.076200><0.087603,0.070000,0.076200> rotate<0,90.000000,0> translate<15.416997,0.000000,2.217200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.416997,0.000000,2.129597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.611684,0.000000,2.129597>}
+box{<0,0,-0.076200><0.194688,0.070000,0.076200> rotate<0,0.000000,0> translate<15.416997,0.000000,2.129597> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.416997,0.000000,2.133600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,2.133600>}
+box{<0,0,-0.076200><2.689603,0.070000,0.076200> rotate<0,0.000000,0> translate<15.416997,0.000000,2.133600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.416997,0.000000,2.217200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.777131,0.000000,2.217200>}
+box{<0,0,-0.076200><0.360134,0.070000,0.076200> rotate<0,0.000000,0> translate<15.416997,0.000000,2.217200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.429425,-1.070000,7.980400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.795466,-1.070000,7.980400>}
 box{<0,0,-0.076200><0.366041,0.070000,0.076200> rotate<0,0.000000,0> translate<15.429425,-1.070000,7.980400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.429425,-1.070000,9.240797>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.871666,-1.070000,9.240797>}
-box{<0,0,-0.076200><0.442241,0.070000,0.076200> rotate<0,0.000000,0> translate<15.429425,-1.070000,9.240797> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.871663,-1.070000,9.240797>}
+box{<0,0,-0.076200><0.442238,0.070000,0.076200> rotate<0,0.000000,0> translate<15.429425,-1.070000,9.240797> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.438747,-1.070000,9.374503>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.522725,-1.070000,9.352000>}
 box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,14.999808,0> translate<15.438747,-1.070000,9.374503> }
@@ -5275,12 +5413,6 @@ box{<0,0,-0.076200><0.147308,0.070000,0.076200> rotate<0,44.997030,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.522725,-1.070000,9.352000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.767394,-1.070000,9.352000>}
 box{<0,0,-0.076200><0.244669,0.070000,0.076200> rotate<0,0.000000,0> translate<15.522725,-1.070000,9.352000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.535484,0.000000,1.147000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.845597,0.000000,1.457113>}
-box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,-44.997030,0> translate<15.535484,0.000000,1.147000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.535484,0.000000,2.205797>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.845597,0.000000,1.895684>}
-box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<15.535484,0.000000,2.205797> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.535778,0.000000,9.448800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,9.448800>}
 box{<0,0,-0.076200><2.570822,0.070000,0.076200> rotate<0,0.000000,0> translate<15.535778,0.000000,9.448800> }
@@ -5296,12 +5428,12 @@ box{<0,0,-0.076200><0.997587,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.601022,0.000000,9.512450>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.644494,0.000000,9.587747>}
 box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,-59.996495,0> translate<15.601022,0.000000,9.512450> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.607681,0.000000,2.133600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.072800,0.000000,2.133600>}
-box{<0,0,-0.076200><1.465119,0.070000,0.076200> rotate<0,0.000000,0> translate<15.607681,0.000000,2.133600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.607684,0.000000,1.219200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.996600,0.000000,1.219200>}
-box{<0,0,-0.076200><1.388916,0.070000,0.076200> rotate<0,0.000000,0> translate<15.607684,0.000000,1.219200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.611684,0.000000,1.070800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.921797,0.000000,1.380912>}
+box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,-44.997030,0> translate<15.611684,0.000000,1.070800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.611684,0.000000,2.129597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.921797,0.000000,1.819484>}
+box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<15.611684,0.000000,2.129597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.616197,0.000000,8.599466>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.616197,0.000000,9.330931>}
 box{<0,0,-0.076200><0.731466,0.070000,0.076200> rotate<0,90.000000,0> translate<15.616197,0.000000,9.330931> }
@@ -5348,11 +5480,11 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.743572,-1.070000,7.803597>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.936997,-1.070000,7.610172>}
 box{<0,0,-0.076200><0.273544,0.070000,0.076200> rotate<0,44.997030,0> translate<15.743572,-1.070000,7.803597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.760081,0.000000,1.981200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.072800,0.000000,1.981200>}
-box{<0,0,-0.076200><1.312719,0.070000,0.076200> rotate<0,0.000000,0> translate<15.760081,0.000000,1.981200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.760084,0.000000,1.371600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.996600,0.000000,1.371600>}
-box{<0,0,-0.076200><1.236516,0.070000,0.076200> rotate<0,0.000000,0> translate<15.760084,0.000000,1.371600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.548716,0.000000,1.981200>}
+box{<0,0,-0.076200><0.788634,0.070000,0.076200> rotate<0,0.000000,0> translate<15.760081,0.000000,1.981200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.760084,0.000000,1.219200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.548713,0.000000,1.219200>}
+box{<0,0,-0.076200><0.788628,0.070000,0.076200> rotate<0,0.000000,0> translate<15.760084,0.000000,1.219200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.767394,-1.070000,9.352000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.767394,-1.070000,9.933378>}
 box{<0,0,-0.076200><0.581378,0.070000,0.076200> rotate<0,90.000000,0> translate<15.767394,-1.070000,9.933378> }
@@ -5380,27 +5512,9 @@ box{<0,0,-0.076200><0.231458,0.070000,0.076200> rotate<0,-44.997030,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.795466,-1.070000,7.980400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.052800,-1.070000,7.723063>}
 box{<0,0,-0.076200><0.363928,0.070000,0.076200> rotate<0,44.997378,0> translate<15.795466,-1.070000,7.980400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.845597,0.000000,1.457113>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.845597,0.000000,1.895684>}
-box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,90.000000,0> translate<15.845597,0.000000,1.895684> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.845597,0.000000,1.524000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.082119,0.000000,1.524000>}
-box{<0,0,-0.076200><1.236522,0.070000,0.076200> rotate<0,0.000000,0> translate<15.845597,0.000000,1.524000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.845597,0.000000,1.676400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.158313,0.000000,1.676400>}
-box{<0,0,-0.076200><1.312716,0.070000,0.076200> rotate<0,0.000000,0> translate<15.845597,0.000000,1.676400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.845597,0.000000,1.828800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.072800,0.000000,1.828800>}
-box{<0,0,-0.076200><1.227203,0.070000,0.076200> rotate<0,0.000000,0> translate<15.845597,0.000000,1.828800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.845931,0.000000,2.286000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.158316,0.000000,2.286000>}
-box{<0,0,-0.076200><1.312384,0.070000,0.076200> rotate<0,0.000000,0> translate<15.845931,0.000000,2.286000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.857319,-1.070000,1.396997>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.896397,-1.070000,1.436072>}
-box{<0,0,-0.076200><0.055263,0.070000,0.076200> rotate<0,-44.994739,0> translate<15.857319,-1.070000,1.396997> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.857319,-1.070000,1.396997>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.945800,-1.070000,1.396997>}
-box{<0,0,-0.076200><1.088481,0.070000,0.076200> rotate<0,0.000000,0> translate<15.857319,-1.070000,1.396997> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,2.286000>}
+box{<0,0,-0.076200><2.260669,0.070000,0.076200> rotate<0,0.000000,0> translate<15.845931,0.000000,2.286000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.865000,-1.070000,9.352000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.982869,-1.070000,9.352000>}
 box{<0,0,-0.076200><0.117869,0.070000,0.076200> rotate<0,0.000000,0> translate<15.865000,-1.070000,9.352000> }
@@ -5416,9 +5530,9 @@ box{<0,0,-0.076200><0.531378,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.865019,-1.070000,10.031000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.396397,-1.070000,10.031000>}
 box{<0,0,-0.076200><0.531378,0.070000,0.076200> rotate<0,0.000000,0> translate<15.865019,-1.070000,10.031000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.871666,-1.070000,9.240797>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.871663,-1.070000,9.240797>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.982869,-1.070000,9.352000>}
-box{<0,0,-0.076200><0.157265,0.070000,0.076200> rotate<0,-44.997030,0> translate<15.871666,-1.070000,9.240797> }
+box{<0,0,-0.076200><0.157267,0.070000,0.076200> rotate<0,-44.996225,0> translate<15.871663,-1.070000,9.240797> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.873031,-1.070000,6.722663>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.914494,-1.070000,6.650850>}
 box{<0,0,-0.076200><0.082923,0.070000,0.076200> rotate<0,59.995122,0> translate<15.873031,-1.070000,6.722663> }
@@ -5428,18 +5542,24 @@ box{<0,0,-0.076200><0.090459,0.070000,0.076200> rotate<0,-44.995631,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.882884,-1.070000,6.705600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.052800,-1.070000,6.705600>}
 box{<0,0,-0.076200><0.169916,0.070000,0.076200> rotate<0,0.000000,0> translate<15.882884,-1.070000,6.705600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.896397,-1.070000,1.436072>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.896397,-1.070000,1.502256>}
-box{<0,0,-0.076200><0.066184,0.070000,0.076200> rotate<0,90.000000,0> translate<15.896397,-1.070000,1.502256> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.896397,-1.070000,1.502256>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.166397,-1.070000,1.772256>}
-box{<0,0,-0.076200><0.381838,0.070000,0.076200> rotate<0,-44.997030,0> translate<15.896397,-1.070000,1.502256> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.912481,0.000000,1.828800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.396316,0.000000,1.828800>}
+box{<0,0,-0.076200><0.483834,0.070000,0.076200> rotate<0,0.000000,0> translate<15.912481,0.000000,1.828800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.912484,0.000000,1.371600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.396313,0.000000,1.371600>}
+box{<0,0,-0.076200><0.483828,0.070000,0.076200> rotate<0,0.000000,0> translate<15.912484,0.000000,1.371600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.914494,-1.070000,6.650850>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.936997,-1.070000,6.566872>}
 box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,74.994252,0> translate<15.914494,-1.070000,6.650850> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.918141,-1.070000,1.524000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.010278,-1.070000,1.524000>}
-box{<0,0,-0.076200><1.092137,0.070000,0.076200> rotate<0,0.000000,0> translate<15.918141,-1.070000,1.524000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.921797,0.000000,1.380912>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.921797,0.000000,1.819484>}
+box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,90.000000,0> translate<15.921797,0.000000,1.819484> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.921797,0.000000,1.524000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.387000,0.000000,1.524000>}
+box{<0,0,-0.076200><0.465203,0.070000,0.076200> rotate<0,0.000000,0> translate<15.921797,0.000000,1.524000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.921797,0.000000,1.676400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.387000,0.000000,1.676400>}
+box{<0,0,-0.076200><0.465203,0.070000,0.076200> rotate<0,0.000000,0> translate<15.921797,0.000000,1.676400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.927169,-1.070000,7.620000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.052800,-1.070000,7.620000>}
 box{<0,0,-0.076200><0.125631,0.070000,0.076200> rotate<0,0.000000,0> translate<15.927169,-1.070000,7.620000> }
@@ -5483,8 +5603,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.940797,0.000000,2.380866>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.940797,0.000000,7.320134>}
 box{<0,0,-0.076200><4.939269,0.070000,0.076200> rotate<0,90.000000,0> translate<15.940797,0.000000,7.320134> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.940797,0.000000,2.438400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.310716,0.000000,2.438400>}
-box{<0,0,-0.076200><1.369919,0.070000,0.076200> rotate<0,0.000000,0> translate<15.940797,0.000000,2.438400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,2.438400>}
+box{<0,0,-0.076200><2.165803,0.070000,0.076200> rotate<0,0.000000,0> translate<15.940797,0.000000,2.438400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<15.940797,0.000000,2.590800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,2.590800>}
 box{<0,0,-0.076200><2.165803,0.070000,0.076200> rotate<0,0.000000,0> translate<15.940797,0.000000,2.590800> }
@@ -5605,75 +5725,24 @@ box{<0,0,-0.076200><0.614716,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.052800,-1.070000,7.723063>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.052800,-1.070000,6.188134>}
 box{<0,0,-0.076200><1.534928,0.070000,0.076200> rotate<0,-90.000000,0> translate<16.052800,-1.070000,6.188134> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.070541,-1.070000,1.676400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.086472,-1.070000,1.676400>}
-box{<0,0,-0.076200><1.015931,0.070000,0.076200> rotate<0,0.000000,0> translate<16.070541,-1.070000,1.676400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.166397,-1.070000,1.772256>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.166397,-1.070000,2.135828>}
-box{<0,0,-0.076200><0.363572,0.070000,0.076200> rotate<0,90.000000,0> translate<16.166397,-1.070000,2.135828> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.166397,-1.070000,1.828800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.022000,-1.070000,1.828800>}
-box{<0,0,-0.076200><0.855603,0.070000,0.076200> rotate<0,0.000000,0> translate<16.166397,-1.070000,1.828800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.166397,-1.070000,1.981200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.022000,-1.070000,1.981200>}
-box{<0,0,-0.076200><0.855603,0.070000,0.076200> rotate<0,0.000000,0> translate<16.166397,-1.070000,1.981200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.166397,-1.070000,2.133600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.601825,-1.070000,2.133600>}
-box{<0,0,-0.076200><0.435428,0.070000,0.076200> rotate<0,0.000000,0> translate<16.166397,-1.070000,2.133600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.166397,-1.070000,2.135828>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,2.232625>}
-box{<0,0,-0.076200><0.136894,0.070000,0.076200> rotate<0,-44.996105,0> translate<16.166397,-1.070000,2.135828> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.184766,-1.070000,3.484600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.202972,-1.070000,3.484600>}
-box{<0,0,-0.076200><0.018206,0.070000,0.076200> rotate<0,0.000000,0> translate<16.184766,-1.070000,3.484600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.184766,-1.070000,3.484600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,3.406172>}
-box{<0,0,-0.076200><0.110916,0.070000,0.076200> rotate<0,44.995889,0> translate<16.184766,-1.070000,3.484600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.202972,-1.070000,3.484600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.306797,-1.070000,3.588428>}
-box{<0,0,-0.076200><0.146833,0.070000,0.076200> rotate<0,-44.997892,0> translate<16.202972,-1.070000,3.484600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.223569,-1.070000,3.505200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.390025,-1.070000,3.505200>}
-box{<0,0,-0.076200><0.166456,0.070000,0.076200> rotate<0,0.000000,0> translate<16.223569,-1.070000,3.505200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,2.232625>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,3.406172>}
-box{<0,0,-0.076200><1.173547,0.070000,0.076200> rotate<0,90.000000,0> translate<16.263197,-1.070000,3.406172> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,2.286000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,2.286000>}
-box{<0,0,-0.076200><0.239603,0.070000,0.076200> rotate<0,0.000000,0> translate<16.263197,-1.070000,2.286000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,2.438400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,2.438400>}
-box{<0,0,-0.076200><0.239603,0.070000,0.076200> rotate<0,0.000000,0> translate<16.263197,-1.070000,2.438400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,2.590800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,2.590800>}
-box{<0,0,-0.076200><0.239603,0.070000,0.076200> rotate<0,0.000000,0> translate<16.263197,-1.070000,2.590800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,2.743200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,2.743200>}
-box{<0,0,-0.076200><0.239603,0.070000,0.076200> rotate<0,0.000000,0> translate<16.263197,-1.070000,2.743200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,2.895600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,2.895600>}
-box{<0,0,-0.076200><0.239603,0.070000,0.076200> rotate<0,0.000000,0> translate<16.263197,-1.070000,2.895600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,3.048000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,3.048000>}
-box{<0,0,-0.076200><0.239603,0.070000,0.076200> rotate<0,0.000000,0> translate<16.263197,-1.070000,3.048000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,3.200400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,3.200400>}
-box{<0,0,-0.076200><0.239603,0.070000,0.076200> rotate<0,0.000000,0> translate<16.263197,-1.070000,3.200400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.263197,-1.070000,3.352800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,3.352800>}
-box{<0,0,-0.076200><0.239603,0.070000,0.076200> rotate<0,0.000000,0> translate<16.263197,-1.070000,3.352800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.306797,-1.070000,3.588428>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.410625,-1.070000,3.484600>}
-box{<0,0,-0.076200><0.146835,0.070000,0.076200> rotate<0,44.997030,0> translate<16.306797,-1.070000,3.588428> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.384991,-1.070000,9.596159>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.384988,-1.070000,9.596156>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.396397,-1.070000,9.638725>}
-box{<0,0,-0.076200><0.044067,0.070000,0.076200> rotate<0,-74.994014,0> translate<16.384991,-1.070000,9.596159> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.384991,-1.070000,9.596159>}
+box{<0,0,-0.076200><0.044071,0.070000,0.076200> rotate<0,-74.991142,0> translate<16.384988,-1.070000,9.596156> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.384988,-1.070000,9.596156>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.410625,-1.070000,9.621797>}
-box{<0,0,-0.076200><0.036255,0.070000,0.076200> rotate<0,-45.000522,0> translate<16.384991,-1.070000,9.596159> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.386341,-1.070000,9.601200>}
+box{<0,0,-0.076200><0.036259,0.070000,0.076200> rotate<0,-45.000522,0> translate<16.384988,-1.070000,9.596156> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.386337,-1.070000,9.601200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.390031,-1.070000,9.601200>}
-box{<0,0,-0.076200><0.003691,0.070000,0.076200> rotate<0,0.000000,0> translate<16.386341,-1.070000,9.601200> }
+box{<0,0,-0.076200><0.003694,0.070000,0.076200> rotate<0,0.000000,0> translate<16.386337,-1.070000,9.601200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.387000,0.000000,1.380912>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.697112,0.000000,1.070800>}
+box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<16.387000,0.000000,1.380912> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.387000,0.000000,1.819484>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.387000,0.000000,1.380912>}
+box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,-90.000000,0> translate<16.387000,0.000000,1.380912> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.387000,0.000000,1.819484>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.697112,0.000000,2.129597>}
+box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,-44.997030,0> translate<16.387000,0.000000,1.819484> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.396397,-1.070000,9.638725>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.396397,-1.070000,9.933394>}
 box{<0,0,-0.076200><0.294669,0.070000,0.076200> rotate<0,90.000000,0> translate<16.396397,-1.070000,9.933394> }
@@ -5692,30 +5761,21 @@ box{<0,0,-0.076200><2.378203,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.396397,-1.070000,10.109200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.774600,-1.070000,10.109200>}
 box{<0,0,-0.076200><2.378203,0.070000,0.076200> rotate<0,0.000000,0> translate<16.396397,-1.070000,10.109200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.410625,-1.070000,3.484600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.581231,-1.070000,3.484600>}
-box{<0,0,-0.076200><0.170606,0.070000,0.076200> rotate<0,0.000000,0> translate<16.410625,-1.070000,3.484600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.410625,-1.070000,9.621797>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.184172,-1.070000,9.621797>}
 box{<0,0,-0.076200><0.773547,0.070000,0.076200> rotate<0,0.000000,0> translate<16.410625,-1.070000,9.621797> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,2.232625>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.696225,-1.070000,2.039200>}
-box{<0,0,-0.076200><0.273544,0.070000,0.076200> rotate<0,44.997030,0> translate<16.502800,-1.070000,2.232625> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,3.406172>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,2.232625>}
-box{<0,0,-0.076200><1.173547,0.070000,0.076200> rotate<0,-90.000000,0> translate<16.502800,-1.070000,2.232625> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.502800,-1.070000,3.406172>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.581231,-1.070000,3.484600>}
-box{<0,0,-0.076200><0.110916,0.070000,0.076200> rotate<0,-44.995889,0> translate<16.502800,-1.070000,3.406172> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.592713,0.000000,8.578397>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.697112,0.000000,8.682797>}
 box{<0,0,-0.076200><0.147644,0.070000,0.076200> rotate<0,-44.997030,0> translate<16.592713,0.000000,8.578397> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.606313,0.000000,7.714800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.697112,0.000000,7.624000>}
 box{<0,0,-0.076200><0.128411,0.070000,0.076200> rotate<0,44.997030,0> translate<16.606313,0.000000,7.714800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.696225,-1.070000,2.039200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.022000,-1.070000,2.039200>}
-box{<0,0,-0.076200><0.325775,0.070000,0.076200> rotate<0,0.000000,0> translate<16.696225,-1.070000,2.039200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.697112,0.000000,1.070800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.996600,0.000000,1.070800>}
+box{<0,0,-0.076200><0.299488,0.070000,0.076200> rotate<0,0.000000,0> translate<16.697112,0.000000,1.070800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.697112,0.000000,2.129597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.135684,0.000000,2.129597>}
+box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<16.697112,0.000000,2.129597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.697112,0.000000,7.624000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.135684,0.000000,7.624000>}
 box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<16.697112,0.000000,7.624000> }
@@ -5732,14 +5792,14 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.865597,-1.070000,5.943600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,5.943600>}
 box{<0,0,-0.076200><1.401803,0.070000,0.076200> rotate<0,0.000000,0> translate<16.865597,-1.070000,5.943600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.865597,-1.070000,6.096000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.279388,-1.070000,6.096000>}
-box{<0,0,-0.076200><1.413791,0.070000,0.076200> rotate<0,0.000000,0> translate<16.865597,-1.070000,6.096000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.279028,-1.070000,6.096000>}
+box{<0,0,-0.076200><1.413431,0.070000,0.076200> rotate<0,0.000000,0> translate<16.865597,-1.070000,6.096000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.865597,-1.070000,6.248400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.371228,-1.070000,6.248400>}
-box{<0,0,-0.076200><1.505631,0.070000,0.076200> rotate<0,0.000000,0> translate<16.865597,-1.070000,6.248400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.331325,-1.070000,6.248400>}
+box{<0,0,-0.076200><1.465728,0.070000,0.076200> rotate<0,0.000000,0> translate<16.865597,-1.070000,6.248400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.865597,-1.070000,6.400800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.279384,-1.070000,6.400800>}
-box{<0,0,-0.076200><1.413787,0.070000,0.076200> rotate<0,0.000000,0> translate<16.865597,-1.070000,6.400800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.268291,-1.070000,6.400800>}
+box{<0,0,-0.076200><1.402694,0.070000,0.076200> rotate<0,0.000000,0> translate<16.865597,-1.070000,6.400800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.865597,-1.070000,6.553200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,6.553200>}
 box{<0,0,-0.076200><1.401803,0.070000,0.076200> rotate<0,0.000000,0> translate<16.865597,-1.070000,6.553200> }
@@ -5752,36 +5812,30 @@ box{<0,0,-0.076200><1.397375,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.870025,-1.070000,6.593200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,6.593200>}
 box{<0,0,-0.076200><1.397375,0.070000,0.076200> rotate<0,0.000000,0> translate<16.870025,-1.070000,6.593200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.945800,-1.070000,1.459525>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.945800,-1.070000,1.396997>}
-box{<0,0,-0.076200><0.062528,0.070000,0.076200> rotate<0,-90.000000,0> translate<16.945800,-1.070000,1.396997> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.945800,-1.070000,1.459525>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.124575,-1.070000,1.638297>}
-box{<0,0,-0.076200><0.252824,0.070000,0.076200> rotate<0,-44.996529,0> translate<16.945800,-1.070000,1.459525> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.996600,0.000000,0.999913>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.306712,0.000000,0.689800>}
 box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<16.996600,0.000000,0.999913> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.996600,0.000000,1.438484>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.996600,0.000000,1.070800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.996600,0.000000,0.999913>}
-box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,-90.000000,0> translate<16.996600,0.000000,0.999913> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<16.996600,0.000000,1.438484>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.196416,0.000000,1.638297>}
-box{<0,0,-0.076200><0.282580,0.070000,0.076200> rotate<0,-44.996582,0> translate<16.996600,0.000000,1.438484> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.022000,-1.070000,1.740872>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.124575,-1.070000,1.638297>}
-box{<0,0,-0.076200><0.145063,0.070000,0.076200> rotate<0,44.997030,0> translate<17.022000,-1.070000,1.740872> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.022000,-1.070000,2.039200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.022000,-1.070000,1.740872>}
-box{<0,0,-0.076200><0.298328,0.070000,0.076200> rotate<0,-90.000000,0> translate<17.022000,-1.070000,1.740872> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.072800,0.000000,1.761912>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.196416,0.000000,1.638297>}
-box{<0,0,-0.076200><0.174819,0.070000,0.076200> rotate<0,44.997030,0> translate<17.072800,0.000000,1.761912> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.072800,0.000000,2.200484>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.072800,0.000000,1.761912>}
-box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,-90.000000,0> translate<17.072800,0.000000,1.761912> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.072800,0.000000,2.200484>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.382912,0.000000,2.510597>}
-box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,-44.997030,0> translate<17.072800,0.000000,2.200484> }
+box{<0,0,-0.076200><0.070887,0.070000,0.076200> rotate<0,-90.000000,0> translate<16.996600,0.000000,0.999913> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.001197,-1.070000,2.692397>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.001197,-1.070000,2.835656>}
+box{<0,0,-0.076200><0.143259,0.070000,0.076200> rotate<0,90.000000,0> translate<17.001197,-1.070000,2.835656> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.001197,-1.070000,2.692397>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,2.692397>}
+box{<0,0,-0.076200><2.019803,0.070000,0.076200> rotate<0,0.000000,0> translate<17.001197,-1.070000,2.692397> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.001197,-1.070000,2.743200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,2.743200>}
+box{<0,0,-0.076200><2.019803,0.070000,0.076200> rotate<0,0.000000,0> translate<17.001197,-1.070000,2.743200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.001197,-1.070000,2.835656>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.061141,-1.070000,2.895600>}
+box{<0,0,-0.076200><0.084773,0.070000,0.076200> rotate<0,-44.997030,0> translate<17.001197,-1.070000,2.835656> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.061141,-1.070000,2.895600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.582541,-1.070000,2.895600>}
+box{<0,0,-0.076200><0.521400,0.070000,0.076200> rotate<0,0.000000,0> translate<17.061141,-1.070000,2.895600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.135684,0.000000,2.129597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.445797,0.000000,1.819484>}
+box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,44.997030,0> translate<17.135684,0.000000,2.129597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.135684,0.000000,7.624000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.445797,0.000000,7.934113>}
 box{<0,0,-0.076200><0.438565,0.070000,0.076200> rotate<0,-44.997030,0> translate<17.135684,0.000000,7.624000> }
@@ -5794,6 +5848,9 @@ box{<0,0,-0.076200><0.160127,0.070000,0.076200> rotate<0,44.997821,0> translate<
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.204769,-1.070000,9.601200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.390028,-1.070000,9.601200>}
 box{<0,0,-0.076200><0.185259,0.070000,0.076200> rotate<0,0.000000,0> translate<17.204769,-1.070000,9.601200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.284081,0.000000,1.981200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,1.981200>}
+box{<0,0,-0.076200><0.822519,0.070000,0.076200> rotate<0,0.000000,0> translate<17.284081,0.000000,1.981200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.284081,0.000000,8.534400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,8.534400>}
 box{<0,0,-0.076200><0.822519,0.070000,0.076200> rotate<0,0.000000,0> translate<17.284081,0.000000,8.534400> }
@@ -5806,18 +5863,24 @@ box{<0,0,-0.076200><0.160129,0.070000,0.076200> rotate<0,-44.997030,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.306712,0.000000,0.689800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.611512,0.000000,0.689800>}
 box{<0,0,-0.076200><0.304800,0.070000,0.076200> rotate<0,0.000000,0> translate<17.306712,0.000000,0.689800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.382912,0.000000,2.510597>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.821484,0.000000,2.510597>}
-box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,0.000000,0> translate<17.382912,0.000000,2.510597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.410625,-1.070000,9.621797>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.184172,-1.070000,9.621797>}
 box{<0,0,-0.076200><0.773547,0.070000,0.076200> rotate<0,0.000000,0> translate<17.410625,-1.070000,9.621797> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.436481,0.000000,1.828800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,1.828800>}
+box{<0,0,-0.076200><0.670119,0.070000,0.076200> rotate<0,0.000000,0> translate<17.436481,0.000000,1.828800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.436481,0.000000,8.382000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,8.382000>}
 box{<0,0,-0.076200><0.670119,0.070000,0.076200> rotate<0,0.000000,0> translate<17.436481,0.000000,8.382000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.436484,0.000000,7.924800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,7.924800>}
 box{<0,0,-0.076200><0.670116,0.070000,0.076200> rotate<0,0.000000,0> translate<17.436484,0.000000,7.924800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.445797,0.000000,1.748597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.445797,0.000000,1.819484>}
+box{<0,0,-0.076200><0.070887,0.070000,0.076200> rotate<0,90.000000,0> translate<17.445797,0.000000,1.819484> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.445797,0.000000,1.748597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.745284,0.000000,1.748597>}
+box{<0,0,-0.076200><0.299488,0.070000,0.076200> rotate<0,0.000000,0> translate<17.445797,0.000000,1.748597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.445797,0.000000,7.934113>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.445797,0.000000,8.372684>}
 box{<0,0,-0.076200><0.438572,0.070000,0.076200> rotate<0,90.000000,0> translate<17.445797,0.000000,8.372684> }
@@ -5827,150 +5890,162 @@ box{<0,0,-0.076200><0.660803,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.445797,0.000000,8.229600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,8.229600>}
 box{<0,0,-0.076200><0.660803,0.070000,0.076200> rotate<0,0.000000,0> translate<17.445797,0.000000,8.229600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.582541,-1.070000,2.895600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.894997,-1.070000,3.208056>}
+box{<0,0,-0.076200><0.441880,0.070000,0.076200> rotate<0,-44.997030,0> translate<17.582541,-1.070000,2.895600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.582541,-1.070000,2.895600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,2.895600>}
+box{<0,0,-0.076200><1.438459,0.070000,0.076200> rotate<0,0.000000,0> translate<17.582541,-1.070000,2.895600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.611512,0.000000,0.689800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.916313,0.000000,0.385000>}
 box{<0,0,-0.076200><0.431052,0.070000,0.076200> rotate<0,44.997030,0> translate<17.611512,0.000000,0.689800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.821484,0.000000,2.510597>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,2.225481>}
-box{<0,0,-0.076200><0.403214,0.070000,0.076200> rotate<0,44.997030,0> translate<17.821484,0.000000,2.510597> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.893681,0.000000,2.438400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,2.438400>}
-box{<0,0,-0.076200><0.212919,0.070000,0.076200> rotate<0,0.000000,0> translate<17.893681,0.000000,2.438400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.734941,-1.070000,3.048000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,3.048000>}
+box{<0,0,-0.076200><1.286059,0.070000,0.076200> rotate<0,0.000000,0> translate<17.734941,-1.070000,3.048000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.745284,0.000000,1.748597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.050084,0.000000,1.443797>}
+box{<0,0,-0.076200><0.431052,0.070000,0.076200> rotate<0,44.997030,0> translate<17.745284,0.000000,1.748597> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.817481,0.000000,1.676400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,1.676400>}
+box{<0,0,-0.076200><0.289119,0.070000,0.076200> rotate<0,0.000000,0> translate<17.817481,0.000000,1.676400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.887341,-1.070000,3.200400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.396625,-1.070000,3.200400>}
+box{<0,0,-0.076200><0.509284,0.070000,0.076200> rotate<0,0.000000,0> translate<17.887341,-1.070000,3.200400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.894997,-1.070000,3.208056>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.171541,-1.070000,3.484600>}
+box{<0,0,-0.076200><0.391092,0.070000,0.076200> rotate<0,-44.997030,0> translate<17.894997,-1.070000,3.208056> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.916313,0.000000,0.385000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,0.385000>}
 box{<0,0,-0.076200><0.190288,0.070000,0.076200> rotate<0,0.000000,0> translate<17.916313,0.000000,0.385000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.013197,-1.070000,8.145397>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.013197,-1.070000,8.361400>}
-box{<0,0,-0.076200><0.216003,0.070000,0.076200> rotate<0,90.000000,0> translate<18.013197,-1.070000,8.361400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.013197,-1.070000,8.145397>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.287025,-1.070000,8.145397>}
-box{<0,0,-0.076200><0.273828,0.070000,0.076200> rotate<0,0.000000,0> translate<18.013197,-1.070000,8.145397> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.013197,-1.070000,8.229600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.371228,-1.070000,8.229600>}
-box{<0,0,-0.076200><0.358031,0.070000,0.076200> rotate<0,0.000000,0> translate<18.013197,-1.070000,8.229600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.013197,-1.070000,8.361400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.184172,-1.070000,8.361400>}
-box{<0,0,-0.076200><0.170975,0.070000,0.076200> rotate<0,0.000000,0> translate<18.013197,-1.070000,8.361400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.046081,0.000000,2.286000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,2.286000>}
-box{<0,0,-0.076200><0.060519,0.070000,0.076200> rotate<0,0.000000,0> translate<18.046081,0.000000,2.286000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<17.969881,0.000000,1.524000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,1.524000>}
+box{<0,0,-0.076200><0.136719,0.070000,0.076200> rotate<0,0.000000,0> translate<17.969881,0.000000,1.524000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.039741,-1.070000,3.352800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,3.352800>}
+box{<0,0,-0.076200><0.227659,0.070000,0.076200> rotate<0,0.000000,0> translate<18.039741,-1.070000,3.352800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.050084,0.000000,1.443797>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,1.443797>}
+box{<0,0,-0.076200><0.056516,0.070000,0.076200> rotate<0,0.000000,0> translate<18.050084,0.000000,1.443797> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,0.385000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,0.330197>}
 box{<0,0,-0.076200><0.054803,0.070000,0.076200> rotate<0,-90.000000,0> translate<18.106600,0.000000,0.330197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,10.160000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,2.225481>}
-box{<0,0,-0.076200><7.934519,0.070000,0.076200> rotate<0,-90.000000,0> translate<18.106600,0.000000,2.225481> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.184172,-1.070000,8.361400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.377597,-1.070000,8.554825>}
-box{<0,0,-0.076200><0.273544,0.070000,0.076200> rotate<0,-44.997030,0> translate<18.184172,-1.070000,8.361400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.106600,0.000000,1.443797>}
+box{<0,0,-0.076200><8.716203,0.070000,0.076200> rotate<0,-90.000000,0> translate<18.106600,0.000000,1.443797> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.171541,-1.070000,3.484600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.184172,-1.070000,3.484600>}
+box{<0,0,-0.076200><0.012631,0.070000,0.076200> rotate<0,0.000000,0> translate<18.171541,-1.070000,3.484600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.184172,-1.070000,3.484600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,3.567831>}
+box{<0,0,-0.076200><0.117705,0.070000,0.076200> rotate<0,-44.998106,0> translate<18.184172,-1.070000,3.484600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.184172,-1.070000,9.621797>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.377597,-1.070000,9.428372>}
 box{<0,0,-0.076200><0.273544,0.070000,0.076200> rotate<0,44.997030,0> translate<18.184172,-1.070000,9.621797> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.204769,-1.070000,3.505200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,3.505200>}
+box{<0,0,-0.076200><0.062631,0.070000,0.076200> rotate<0,0.000000,0> translate<18.204769,-1.070000,3.505200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.204769,-1.070000,9.601200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.915272,-1.070000,9.601200>}
 box{<0,0,-0.076200><0.710503,0.070000,0.076200> rotate<0,0.000000,0> translate<18.204769,-1.070000,9.601200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.204772,-1.070000,8.382000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,8.382000>}
-box{<0,0,-0.076200><0.816228,0.070000,0.076200> rotate<0,0.000000,0> translate<18.204772,-1.070000,8.382000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,6.051272>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,3.329625>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.460825,-1.070000,3.136200>}
+box{<0,0,-0.076200><0.273544,0.070000,0.076200> rotate<0,44.997030,0> translate<18.267400,-1.070000,3.329625> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,3.567831>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,3.329625>}
+box{<0,0,-0.076200><0.238206,0.070000,0.076200> rotate<0,-90.000000,0> translate<18.267400,-1.070000,3.329625> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,6.084372>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,5.903597>}
-box{<0,0,-0.076200><0.147675,0.070000,0.076200> rotate<0,-90.000000,0> translate<18.267400,-1.070000,5.903597> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,6.051272>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.289903,-1.070000,6.135250>}
-box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,-74.994252,0> translate<18.267400,-1.070000,6.051272> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,6.445525>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.289903,-1.070000,6.361547>}
-box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,74.994252,0> translate<18.267400,-1.070000,6.445525> }
+box{<0,0,-0.076200><0.180775,0.070000,0.076200> rotate<0,-90.000000,0> translate<18.267400,-1.070000,5.903597> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,6.084372>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.380628,-1.070000,6.197600>}
+box{<0,0,-0.076200><0.160129,0.070000,0.076200> rotate<0,-44.997030,0> translate<18.267400,-1.070000,6.084372> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,6.404125>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.289903,-1.070000,6.320147>}
+box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,74.994252,0> translate<18.267400,-1.070000,6.404125> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,6.593200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,6.445525>}
-box{<0,0,-0.076200><0.147675,0.070000,0.076200> rotate<0,-90.000000,0> translate<18.267400,-1.070000,6.445525> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.287025,-1.070000,8.145397>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.460825,-1.070000,8.319197>}
-box{<0,0,-0.076200><0.245790,0.070000,0.076200> rotate<0,-44.997030,0> translate<18.287025,-1.070000,8.145397> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.289903,-1.070000,6.135250>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.333375,-1.070000,6.210547>}
-box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,-59.996495,0> translate<18.289903,-1.070000,6.135250> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.289903,-1.070000,6.361547>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.333375,-1.070000,6.286250>}
-box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,59.996495,0> translate<18.289903,-1.070000,6.361547> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.333375,-1.070000,6.210547>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.371228,-1.070000,6.248400>}
-box{<0,0,-0.076200><0.053532,0.070000,0.076200> rotate<0,-44.997030,0> translate<18.333375,-1.070000,6.210547> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.333375,-1.070000,6.286250>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.371228,-1.070000,6.248400>}
-box{<0,0,-0.076200><0.053530,0.070000,0.076200> rotate<0,44.994665,0> translate<18.333375,-1.070000,6.286250> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.267400,-1.070000,6.404125>}
+box{<0,0,-0.076200><0.189075,0.070000,0.076200> rotate<0,-90.000000,0> translate<18.267400,-1.070000,6.404125> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.289903,-1.070000,6.320147>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.333375,-1.070000,6.244850>}
+box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,59.996495,0> translate<18.289903,-1.070000,6.320147> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.333375,-1.070000,6.244850>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.380628,-1.070000,6.197600>}
+box{<0,0,-0.076200><0.066824,0.070000,0.076200> rotate<0,44.995136,0> translate<18.333375,-1.070000,6.244850> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.357169,-1.070000,9.448800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,9.448800>}
 box{<0,0,-0.076200><0.663831,0.070000,0.076200> rotate<0,0.000000,0> translate<18.357169,-1.070000,9.448800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.357172,-1.070000,8.534400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,8.534400>}
-box{<0,0,-0.076200><0.663828,0.070000,0.076200> rotate<0,0.000000,0> translate<18.357172,-1.070000,8.534400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.377597,-1.070000,8.554825>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.377597,-1.070000,9.175766>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.377597,-1.070000,9.428372>}
-box{<0,0,-0.076200><0.873547,0.070000,0.076200> rotate<0,90.000000,0> translate<18.377597,-1.070000,9.428372> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.377597,-1.070000,8.686800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,8.686800>}
-box{<0,0,-0.076200><0.643403,0.070000,0.076200> rotate<0,0.000000,0> translate<18.377597,-1.070000,8.686800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.377597,-1.070000,8.839200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,8.839200>}
-box{<0,0,-0.076200><0.643403,0.070000,0.076200> rotate<0,0.000000,0> translate<18.377597,-1.070000,8.839200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.377597,-1.070000,8.991600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,8.991600>}
-box{<0,0,-0.076200><0.643403,0.070000,0.076200> rotate<0,0.000000,0> translate<18.377597,-1.070000,8.991600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.377597,-1.070000,9.144000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,9.144000>}
-box{<0,0,-0.076200><0.643403,0.070000,0.076200> rotate<0,0.000000,0> translate<18.377597,-1.070000,9.144000> }
+box{<0,0,-0.076200><0.252606,0.070000,0.076200> rotate<0,90.000000,0> translate<18.377597,-1.070000,9.428372> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.377597,-1.070000,9.175766>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.460825,-1.070000,9.258997>}
+box{<0,0,-0.076200><0.117705,0.070000,0.076200> rotate<0,-44.998106,0> translate<18.377597,-1.070000,9.175766> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.377597,-1.070000,9.296400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,9.296400>}
 box{<0,0,-0.076200><0.643403,0.070000,0.076200> rotate<0,0.000000,0> translate<18.377597,-1.070000,9.296400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.460825,-1.070000,8.319197>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,8.319197>}
-box{<0,0,-0.076200><0.560175,0.070000,0.076200> rotate<0,0.000000,0> translate<18.460825,-1.070000,8.319197> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.460825,-1.070000,3.136200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,3.136200>}
+box{<0,0,-0.076200><0.560175,0.070000,0.076200> rotate<0,0.000000,0> translate<18.460825,-1.070000,3.136200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.460825,-1.070000,9.258997>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,9.258997>}
+box{<0,0,-0.076200><0.560175,0.070000,0.076200> rotate<0,0.000000,0> translate<18.460825,-1.070000,9.258997> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.774600,-1.070000,9.741872>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,9.495475>}
 box{<0,0,-0.076200><0.348460,0.070000,0.076200> rotate<0,44.996667,0> translate<18.774600,-1.070000,9.741872> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.774600,-1.070000,10.109200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.774600,-1.070000,9.741872>}
 box{<0,0,-0.076200><0.367328,0.070000,0.076200> rotate<0,-90.000000,0> translate<18.774600,-1.070000,9.741872> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,5.806619>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,6.337997>}
-box{<0,0,-0.076200><0.531378,0.070000,0.076200> rotate<0,90.000000,0> translate<18.848794,-1.070000,6.337997> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,5.806619>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,5.806619>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,5.806619> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,5.943600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,5.943600>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,5.943600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,6.096000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,6.096000>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,6.096000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,6.248400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,6.248400>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,6.248400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,6.337997>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,6.690178>}
-box{<0,0,-0.076200><0.352181,0.070000,0.076200> rotate<0,90.000000,0> translate<18.848794,-1.070000,6.690178> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,6.400800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,6.400800>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,6.400800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,6.553200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,6.553200>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,6.553200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,6.690178>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,6.690178>}
-box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,6.690178> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,6.690178>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,5.806619>}
-box{<0,0,-0.076200><0.883559,0.070000,0.076200> rotate<0,-90.000000,0> translate<18.946400,-1.070000,5.806619> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,6.746419>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,7.098597>}
+box{<0,0,-0.076200><0.352178,0.070000,0.076200> rotate<0,90.000000,0> translate<18.848794,-1.070000,7.098597> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,6.746419>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,6.746419>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,6.746419> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,6.858000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,6.858000>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,6.858000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,7.010400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,7.010400>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,7.010400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,7.098597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,7.629978>}
+box{<0,0,-0.076200><0.531381,0.070000,0.076200> rotate<0,90.000000,0> translate<18.848794,-1.070000,7.629978> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,7.162800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,7.162800>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,7.162800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,7.315200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,7.315200>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,7.315200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,7.467600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,7.467600>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,7.467600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,7.620000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,7.620000>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,7.620000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.848794,-1.070000,7.629978>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,7.629978>}
+box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,0.000000,0> translate<18.848794,-1.070000,7.629978> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,7.629978>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<18.946400,-1.070000,6.746419>}
+box{<0,0,-0.076200><0.883559,0.070000,0.076200> rotate<0,-90.000000,0> translate<18.946400,-1.070000,6.746419> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,3.136200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,2.692397>}
+box{<0,0,-0.076200><0.443803,0.070000,0.076200> rotate<0,-90.000000,0> translate<19.021000,-1.070000,2.692397> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,9.495475>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,8.319197>}
-box{<0,0,-0.076200><1.176278,0.070000,0.076200> rotate<0,-90.000000,0> translate<19.021000,-1.070000,8.319197> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.126200,0.000000,1.621597>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.021000,-1.070000,9.258997>}
+box{<0,0,-0.076200><0.236478,0.070000,0.076200> rotate<0,-90.000000,0> translate<19.021000,-1.070000,9.258997> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.126200,0.000000,1.261038>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.126200,0.000000,9.533959>}
-box{<0,0,-0.076200><7.912363,0.070000,0.076200> rotate<0,90.000000,0> translate<19.126200,0.000000,9.533959> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.126200,0.000000,1.621597>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.476841,0.000000,1.621597>}
-box{<0,0,-0.076200><0.350641,0.070000,0.076200> rotate<0,0.000000,0> translate<19.126200,0.000000,1.621597> }
+box{<0,0,-0.076200><8.272922,0.070000,0.076200> rotate<0,90.000000,0> translate<19.126200,0.000000,9.533959> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.126200,0.000000,1.261038>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.156556,0.000000,1.291397>}
+box{<0,0,-0.076200><0.042932,0.070000,0.076200> rotate<0,-44.999979,0> translate<19.126200,0.000000,1.261038> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.126200,0.000000,1.371600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<23.651809,0.000000,1.371600>}
+box{<0,0,-0.076200><4.525609,0.070000,0.076200> rotate<0,0.000000,0> translate<19.126200,0.000000,1.371600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.126200,0.000000,1.524000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<23.651300,0.000000,1.524000>}
+box{<0,0,-0.076200><4.525100,0.070000,0.076200> rotate<0,0.000000,0> translate<19.126200,0.000000,1.524000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.126200,0.000000,1.676400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<23.650791,0.000000,1.676400>}
 box{<0,0,-0.076200><4.524591,0.070000,0.076200> rotate<0,0.000000,0> translate<19.126200,0.000000,1.676400> }
@@ -6130,63 +6205,57 @@ box{<0,0,-0.076200><4.498600,0.070000,0.076200> rotate<0,0.000000,0> translate<1
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.126200,0.000000,9.533959>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.156556,0.000000,9.503600>}
 box{<0,0,-0.076200><0.042932,0.070000,0.076200> rotate<0,44.999979,0> translate<19.126200,0.000000,9.533959> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.156556,0.000000,1.291397>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.553041,0.000000,1.291397>}
+box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,0.000000,0> translate<19.156556,0.000000,1.291397> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.156556,0.000000,9.503600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.553041,0.000000,9.503600>}
 box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,0.000000,0> translate<19.156556,0.000000,9.503600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.218834,0.000000,0.330197>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.223797,0.000000,0.335156>}
-box{<0,0,-0.076200><0.007016,0.070000,0.076200> rotate<0,-44.978985,0> translate<19.218834,0.000000,0.330197> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.222838,0.000000,0.334200>}
+box{<0,0,-0.076200><0.005661,0.070000,0.076200> rotate<0,-44.997030,0> translate<19.218834,0.000000,0.330197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.218834,0.000000,0.330197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.699600,0.000000,0.330197>}
 box{<0,0,-0.076200><2.480766,0.070000,0.076200> rotate<0,0.000000,0> translate<19.218834,0.000000,0.330197> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.223797,0.000000,0.335156>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.223797,0.000000,0.664400>}
-box{<0,0,-0.076200><0.329244,0.070000,0.076200> rotate<0,90.000000,0> translate<19.223797,0.000000,0.664400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.223797,0.000000,0.457200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.699600,0.000000,0.457200>}
-box{<0,0,-0.076200><2.475803,0.070000,0.076200> rotate<0,0.000000,0> translate<19.223797,0.000000,0.457200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.223797,0.000000,0.609600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.699600,0.000000,0.609600>}
-box{<0,0,-0.076200><2.475803,0.070000,0.076200> rotate<0,0.000000,0> translate<19.223797,0.000000,0.609600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.223797,0.000000,0.664400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.476841,0.000000,0.664400>}
-box{<0,0,-0.076200><0.253044,0.070000,0.076200> rotate<0,0.000000,0> translate<19.223797,0.000000,0.664400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.476841,0.000000,0.664400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.757197,0.000000,0.944756>}
-box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,-44.997030,0> translate<19.476841,0.000000,0.664400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.476841,0.000000,1.621597>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.757197,0.000000,1.341241>}
-box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,44.997030,0> translate<19.476841,0.000000,1.621597> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.222838,0.000000,0.334200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.553041,0.000000,0.334200>}
+box{<0,0,-0.076200><0.330203,0.070000,0.076200> rotate<0,0.000000,0> translate<19.222838,0.000000,0.334200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.553041,0.000000,0.334200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.833397,0.000000,0.614556>}
+box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,-44.997030,0> translate<19.553041,0.000000,0.334200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.553041,0.000000,1.291397>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.833397,0.000000,1.011041>}
+box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,44.997030,0> translate<19.553041,0.000000,1.291397> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.553041,0.000000,9.503600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.697700,0.000000,9.648259>}
 box{<0,0,-0.076200><0.204579,0.070000,0.076200> rotate<0,-44.997030,0> translate<19.553041,0.000000,9.503600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.574438,0.000000,1.524000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<23.651300,0.000000,1.524000>}
-box{<0,0,-0.076200><4.076863,0.070000,0.076200> rotate<0,0.000000,0> translate<19.574438,0.000000,1.524000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.574441,0.000000,0.762000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.699600,0.000000,0.762000>}
-box{<0,0,-0.076200><2.125159,0.070000,0.076200> rotate<0,0.000000,0> translate<19.574441,0.000000,0.762000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.625238,0.000000,1.219200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.813313,0.000000,1.219200>}
+box{<0,0,-0.076200><2.188075,0.070000,0.076200> rotate<0,0.000000,0> translate<19.625238,0.000000,1.219200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.650641,0.000000,9.601200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.744756,0.000000,9.601200>}
 box{<0,0,-0.076200><0.094116,0.070000,0.076200> rotate<0,0.000000,0> translate<19.650641,0.000000,9.601200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.676041,0.000000,0.457200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.699600,0.000000,0.457200>}
+box{<0,0,-0.076200><2.023559,0.070000,0.076200> rotate<0,0.000000,0> translate<19.676041,0.000000,0.457200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.697700,0.000000,9.648259>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.842356,0.000000,9.503600>}
 box{<0,0,-0.076200><0.204577,0.070000,0.076200> rotate<0,44.997649,0> translate<19.697700,0.000000,9.648259> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.726838,0.000000,1.371600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<23.651809,0.000000,1.371600>}
-box{<0,0,-0.076200><3.924972,0.070000,0.076200> rotate<0,0.000000,0> translate<19.726838,0.000000,1.371600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.726841,0.000000,0.914400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.699600,0.000000,0.914400>}
-box{<0,0,-0.076200><1.972759,0.070000,0.076200> rotate<0,0.000000,0> translate<19.726841,0.000000,0.914400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.757197,0.000000,0.944756>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.757197,0.000000,1.341241>}
-box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,90.000000,0> translate<19.757197,0.000000,1.341241> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.757197,0.000000,1.066800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.777638,0.000000,1.066800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.699600,0.000000,1.066800>}
-box{<0,0,-0.076200><1.942403,0.070000,0.076200> rotate<0,0.000000,0> translate<19.757197,0.000000,1.066800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.757197,0.000000,1.219200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.813313,0.000000,1.219200>}
-box{<0,0,-0.076200><2.056116,0.070000,0.076200> rotate<0,0.000000,0> translate<19.757197,0.000000,1.219200> }
+box{<0,0,-0.076200><1.921962,0.070000,0.076200> rotate<0,0.000000,0> translate<19.777638,0.000000,1.066800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.828441,0.000000,0.609600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.699600,0.000000,0.609600>}
+box{<0,0,-0.076200><1.871159,0.070000,0.076200> rotate<0,0.000000,0> translate<19.828441,0.000000,0.609600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.833397,0.000000,0.614556>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.833397,0.000000,1.011041>}
+box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,90.000000,0> translate<19.833397,0.000000,1.011041> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.833397,0.000000,0.762000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.699600,0.000000,0.762000>}
+box{<0,0,-0.076200><1.866203,0.070000,0.076200> rotate<0,0.000000,0> translate<19.833397,0.000000,0.762000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.833397,0.000000,0.914400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<21.699600,0.000000,0.914400>}
+box{<0,0,-0.076200><1.866203,0.070000,0.076200> rotate<0,0.000000,0> translate<19.833397,0.000000,0.914400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<19.842356,0.000000,9.503600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<20.238841,0.000000,9.503600>}
 box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,0.000000,0> translate<19.842356,0.000000,9.503600> }
@@ -6335,8 +6404,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.033356,0.000000,1.088197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.429841,0.000000,1.088197>}
 box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,0.000000,0> translate<24.033356,0.000000,1.088197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,7.468653>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.197456>}
-box{<0,0,-0.076200><1.728803,0.070000,0.076200> rotate<0,90.000000,0> translate<24.079200,-1.070000,9.197456> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.197459>}
+box{<0,0,-0.076200><1.728806,0.070000,0.076200> rotate<0,90.000000,0> translate<24.079200,-1.070000,9.197459> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,7.468653>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.258056,-1.070000,7.289797>}
 box{<0,0,-0.076200><0.252941,0.070000,0.076200> rotate<0,44.997030,0> translate<24.079200,-1.070000,7.468653> }
@@ -6373,9 +6442,9 @@ box{<0,0,-0.076200><3.276600,0.070000,0.076200> rotate<0,0.000000,0> translate<2
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.144000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.355800,-1.070000,9.144000>}
 box{<0,0,-0.076200><3.276600,0.070000,0.076200> rotate<0,0.000000,0> translate<24.079200,-1.070000,9.144000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.197456>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.197459>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.099797,-1.070000,9.274325>}
-box{<0,0,-0.076200><0.079580,0.070000,0.076200> rotate<0,-74.995081,0> translate<24.079200,-1.070000,9.197456> }
+box{<0,0,-0.076200><0.079577,0.070000,0.076200> rotate<0,-74.994499,0> translate<24.079200,-1.070000,9.197459> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.518994>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.616600>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,90.000000,0> translate<24.079200,-1.070000,9.616600> }
@@ -6388,12 +6457,12 @@ box{<0,0,-0.076200><2.599756,0.070000,0.076200> rotate<0,0.000000,0> translate<2
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.616600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.099797,-1.070000,9.616600>}
 box{<0,0,-0.076200><0.020597,0.070000,0.076200> rotate<0,0.000000,0> translate<24.079200,-1.070000,9.616600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.938134>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.938137>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,10.058400>}
-box{<0,0,-0.076200><0.120266,0.070000,0.076200> rotate<0,90.000000,0> translate<24.079200,-1.070000,10.058400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.938134>}
+box{<0,0,-0.076200><0.120263,0.070000,0.076200> rotate<0,90.000000,0> translate<24.079200,-1.070000,10.058400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,9.938137>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.099797,-1.070000,9.861272>}
-box{<0,0,-0.076200><0.079574,0.070000,0.076200> rotate<0,74.993917,0> translate<24.079200,-1.070000,9.938134> }
+box{<0,0,-0.076200><0.079577,0.070000,0.076200> rotate<0,74.994499,0> translate<24.079200,-1.070000,9.938137> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.079200,-1.070000,10.058400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<26.496200,-1.070000,10.058400>}
 box{<0,0,-0.076200><2.417000,0.070000,0.076200> rotate<0,0.000000,0> translate<24.079200,-1.070000,10.058400> }
@@ -6629,8 +6698,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.510997,-1.070000,5.715000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.510997,-1.070000,7.036856>}
 box{<0,0,-0.076200><1.321856,0.070000,0.076200> rotate<0,90.000000,0> translate<24.510997,-1.070000,7.036856> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.510997,-1.070000,5.715000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.208166,-1.070000,5.715000>}
-box{<0,0,-0.076200><2.697169,0.070000,0.076200> rotate<0,0.000000,0> translate<24.510997,-1.070000,5.715000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.208163,-1.070000,5.715000>}
+box{<0,0,-0.076200><2.697166,0.070000,0.076200> rotate<0,0.000000,0> translate<24.510997,-1.070000,5.715000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<24.510997,-1.070000,5.791200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.198000,-1.070000,5.791200>}
 box{<0,0,-0.076200><2.687003,0.070000,0.076200> rotate<0,0.000000,0> translate<24.510997,-1.070000,5.791200> }
@@ -6728,17 +6797,17 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<26.776556,0.000000,10.460797>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.173041,0.000000,10.460797>}
 box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,0.000000,0> translate<26.776556,0.000000,10.460797> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.173041,0.000000,9.503600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.219838,0.000000,9.550400>}
-box{<0,0,-0.076200><0.066183,0.070000,0.076200> rotate<0,-44.998943,0> translate<27.173041,0.000000,9.503600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.219841,0.000000,9.550400>}
+box{<0,0,-0.076200><0.066185,0.070000,0.076200> rotate<0,-44.997030,0> translate<27.173041,0.000000,9.503600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.173041,-1.070000,9.503600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.219841,-1.070000,9.550400>}
 box{<0,0,-0.076200><0.066185,0.070000,0.076200> rotate<0,-44.997030,0> translate<27.173041,-1.070000,9.503600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.173041,0.000000,10.460797>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.219838,0.000000,10.413997>}
-box{<0,0,-0.076200><0.066183,0.070000,0.076200> rotate<0,44.998943,0> translate<27.173041,0.000000,10.460797> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.219841,0.000000,10.413997>}
+box{<0,0,-0.076200><0.066185,0.070000,0.076200> rotate<0,44.997030,0> translate<27.173041,0.000000,10.460797> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.198000,-1.070000,5.752925>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.208166,-1.070000,5.715000>}
-box{<0,0,-0.076200><0.039264,0.070000,0.076200> rotate<0,74.989903,0> translate<27.198000,-1.070000,5.752925> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.208163,-1.070000,5.715000>}
+box{<0,0,-0.076200><0.039263,0.070000,0.076200> rotate<0,74.994308,0> translate<27.198000,-1.070000,5.752925> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.198000,-1.070000,6.045203>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.198000,-1.070000,5.752925>}
 box{<0,0,-0.076200><0.292278,0.070000,0.076200> rotate<0,-90.000000,0> translate<27.198000,-1.070000,5.752925> }
@@ -6754,15 +6823,15 @@ box{<0,0,-0.076200><0.292281,0.070000,0.076200> rotate<0,-90.000000,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.198000,-1.070000,6.489872>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.220503,-1.070000,6.573850>}
 box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,-74.994252,0> translate<27.198000,-1.070000,6.489872> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.219838,0.000000,9.550400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.219841,0.000000,9.550400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.299600,0.000000,9.550400>}
-box{<0,0,-0.076200><0.079763,0.070000,0.076200> rotate<0,0.000000,0> translate<27.219838,0.000000,9.550400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.219838,0.000000,10.413997>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.388909,0.000000,10.413997>}
-box{<0,0,-0.076200><0.169072,0.070000,0.076200> rotate<0,0.000000,0> translate<27.219838,0.000000,10.413997> }
+box{<0,0,-0.076200><0.079759,0.070000,0.076200> rotate<0,0.000000,0> translate<27.219841,0.000000,9.550400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.219841,-1.070000,9.550400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.355800,-1.070000,9.550400>}
 box{<0,0,-0.076200><0.135959,0.070000,0.076200> rotate<0,0.000000,0> translate<27.219841,-1.070000,9.550400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.219841,0.000000,10.413997>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.388909,0.000000,10.413997>}
+box{<0,0,-0.076200><0.169069,0.070000,0.076200> rotate<0,0.000000,0> translate<27.219841,0.000000,10.413997> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.220503,-1.070000,6.573850>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<27.263975,-1.070000,6.649147>}
 box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,-59.996495,0> translate<27.220503,-1.070000,6.573850> }
@@ -7199,8 +7268,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.701356,0.000000,1.088197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<35.097841,0.000000,1.088197>}
 box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,0.000000,0> translate<34.701356,0.000000,1.088197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,7.468653>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.197463>}
-box{<0,0,-0.076200><1.728809,0.070000,0.076200> rotate<0,90.000000,0> translate<34.747200,-1.070000,9.197463> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.197459>}
+box{<0,0,-0.076200><1.728806,0.070000,0.076200> rotate<0,90.000000,0> translate<34.747200,-1.070000,9.197459> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,7.468653>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.926056,-1.070000,7.289797>}
 box{<0,0,-0.076200><0.252941,0.070000,0.076200> rotate<0,44.997030,0> translate<34.747200,-1.070000,7.468653> }
@@ -7237,9 +7306,9 @@ box{<0,0,-0.076200><3.276600,0.070000,0.076200> rotate<0,0.000000,0> translate<3
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.144000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<38.023800,-1.070000,9.144000>}
 box{<0,0,-0.076200><3.276600,0.070000,0.076200> rotate<0,0.000000,0> translate<34.747200,-1.070000,9.144000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.197463>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.197459>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.767797,-1.070000,9.274325>}
-box{<0,0,-0.076200><0.079574,0.070000,0.076200> rotate<0,-74.993917,0> translate<34.747200,-1.070000,9.197463> }
+box{<0,0,-0.076200><0.079577,0.070000,0.076200> rotate<0,-74.994499,0> translate<34.747200,-1.070000,9.197459> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.518994>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.616600>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,90.000000,0> translate<34.747200,-1.070000,9.616600> }
@@ -7252,12 +7321,12 @@ box{<0,0,-0.076200><2.599756,0.070000,0.076200> rotate<0,0.000000,0> translate<3
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.616600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.767797,-1.070000,9.616600>}
 box{<0,0,-0.076200><0.020597,0.070000,0.076200> rotate<0,0.000000,0> translate<34.747200,-1.070000,9.616600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.938134>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.938141>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,10.058400>}
-box{<0,0,-0.076200><0.120266,0.070000,0.076200> rotate<0,90.000000,0> translate<34.747200,-1.070000,10.058400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.938134>}
+box{<0,0,-0.076200><0.120259,0.070000,0.076200> rotate<0,90.000000,0> translate<34.747200,-1.070000,10.058400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,9.938141>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.767797,-1.070000,9.861272>}
-box{<0,0,-0.076200><0.079574,0.070000,0.076200> rotate<0,74.993917,0> translate<34.747200,-1.070000,9.938134> }
+box{<0,0,-0.076200><0.079580,0.070000,0.076200> rotate<0,74.995081,0> translate<34.747200,-1.070000,9.938141> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.747200,-1.070000,10.058400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.164200,-1.070000,10.058400>}
 box{<0,0,-0.076200><2.417000,0.070000,0.076200> rotate<0,0.000000,0> translate<34.747200,-1.070000,10.058400> }
@@ -7385,14 +7454,14 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.777775,0.000000,10.363200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.346959,0.000000,10.363200>}
 box{<0,0,-0.076200><2.569184,0.070000,0.076200> rotate<0,0.000000,0> translate<34.777775,0.000000,10.363200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.778731,0.000000,10.515600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.954950,0.000000,10.515600>}
-box{<0,0,-0.076200><5.176219,0.070000,0.076200> rotate<0,0.000000,0> translate<34.778731,0.000000,10.515600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.954947,0.000000,10.515600>}
+box{<0,0,-0.076200><5.176216,0.070000,0.076200> rotate<0,0.000000,0> translate<34.778731,0.000000,10.515600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.779688,0.000000,10.668000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.802550,0.000000,10.668000>}
-box{<0,0,-0.076200><5.022863,0.070000,0.076200> rotate<0,0.000000,0> translate<34.779688,0.000000,10.668000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.802547,0.000000,10.668000>}
+box{<0,0,-0.076200><5.022859,0.070000,0.076200> rotate<0,0.000000,0> translate<34.779688,0.000000,10.668000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.780644,0.000000,10.820400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.650150,0.000000,10.820400>}
-box{<0,0,-0.076200><4.869506,0.070000,0.076200> rotate<0,0.000000,0> translate<34.780644,0.000000,10.820400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.650147,0.000000,10.820400>}
+box{<0,0,-0.076200><4.869503,0.070000,0.076200> rotate<0,0.000000,0> translate<34.780644,0.000000,10.820400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<34.900653,-1.070000,7.315200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.967600,-1.070000,7.315200>}
 box{<0,0,-0.076200><3.066947,0.070000,0.076200> rotate<0,0.000000,0> translate<34.900653,-1.070000,7.315200> }
@@ -7597,12 +7666,12 @@ box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,0.000000,0> translate<3
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.444556,0.000000,10.460797>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.841041,0.000000,10.460797>}
 box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,0.000000,0> translate<37.444556,0.000000,10.460797> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.841041,-1.070000,9.503600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.887838,-1.070000,9.550400>}
-box{<0,0,-0.076200><0.066183,0.070000,0.076200> rotate<0,-44.998943,0> translate<37.841041,-1.070000,9.503600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.841041,0.000000,9.503600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.887841,0.000000,9.550400>}
 box{<0,0,-0.076200><0.066185,0.070000,0.076200> rotate<0,-44.997030,0> translate<37.841041,0.000000,9.503600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.841041,-1.070000,9.503600>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.887841,-1.070000,9.550400>}
+box{<0,0,-0.076200><0.066185,0.070000,0.076200> rotate<0,-44.997030,0> translate<37.841041,-1.070000,9.503600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.841041,0.000000,10.460797>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.887841,0.000000,10.413997>}
 box{<0,0,-0.076200><0.066185,0.070000,0.076200> rotate<0,44.997030,0> translate<37.841041,0.000000,10.460797> }
@@ -7624,12 +7693,12 @@ box{<0,0,-0.076200><0.292281,0.070000,0.076200> rotate<0,-90.000000,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.866000,-1.070000,6.489872>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.888503,-1.070000,6.573850>}
 box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,-74.994252,0> translate<37.866000,-1.070000,6.489872> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.887838,-1.070000,9.550400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<38.023800,-1.070000,9.550400>}
-box{<0,0,-0.076200><0.135962,0.070000,0.076200> rotate<0,0.000000,0> translate<37.887838,-1.070000,9.550400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.887841,0.000000,9.550400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.967600,0.000000,9.550400>}
 box{<0,0,-0.076200><0.079759,0.070000,0.076200> rotate<0,0.000000,0> translate<37.887841,0.000000,9.550400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.887841,-1.070000,9.550400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<38.023800,-1.070000,9.550400>}
+box{<0,0,-0.076200><0.135959,0.070000,0.076200> rotate<0,0.000000,0> translate<37.887841,-1.070000,9.550400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<37.887841,0.000000,10.413997>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<38.056913,0.000000,10.413997>}
 box{<0,0,-0.076200><0.169072,0.070000,0.076200> rotate<0,0.000000,0> translate<37.887841,0.000000,10.413997> }
@@ -7708,9 +7777,9 @@ box{<0,0,-0.076200><0.578988,0.070000,0.076200> rotate<0,-90.000000,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.147391,-1.070000,6.776597>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.928800,-1.070000,6.776597>}
 box{<0,0,-0.076200><0.781409,0.070000,0.076200> rotate<0,0.000000,0> translate<39.147391,-1.070000,6.776597> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.650150,0.000000,10.820400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.960297,0.000000,10.510253>}
-box{<0,0,-0.076200><0.438614,0.070000,0.076200> rotate<0,44.997030,0> translate<39.650150,0.000000,10.820400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.650147,0.000000,10.820400>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.960297,0.000000,10.510250>}
+box{<0,0,-0.076200><0.438618,0.070000,0.076200> rotate<0,44.997030,0> translate<39.650147,0.000000,10.820400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.928800,0.000000,4.800600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.928800,0.000000,0.381000>}
 box{<0,0,-0.076200><4.419600,0.070000,0.076200> rotate<0,-90.000000,0> translate<39.928800,0.000000,0.381000> }
@@ -7721,8 +7790,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.928800,-1.070000,6.837800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.928800,-1.070000,6.776597>}
 box{<0,0,-0.076200><0.061203,0.070000,0.076200> rotate<0,-90.000000,0> translate<39.928800,-1.070000,6.776597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.959975,0.000000,10.458597>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.960297,0.000000,10.510253>}
-box{<0,0,-0.076200><0.051657,0.070000,0.076200> rotate<0,-89.637073,0> translate<39.959975,0.000000,10.458597> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<39.960297,0.000000,10.510250>}
+box{<0,0,-0.076200><0.051654,0.070000,0.076200> rotate<0,-89.637051,0> translate<39.959975,0.000000,10.458597> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<40.462200,0.000000,0.330197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<40.462200,0.000000,9.533959>}
 box{<0,0,-0.076200><9.203762,0.070000,0.076200> rotate<0,90.000000,0> translate<40.462200,0.000000,9.533959> }
@@ -7916,14 +7985,14 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<40.492556,0.000000,9.503600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<40.889041,0.000000,9.503600>}
 box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,0.000000,0> translate<40.492556,0.000000,9.503600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<40.889041,0.000000,9.503600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<41.033697,0.000000,9.648259>}
-box{<0,0,-0.076200><0.204577,0.070000,0.076200> rotate<0,-44.997649,0> translate<40.889041,0.000000,9.503600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<40.986638,0.000000,9.601200>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<41.033700,0.000000,9.648259>}
+box{<0,0,-0.076200><0.204579,0.070000,0.076200> rotate<0,-44.997030,0> translate<40.889041,0.000000,9.503600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<40.986641,0.000000,9.601200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<41.080756,0.000000,9.601200>}
-box{<0,0,-0.076200><0.094119,0.070000,0.076200> rotate<0,0.000000,0> translate<40.986638,0.000000,9.601200> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<41.033697,0.000000,9.648259>}
+box{<0,0,-0.076200><0.094116,0.070000,0.076200> rotate<0,0.000000,0> translate<40.986641,0.000000,9.601200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<41.033700,0.000000,9.648259>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<41.178356,0.000000,9.503600>}
-box{<0,0,-0.076200><0.204579,0.070000,0.076200> rotate<0,44.997030,0> translate<41.033697,0.000000,9.648259> }
+box{<0,0,-0.076200><0.204577,0.070000,0.076200> rotate<0,44.997649,0> translate<41.033700,0.000000,9.648259> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<41.178356,0.000000,9.503600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<41.574841,0.000000,9.503600>}
 box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,0.000000,0> translate<41.178356,0.000000,9.503600> }
@@ -7988,89 +8057,89 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,1.066800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.347963,0.000000,1.066800>}
 box{<0,0,-0.076200><0.008963,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.066800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,1.219200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,1.219200>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.219200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,1.219200>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.219200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,1.371600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,1.371600>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.371600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,1.371600>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.371600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,1.524000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,1.524000>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.524000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,1.524000>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.524000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,1.676400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,1.676400>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.676400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,1.676400>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.676400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,1.828800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,1.828800>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.828800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,1.828800>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.828800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,1.981200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,1.981200>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.981200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,1.981200>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,1.981200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,2.133600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,2.133600>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.133600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,2.133600>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.133600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,2.286000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,2.286000>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.286000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,2.286000>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.286000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,2.438400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,2.438400>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.438400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,2.438400>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.438400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,2.590800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,2.590800>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.590800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,2.590800>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.590800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,2.743200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,2.743200>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.743200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,2.743200>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.743200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,2.895600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,2.895600>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.895600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,2.895600>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,2.895600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,3.048000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,3.048000>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.048000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,3.048000>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.048000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,3.200400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,3.200400>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.200400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,3.200400>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.200400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,3.352800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,3.352800>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.352800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,3.352800>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.352800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,3.505200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,3.505200>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.505200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,3.505200>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.505200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,3.657600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,3.657600>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.657600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,3.657600>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.657600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,3.810000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,3.810000>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.810000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,3.810000>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.810000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,3.962400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,3.962400>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.962400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,3.962400>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,3.962400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,4.114800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,4.114800>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.114800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,4.114800>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.114800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,4.267200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,4.267200>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.267200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,4.267200>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.267200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,4.419600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,4.419600>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.419600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,4.419600>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.419600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,4.572000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,4.572000>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.572000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,4.572000>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.572000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,4.724400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,4.724400>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.724400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,4.724400>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.724400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,4.876800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,4.876800>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.876800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,4.876800>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,4.876800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,5.029200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,5.029200>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,5.029200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,5.029200>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,5.029200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,5.181600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,5.181600>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,5.181600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,5.181600>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,5.181600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.339000,0.000000,5.334000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,5.334000>}
-box{<0,0,-0.076200><13.330800,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,5.334000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,5.334000>}
+box{<0,0,-0.076200><13.335000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.339000,0.000000,5.334000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.369356,0.000000,1.088197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.765841,0.000000,1.088197>}
 box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,0.000000,0> translate<45.369356,0.000000,1.088197> }
@@ -8081,8 +8150,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,0.000000,5.715000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,5.715000>}
 box{<0,0,-0.076200><8.458200,0.070000,0.076200> rotate<0,0.000000,0> translate<45.415200,0.000000,5.715000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,7.392453>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.197459>}
-box{<0,0,-0.076200><1.805006,0.070000,0.076200> rotate<0,90.000000,0> translate<45.415200,-1.070000,9.197459> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.197463>}
+box{<0,0,-0.076200><1.805009,0.070000,0.076200> rotate<0,90.000000,0> translate<45.415200,-1.070000,9.197463> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,7.392453>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.594056,-1.070000,7.213597>}
 box{<0,0,-0.076200><0.252941,0.070000,0.076200> rotate<0,44.997030,0> translate<45.415200,-1.070000,7.392453> }
@@ -8122,9 +8191,9 @@ box{<0,0,-0.076200><3.276600,0.070000,0.076200> rotate<0,0.000000,0> translate<4
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.144000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.691800,-1.070000,9.144000>}
 box{<0,0,-0.076200><3.276600,0.070000,0.076200> rotate<0,0.000000,0> translate<45.415200,-1.070000,9.144000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.197459>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.197463>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.435797,-1.070000,9.274325>}
-box{<0,0,-0.076200><0.079577,0.070000,0.076200> rotate<0,-74.994499,0> translate<45.415200,-1.070000,9.197459> }
+box{<0,0,-0.076200><0.079574,0.070000,0.076200> rotate<0,-74.993917,0> translate<45.415200,-1.070000,9.197463> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.518994>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.616600>}
 box{<0,0,-0.076200><0.097606,0.070000,0.076200> rotate<0,90.000000,0> translate<45.415200,-1.070000,9.616600> }
@@ -8137,81 +8206,81 @@ box{<0,0,-0.076200><2.599756,0.070000,0.076200> rotate<0,0.000000,0> translate<4
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.616600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.435797,-1.070000,9.616600>}
 box{<0,0,-0.076200><0.020597,0.070000,0.076200> rotate<0,0.000000,0> translate<45.415200,-1.070000,9.616600> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.938137>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.938134>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,10.058400>}
-box{<0,0,-0.076200><0.120263,0.070000,0.076200> rotate<0,90.000000,0> translate<45.415200,-1.070000,10.058400> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.938137>}
+box{<0,0,-0.076200><0.120266,0.070000,0.076200> rotate<0,90.000000,0> translate<45.415200,-1.070000,10.058400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,9.938134>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.435797,-1.070000,9.861272>}
-box{<0,0,-0.076200><0.079577,0.070000,0.076200> rotate<0,74.994499,0> translate<45.415200,-1.070000,9.938137> }
+box{<0,0,-0.076200><0.079574,0.070000,0.076200> rotate<0,74.993917,0> translate<45.415200,-1.070000,9.938134> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415200,-1.070000,10.058400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<47.832200,-1.070000,10.058400>}
 box{<0,0,-0.076200><2.417000,0.070000,0.076200> rotate<0,0.000000,0> translate<45.415200,-1.070000,10.058400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.415697,0.000000,5.791200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873900,0.000000,5.791200>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.415697,0.000000,5.791200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,5.791200>}
+box{<0,0,-0.076200><8.457703,0.070000,0.076200> rotate<0,0.000000,0> translate<45.415697,0.000000,5.791200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.416694,0.000000,5.943600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.874897,0.000000,5.943600>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.416694,0.000000,5.943600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,5.943600>}
+box{<0,0,-0.076200><8.456706,0.070000,0.076200> rotate<0,0.000000,0> translate<45.416694,0.000000,5.943600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.417691,0.000000,6.096000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.875894,0.000000,6.096000>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.417691,0.000000,6.096000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,6.096000>}
+box{<0,0,-0.076200><8.455709,0.070000,0.076200> rotate<0,0.000000,0> translate<45.417691,0.000000,6.096000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.418688,0.000000,6.248400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.876891,0.000000,6.248400>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.418688,0.000000,6.248400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,6.248400>}
+box{<0,0,-0.076200><8.454712,0.070000,0.076200> rotate<0,0.000000,0> translate<45.418688,0.000000,6.248400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.419684,0.000000,6.400800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.877887,0.000000,6.400800>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.419684,0.000000,6.400800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,6.400800>}
+box{<0,0,-0.076200><8.453716,0.070000,0.076200> rotate<0,0.000000,0> translate<45.419684,0.000000,6.400800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.420681,0.000000,6.553200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.878884,0.000000,6.553200>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.420681,0.000000,6.553200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,6.553200>}
+box{<0,0,-0.076200><8.452719,0.070000,0.076200> rotate<0,0.000000,0> translate<45.420681,0.000000,6.553200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.421678,0.000000,6.705600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.879881,0.000000,6.705600>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.421678,0.000000,6.705600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,6.705600>}
+box{<0,0,-0.076200><8.451722,0.070000,0.076200> rotate<0,0.000000,0> translate<45.421678,0.000000,6.705600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.422678,0.000000,6.858000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.880881,0.000000,6.858000>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.422678,0.000000,6.858000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,6.858000>}
+box{<0,0,-0.076200><8.450722,0.070000,0.076200> rotate<0,0.000000,0> translate<45.422678,0.000000,6.858000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.423675,0.000000,7.010400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.881878,0.000000,7.010400>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.423675,0.000000,7.010400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,7.010400>}
+box{<0,0,-0.076200><8.449725,0.070000,0.076200> rotate<0,0.000000,0> translate<45.423675,0.000000,7.010400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.423813,-1.070000,9.906000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<47.832200,-1.070000,9.906000>}
 box{<0,0,-0.076200><2.408387,0.070000,0.076200> rotate<0,0.000000,0> translate<45.423813,-1.070000,9.906000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.424672,0.000000,7.162800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.882875,0.000000,7.162800>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.424672,0.000000,7.162800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,7.162800>}
+box{<0,0,-0.076200><8.448728,0.070000,0.076200> rotate<0,0.000000,0> translate<45.424672,0.000000,7.162800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.425669,0.000000,7.315200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.883872,0.000000,7.315200>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.425669,0.000000,7.315200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,7.315200>}
+box{<0,0,-0.076200><8.447731,0.070000,0.076200> rotate<0,0.000000,0> translate<45.425669,0.000000,7.315200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.426666,0.000000,7.467600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.884869,0.000000,7.467600>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.426666,0.000000,7.467600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,7.467600>}
+box{<0,0,-0.076200><8.446734,0.070000,0.076200> rotate<0,0.000000,0> translate<45.426666,0.000000,7.467600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.427663,0.000000,7.620000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.885866,0.000000,7.620000>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.427663,0.000000,7.620000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,7.620000>}
+box{<0,0,-0.076200><8.445737,0.070000,0.076200> rotate<0,0.000000,0> translate<45.427663,0.000000,7.620000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.428659,0.000000,7.772400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.886862,0.000000,7.772400>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.428659,0.000000,7.772400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,7.772400>}
+box{<0,0,-0.076200><8.444741,0.070000,0.076200> rotate<0,0.000000,0> translate<45.428659,0.000000,7.772400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.429656,0.000000,7.924800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.887859,0.000000,7.924800>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.429656,0.000000,7.924800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,7.924800>}
+box{<0,0,-0.076200><8.443744,0.070000,0.076200> rotate<0,0.000000,0> translate<45.429656,0.000000,7.924800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.430653,0.000000,8.077200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.888856,0.000000,8.077200>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.430653,0.000000,8.077200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,8.077200>}
+box{<0,0,-0.076200><8.442747,0.070000,0.076200> rotate<0,0.000000,0> translate<45.430653,0.000000,8.077200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.431650,0.000000,8.229600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.889853,0.000000,8.229600>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.431650,0.000000,8.229600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,8.229600>}
+box{<0,0,-0.076200><8.441750,0.070000,0.076200> rotate<0,0.000000,0> translate<45.431650,0.000000,8.229600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.432647,0.000000,8.382000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.890850,0.000000,8.382000>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.432647,0.000000,8.382000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,8.382000>}
+box{<0,0,-0.076200><8.440753,0.070000,0.076200> rotate<0,0.000000,0> translate<45.432647,0.000000,8.382000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.433644,0.000000,8.534400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.891847,0.000000,8.534400>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.433644,0.000000,8.534400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,8.534400>}
+box{<0,0,-0.076200><8.439756,0.070000,0.076200> rotate<0,0.000000,0> translate<45.433644,0.000000,8.534400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.434641,0.000000,8.686800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.892844,0.000000,8.686800>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.434641,0.000000,8.686800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,8.686800>}
+box{<0,0,-0.076200><8.438759,0.070000,0.076200> rotate<0,0.000000,0> translate<45.434641,0.000000,8.686800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.435638,0.000000,8.839200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.893841,0.000000,8.839200>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.435638,0.000000,8.839200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,8.839200>}
+box{<0,0,-0.076200><8.437762,0.070000,0.076200> rotate<0,0.000000,0> translate<45.435638,0.000000,8.839200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.435797,-1.070000,9.274325>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.435797,-1.070000,9.518994>}
 box{<0,0,-0.076200><0.244669,0.070000,0.076200> rotate<0,90.000000,0> translate<45.435797,-1.070000,9.518994> }
@@ -8228,14 +8297,14 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.435797,-1.070000,9.753600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<47.862556,-1.070000,9.753600>}
 box{<0,0,-0.076200><2.426759,0.070000,0.076200> rotate<0,0.000000,0> translate<45.435797,-1.070000,9.753600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.436638,0.000000,8.991600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.894841,0.000000,8.991600>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.436638,0.000000,8.991600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,8.991600>}
+box{<0,0,-0.076200><8.436763,0.070000,0.076200> rotate<0,0.000000,0> translate<45.436638,0.000000,8.991600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.437634,0.000000,9.144000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.895838,0.000000,9.144000>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.437634,0.000000,9.144000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,9.144000>}
+box{<0,0,-0.076200><8.435766,0.070000,0.076200> rotate<0,0.000000,0> translate<45.437634,0.000000,9.144000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.438631,0.000000,9.296400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.896834,0.000000,9.296400>}
-box{<0,0,-0.076200><8.458203,0.070000,0.076200> rotate<0,0.000000,0> translate<45.438631,0.000000,9.296400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,9.296400>}
+box{<0,0,-0.076200><8.434769,0.070000,0.076200> rotate<0,0.000000,0> translate<45.438631,0.000000,9.296400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.439628,0.000000,9.448800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.672109,0.000000,9.448800>}
 box{<0,0,-0.076200><3.232481,0.070000,0.076200> rotate<0,0.000000,0> translate<45.439628,0.000000,9.448800> }
@@ -8282,8 +8351,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.765841,0.000000,1.088197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<46.046197,0.000000,0.807841>}
 box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,44.997030,0> translate<45.765841,0.000000,1.088197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.787238,0.000000,1.066800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,1.066800>}
-box{<0,0,-0.076200><12.882562,0.070000,0.076200> rotate<0,0.000000,0> translate<45.787238,0.000000,1.066800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,1.066800>}
+box{<0,0,-0.076200><12.886762,0.070000,0.076200> rotate<0,0.000000,0> translate<45.787238,0.000000,1.066800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.796200,-1.070000,1.066800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.796200,-1.070000,1.446744>}
 box{<0,0,-0.076200><0.379944,0.070000,0.076200> rotate<0,90.000000,0> translate<45.796200,-1.070000,1.446744> }
@@ -8363,8 +8432,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.846997,-1.070000,5.715000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.846997,-1.070000,6.960656>}
 box{<0,0,-0.076200><1.245656,0.070000,0.076200> rotate<0,90.000000,0> translate<45.846997,-1.070000,6.960656> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.846997,-1.070000,5.715000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.544163,-1.070000,5.715000>}
-box{<0,0,-0.076200><2.697166,0.070000,0.076200> rotate<0,0.000000,0> translate<45.846997,-1.070000,5.715000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.544166,-1.070000,5.715000>}
+box{<0,0,-0.076200><2.697169,0.070000,0.076200> rotate<0,0.000000,0> translate<45.846997,-1.070000,5.715000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.846997,-1.070000,5.791200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.534000,-1.070000,5.791200>}
 box{<0,0,-0.076200><2.687003,0.070000,0.076200> rotate<0,0.000000,0> translate<45.846997,-1.070000,5.791200> }
@@ -8390,8 +8459,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.846997,-1.070000,6.858000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.749309,-1.070000,6.858000>}
 box{<0,0,-0.076200><2.902313,0.070000,0.076200> rotate<0,0.000000,0> translate<45.846997,-1.070000,6.858000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.939638,0.000000,0.914400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,0.914400>}
-box{<0,0,-0.076200><12.730162,0.070000,0.076200> rotate<0,0.000000,0> translate<45.939638,0.000000,0.914400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,0.914400>}
+box{<0,0,-0.076200><12.734362,0.070000,0.076200> rotate<0,0.000000,0> translate<45.939638,0.000000,0.914400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.949656,-1.070000,3.962400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.615600,-1.070000,3.962400>}
 box{<0,0,-0.076200><2.665944,0.070000,0.076200> rotate<0,0.000000,0> translate<45.949656,-1.070000,3.962400> }
@@ -8399,20 +8468,20 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.965034,0.000000,0.330197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<46.046197,0.000000,0.411356>}
 box{<0,0,-0.076200><0.114779,0.070000,0.076200> rotate<0,-44.995927,0> translate<45.965034,0.000000,0.330197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<45.965034,0.000000,0.330197>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,0.330197>}
-box{<0,0,-0.076200><12.704766,0.070000,0.076200> rotate<0,0.000000,0> translate<45.965034,0.000000,0.330197> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,0.330197>}
+box{<0,0,-0.076200><12.708966,0.070000,0.076200> rotate<0,0.000000,0> translate<45.965034,0.000000,0.330197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<46.046197,0.000000,0.411356>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<46.046197,0.000000,0.807841>}
 box{<0,0,-0.076200><0.396484,0.070000,0.076200> rotate<0,90.000000,0> translate<46.046197,0.000000,0.807841> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<46.046197,0.000000,0.457200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,0.457200>}
-box{<0,0,-0.076200><12.623603,0.070000,0.076200> rotate<0,0.000000,0> translate<46.046197,0.000000,0.457200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,0.457200>}
+box{<0,0,-0.076200><12.627803,0.070000,0.076200> rotate<0,0.000000,0> translate<46.046197,0.000000,0.457200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<46.046197,0.000000,0.609600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,0.609600>}
-box{<0,0,-0.076200><12.623603,0.070000,0.076200> rotate<0,0.000000,0> translate<46.046197,0.000000,0.609600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,0.609600>}
+box{<0,0,-0.076200><12.627803,0.070000,0.076200> rotate<0,0.000000,0> translate<46.046197,0.000000,0.609600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<46.046197,0.000000,0.762000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,0.762000>}
-box{<0,0,-0.076200><12.623603,0.070000,0.076200> rotate<0,0.000000,0> translate<46.046197,0.000000,0.762000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,0.762000>}
+box{<0,0,-0.076200><12.627803,0.070000,0.076200> rotate<0,0.000000,0> translate<46.046197,0.000000,0.762000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<46.102056,-1.070000,4.114800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.615600,-1.070000,4.114800>}
 box{<0,0,-0.076200><2.513544,0.070000,0.076200> rotate<0,0.000000,0> translate<46.102056,-1.070000,4.114800> }
@@ -8465,8 +8534,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.509041,0.000000,10.460797>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.555841,0.000000,10.413997>}
 box{<0,0,-0.076200><0.066185,0.070000,0.076200> rotate<0,44.997030,0> translate<48.509041,0.000000,10.460797> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.534000,-1.070000,5.752925>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.544163,-1.070000,5.715000>}
-box{<0,0,-0.076200><0.039263,0.070000,0.076200> rotate<0,74.994308,0> translate<48.534000,-1.070000,5.752925> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.544166,-1.070000,5.715000>}
+box{<0,0,-0.076200><0.039264,0.070000,0.076200> rotate<0,74.989903,0> translate<48.534000,-1.070000,5.752925> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.534000,-1.070000,6.045203>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.534000,-1.070000,5.752925>}
 box{<0,0,-0.076200><0.292278,0.070000,0.076200> rotate<0,-90.000000,0> translate<48.534000,-1.070000,5.752925> }
@@ -8489,8 +8558,8 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.555841,-1.070000,9.550400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.691800,-1.070000,9.550400>}
 box{<0,0,-0.076200><0.135959,0.070000,0.076200> rotate<0,0.000000,0> translate<48.555841,-1.070000,9.550400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.555841,0.000000,10.413997>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.724913,0.000000,10.413997>}
-box{<0,0,-0.076200><0.169072,0.070000,0.076200> rotate<0,0.000000,0> translate<48.555841,0.000000,10.413997> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.724909,0.000000,10.413997>}
+box{<0,0,-0.076200><0.169069,0.070000,0.076200> rotate<0,0.000000,0> translate<48.555841,0.000000,10.413997> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.556503,-1.070000,6.573850>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.599975,-1.070000,6.649147>}
 box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,-59.996495,0> translate<48.556503,-1.070000,6.573850> }
@@ -8521,9 +8590,9 @@ box{<0,0,-0.076200><0.086945,0.070000,0.076200> rotate<0,-29.997566,0> translate
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.691800,-1.070000,9.550400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.691800,-1.070000,7.867284>}
 box{<0,0,-0.076200><1.683116,0.070000,0.076200> rotate<0,-90.000000,0> translate<48.691800,-1.070000,7.867284> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.724913,0.000000,10.413997>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.724909,0.000000,10.413997>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.769509,0.000000,10.458597>}
-box{<0,0,-0.076200><0.063072,0.070000,0.076200> rotate<0,-44.999037,0> translate<48.724913,0.000000,10.413997> }
+box{<0,0,-0.076200><0.063074,0.070000,0.076200> rotate<0,-44.997030,0> translate<48.724909,0.000000,10.413997> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.736747,-1.070000,6.754094>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<48.820725,-1.070000,6.776597>}
 box{<0,0,-0.076200><0.086941,0.070000,0.076200> rotate<0,-14.999808,0> translate<48.736747,-1.070000,6.754094> }
@@ -8579,23 +8648,23 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<50.708888,0.000000,9.351400>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<50.842797,0.000000,9.485309>}
 box{<0,0,-0.076200><0.189376,0.070000,0.076200> rotate<0,-44.997030,0> translate<50.708888,0.000000,9.351400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<50.806288,0.000000,9.448800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.897831,0.000000,9.448800>}
-box{<0,0,-0.076200><3.091544,0.070000,0.076200> rotate<0,0.000000,0> translate<50.806288,0.000000,9.448800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,9.448800>}
+box{<0,0,-0.076200><3.067113,0.070000,0.076200> rotate<0,0.000000,0> translate<50.806288,0.000000,9.448800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<50.842797,0.000000,9.485309>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<50.842797,0.000000,10.113200>}
 box{<0,0,-0.076200><0.627891,0.070000,0.076200> rotate<0,90.000000,0> translate<50.842797,0.000000,10.113200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<50.842797,0.000000,9.601200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.898828,0.000000,9.601200>}
-box{<0,0,-0.076200><3.056031,0.070000,0.076200> rotate<0,0.000000,0> translate<50.842797,0.000000,9.601200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,9.601200>}
+box{<0,0,-0.076200><3.030603,0.070000,0.076200> rotate<0,0.000000,0> translate<50.842797,0.000000,9.601200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<50.842797,0.000000,9.753600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.899825,0.000000,9.753600>}
-box{<0,0,-0.076200><3.057028,0.070000,0.076200> rotate<0,0.000000,0> translate<50.842797,0.000000,9.753600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,9.753600>}
+box{<0,0,-0.076200><3.030603,0.070000,0.076200> rotate<0,0.000000,0> translate<50.842797,0.000000,9.753600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<50.842797,0.000000,9.906000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.900822,0.000000,9.906000>}
-box{<0,0,-0.076200><3.058025,0.070000,0.076200> rotate<0,0.000000,0> translate<50.842797,0.000000,9.906000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,9.906000>}
+box{<0,0,-0.076200><3.030603,0.070000,0.076200> rotate<0,0.000000,0> translate<50.842797,0.000000,9.906000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<50.842797,0.000000,10.058400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.901819,0.000000,10.058400>}
-box{<0,0,-0.076200><3.059022,0.070000,0.076200> rotate<0,0.000000,0> translate<50.842797,0.000000,10.058400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,10.058400>}
+box{<0,0,-0.076200><3.030603,0.070000,0.076200> rotate<0,0.000000,0> translate<50.842797,0.000000,10.058400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<50.842797,0.000000,10.113200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.176041,0.000000,10.113200>}
 box{<0,0,-0.076200><0.333244,0.070000,0.076200> rotate<0,0.000000,0> translate<50.842797,0.000000,10.113200> }
@@ -8603,125 +8672,125 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,0.330197>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,6.400800>}
 box{<0,0,-0.076200><6.070603,0.070000,0.076200> rotate<0,90.000000,0> translate<51.054000,-1.070000,6.400800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,0.330197>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,0.330197>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,0.330197> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,0.330197>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,0.330197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,0.457200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,0.457200>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,0.457200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,0.457200>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,0.457200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,0.609600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,0.609600>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,0.609600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,0.609600>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,0.609600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,0.762000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,0.762000>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,0.762000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,0.762000>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,0.762000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,0.914400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,0.914400>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,0.914400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,0.914400>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,0.914400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,1.066800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,1.066800>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.066800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,1.066800>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.066800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,1.219200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,1.219200>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.219200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,1.219200>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.219200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,1.371600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,1.371600>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.371600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,1.371600>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.371600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,1.524000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,1.524000>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.524000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,1.524000>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.524000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,1.676400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,1.676400>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.676400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,1.676400>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.676400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,1.828800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,1.828800>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.828800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,1.828800>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.828800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,1.981200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,1.981200>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.981200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,1.981200>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,1.981200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,2.133600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,2.133600>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.133600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,2.133600>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.133600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,2.286000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,2.286000>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.286000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,2.286000>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.286000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,2.438400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,2.438400>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.438400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,2.438400>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.438400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,2.590800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,2.590800>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.590800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,2.590800>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.590800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,2.743200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,2.743200>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.743200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,2.743200>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.743200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,2.895600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,2.895600>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.895600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,2.895600>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,2.895600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,3.048000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,3.048000>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.048000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,3.048000>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.048000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,3.200400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,3.200400>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.200400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,3.200400>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.200400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,3.352800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,3.352800>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.352800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,3.352800>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.352800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,3.505200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,3.505200>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.505200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,3.505200>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.505200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,3.657600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,3.657600>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.657600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,3.657600>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.657600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,3.810000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,3.810000>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.810000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,3.810000>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.810000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,3.962400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,3.962400>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.962400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,3.962400>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,3.962400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,4.114800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,4.114800>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.114800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,4.114800>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.114800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,4.267200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,4.267200>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.267200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,4.267200>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.267200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,4.419600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,4.419600>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.419600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,4.419600>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.419600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,4.572000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,4.572000>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.572000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,4.572000>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.572000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,4.724400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,4.724400>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.724400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,4.724400>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.724400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,4.876800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,4.876800>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.876800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,4.876800>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,4.876800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,5.029200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,5.029200>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.029200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,5.029200>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.029200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,5.181600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,5.181600>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.181600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,5.181600>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.181600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,5.334000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,5.334000>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.334000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,5.334000>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.334000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,5.486400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,5.486400>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.486400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,5.486400>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.486400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,5.638800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,5.638800>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.638800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,5.638800>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.638800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,5.791200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,5.791200>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.791200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,5.791200>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.791200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,5.943600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,5.943600>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.943600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,5.943600>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,5.943600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,6.096000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,6.096000>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,6.096000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,6.096000>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,6.096000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,6.248400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,6.248400>}
-box{<0,0,-0.076200><7.615800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,6.248400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,6.248400>}
+box{<0,0,-0.076200><7.620000,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,6.248400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.054000,-1.070000,6.400800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,6.400800>}
 box{<0,0,-0.076200><2.971800,0.070000,0.076200> rotate<0,0.000000,0> translate<51.054000,-1.070000,6.400800> }
@@ -8810,23 +8879,23 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.273637,0.000000,10.972800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.456397,0.000000,10.790041>}
 box{<0,0,-0.076200><0.258461,0.070000,0.076200> rotate<0,44.997030,0> translate<51.273637,0.000000,10.972800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.273637,0.000000,10.972800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.907800,0.000000,10.972800>}
-box{<0,0,-0.076200><2.634163,0.070000,0.076200> rotate<0,0.000000,0> translate<51.273637,0.000000,10.972800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,10.972800>}
+box{<0,0,-0.076200><2.599763,0.070000,0.076200> rotate<0,0.000000,0> translate<51.273637,0.000000,10.972800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.273641,-1.070000,10.210800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.520544,-1.070000,10.210800>}
 box{<0,0,-0.076200><2.246903,0.070000,0.076200> rotate<0,0.000000,0> translate<51.273641,-1.070000,10.210800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.273641,0.000000,10.210800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.902816,0.000000,10.210800>}
-box{<0,0,-0.076200><2.629175,0.070000,0.076200> rotate<0,0.000000,0> translate<51.273641,0.000000,10.210800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,10.210800>}
+box{<0,0,-0.076200><2.599759,0.070000,0.076200> rotate<0,0.000000,0> translate<51.273641,0.000000,10.210800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.426037,0.000000,10.820400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.906803,0.000000,10.820400>}
-box{<0,0,-0.076200><2.480766,0.070000,0.076200> rotate<0,0.000000,0> translate<51.426037,0.000000,10.820400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,10.820400>}
+box{<0,0,-0.076200><2.447363,0.070000,0.076200> rotate<0,0.000000,0> translate<51.426037,0.000000,10.820400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.426041,-1.070000,10.363200>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.521797,-1.070000,10.363200>}
 box{<0,0,-0.076200><2.095756,0.070000,0.076200> rotate<0,0.000000,0> translate<51.426041,-1.070000,10.363200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.426041,0.000000,10.363200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.903813,0.000000,10.363200>}
-box{<0,0,-0.076200><2.477772,0.070000,0.076200> rotate<0,0.000000,0> translate<51.426041,0.000000,10.363200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,10.363200>}
+box{<0,0,-0.076200><2.447359,0.070000,0.076200> rotate<0,0.000000,0> translate<51.426041,0.000000,10.363200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.456397,-1.070000,10.393556>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.456397,-1.070000,10.459744>}
 box{<0,0,-0.076200><0.066187,0.070000,0.076200> rotate<0,90.000000,0> translate<51.456397,-1.070000,10.459744> }
@@ -8837,11 +8906,11 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.456397,-1.070000,10.459744>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.537656,-1.070000,10.541000>}
 box{<0,0,-0.076200><0.114916,0.070000,0.076200> rotate<0,-44.995929,0> translate<51.456397,-1.070000,10.459744> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.456397,0.000000,10.515600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.904809,0.000000,10.515600>}
-box{<0,0,-0.076200><2.448412,0.070000,0.076200> rotate<0,0.000000,0> translate<51.456397,0.000000,10.515600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,10.515600>}
+box{<0,0,-0.076200><2.417003,0.070000,0.076200> rotate<0,0.000000,0> translate<51.456397,0.000000,10.515600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.456397,0.000000,10.668000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.905806,0.000000,10.668000>}
-box{<0,0,-0.076200><2.449409,0.070000,0.076200> rotate<0,0.000000,0> translate<51.456397,0.000000,10.668000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,10.668000>}
+box{<0,0,-0.076200><2.417003,0.070000,0.076200> rotate<0,0.000000,0> translate<51.456397,0.000000,10.668000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<51.512253,-1.070000,10.515600>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.523047,-1.070000,10.515600>}
 box{<0,0,-0.076200><2.010794,0.070000,0.076200> rotate<0,0.000000,0> translate<51.512253,-1.070000,10.515600> }
@@ -8851,57 +8920,57 @@ box{<0,0,-0.076200><1.985597,0.070000,0.076200> rotate<0,0.000000,0> translate<5
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.492400,-1.070000,6.781800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.523253,-1.070000,10.541000>}
 box{<0,0,-0.076200><3.759327,0.070000,0.076200> rotate<0,-89.523855,0> translate<53.492400,-1.070000,6.781800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,10.972800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.873400,0.000000,5.715000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<53.907800,0.000000,10.972800>}
-box{<0,0,-0.076200><5.257913,0.070000,0.076200> rotate<0,-89.619224,0> translate<53.873400,0.000000,5.715000> }
+box{<0,0,-0.076200><5.257800,0.070000,0.076200> rotate<0,-90.000000,0> translate<53.873400,0.000000,5.715000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,6.400800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,10.972800>}
 box{<0,0,-0.076200><4.572000,0.070000,0.076200> rotate<0,90.000000,0> translate<54.025800,-1.070000,10.972800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,6.400800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,6.400800>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,6.400800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,6.400800>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,6.400800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,6.553200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,6.553200>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,6.553200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,6.553200>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,6.553200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,6.705600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,6.705600>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,6.705600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,6.705600>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,6.705600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,6.858000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,6.858000>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,6.858000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,6.858000>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,6.858000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,7.010400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,7.010400>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.010400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,7.010400>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.010400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,7.162800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,7.162800>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.162800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,7.162800>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.162800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,7.315200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,7.315200>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.315200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,7.315200>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.315200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,7.467600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,7.467600>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.467600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,7.467600>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.467600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,7.620000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,7.620000>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.620000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,7.620000>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.620000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,7.772400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,7.772400>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.772400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,7.772400>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.772400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,7.924800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,7.924800>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.924800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,7.924800>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,7.924800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,8.077200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,8.077200>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,8.077200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,8.077200>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,8.077200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,8.229600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,8.229600>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,8.229600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,8.229600>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,8.229600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,8.382000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,8.382000>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,8.382000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,8.382000>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,8.382000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,8.534400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,8.534400>}
-box{<0,0,-0.076200><4.644000,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,8.534400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,8.534400>}
+box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,8.534400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.025800,-1.070000,8.686800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,8.686800>}
 box{<0,0,-0.076200><4.648200,0.070000,0.076200> rotate<0,0.000000,0> translate<54.025800,-1.070000,8.686800> }
@@ -8954,65 +9023,65 @@ cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,5.715000>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,10.972800>}
 box{<0,0,-0.076200><5.257800,0.070000,0.076200> rotate<0,90.000000,0> translate<54.178200,0.000000,10.972800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,5.715000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,5.715000>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,5.715000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,5.715000>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,5.715000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,5.791200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,5.791200>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,5.791200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,5.791200>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,5.791200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,5.943600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,5.943600>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,5.943600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,5.943600>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,5.943600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,6.096000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,6.096000>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.096000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,6.096000>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.096000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,6.248400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,6.248400>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.248400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,6.248400>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.248400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,6.400800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,6.400800>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.400800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,6.400800>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.400800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,6.553200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,6.553200>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.553200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,6.553200>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.553200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,6.705600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,6.705600>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.705600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,6.705600>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.705600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,6.858000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,6.858000>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.858000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,6.858000>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,6.858000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,7.010400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,7.010400>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.010400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,7.010400>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.010400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,7.162800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,7.162800>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.162800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,7.162800>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.162800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,7.315200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,7.315200>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.315200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,7.315200>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.315200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,7.467600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,7.467600>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.467600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,7.467600>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.467600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,7.620000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,7.620000>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.620000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,7.620000>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.620000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,7.772400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,7.772400>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.772400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,7.772400>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.772400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,7.924800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,7.924800>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.924800> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,7.924800>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,7.924800> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,8.077200>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,8.077200>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,8.077200> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,8.077200>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,8.077200> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,8.229600>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,8.229600>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,8.229600> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,8.229600>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,8.229600> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,8.382000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,8.382000>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,8.382000> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,8.382000>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,8.382000> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,8.534400>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,8.534400>}
-box{<0,0,-0.076200><4.491600,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,8.534400> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,8.534400>}
+box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,8.534400> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,8.686800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,8.686800>}
 box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,8.686800> }
@@ -9061,34 +9130,22 @@ box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<5
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<54.178200,0.000000,10.972800>}
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,10.972800>}
 box{<0,0,-0.076200><4.495800,0.070000,0.076200> rotate<0,0.000000,0> translate<54.178200,0.000000,10.972800> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,5.334000>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,0.330197>}
-box{<0,0,-0.076200><5.003803,0.070000,0.076200> rotate<0,-90.000000,0> translate<58.669800,0.000000,0.330197> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,8.636772>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,0.330197>}
-box{<0,0,-0.076200><8.306575,0.070000,0.076200> rotate<0,-90.000000,0> translate<58.669800,-1.070000,0.330197> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,8.636772>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,5.715000>}
-box{<0,0,-0.076200><2.921772,0.070000,0.076200> rotate<0,-90.000000,0> translate<58.669800,0.000000,5.715000> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,0.000000,8.636772>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,8.640969>}
-box{<0,0,-0.076200><0.005937,0.070000,0.076200> rotate<0,-44.975708,0> translate<58.669800,0.000000,8.636772> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.669800,-1.070000,8.636772>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,8.640969>}
-box{<0,0,-0.076200><0.005937,0.070000,0.076200> rotate<0,-44.975708,0> translate<58.669800,-1.070000,8.636772> }
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,10.972800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,8.640969>}
-box{<0,0,-0.076200><2.331831,0.070000,0.076200> rotate<0,-90.000000,0> translate<58.674000,0.000000,8.640969> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,5.334000>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,0.330197>}
+box{<0,0,-0.076200><5.003803,0.070000,0.076200> rotate<0,-90.000000,0> translate<58.674000,0.000000,0.330197> }
 cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,10.972800>}
-cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,8.640969>}
-box{<0,0,-0.076200><2.331831,0.070000,0.076200> rotate<0,-90.000000,0> translate<58.674000,-1.070000,8.640969> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,-1.070000,0.330197>}
+box{<0,0,-0.076200><10.642603,0.070000,0.076200> rotate<0,-90.000000,0> translate<58.674000,-1.070000,0.330197> }
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,10.972800>}
+cylinder{<0,0,0><0,0.070000,0>0.076200 translate<58.674000,0.000000,5.715000>}
+box{<0,0,-0.076200><5.257800,0.070000,0.076200> rotate<0,-90.000000,0> translate<58.674000,0.000000,5.715000> }
 texture{col_pol}
 }
 #end
 union{
 //Holes(fast)/Vias
 cylinder{<8.077200,0.073000,7.924800><8.077200,-1.073000,7.924800>0.150000 }
-cylinder{<15.316200,0.073000,1.676400><15.316200,-1.073000,1.676400>0.150000 }
+cylinder{<14.554200,0.073000,1.600200><14.554200,-1.073000,1.600200>0.150000 }
 cylinder{<9.372600,0.073000,6.781800><9.372600,-1.073000,6.781800>0.150000 }
 cylinder{<5.029200,0.073000,1.600200><5.029200,-1.073000,1.600200>0.150000 }
 cylinder{<16.916400,0.073000,8.153400><16.916400,-1.073000,8.153400>0.150000 }
@@ -9165,11 +9222,7 @@ cylinder{<46.253400,0.073000,3.276600><46.253400,-1.073000,3.276600>0.150000 }
 cylinder{<46.253400,0.073000,3.962400><46.253400,-1.073000,3.962400>0.150000 }
 cylinder{<34.848800,0.073000,5.029200><34.848800,-1.073000,5.029200>0.150000 }
 cylinder{<45.516800,0.073000,5.029200><45.516800,-1.073000,5.029200>0.150000 }
-cylinder{<4.191000,0.073000,1.447800><4.191000,-1.073000,1.447800>0.150000 }
-cylinder{<9.677400,0.073000,4.800600><9.677400,-1.073000,4.800600>0.150000 }
-cylinder{<9.677400,0.073000,5.410200><9.677400,-1.073000,5.410200>0.150000 }
-cylinder{<17.602200,0.073000,1.981200><17.602200,-1.073000,1.981200>0.150000 }
-cylinder{<19.278600,0.073000,1.143000><19.278600,-1.073000,1.143000>0.150000 }
+cylinder{<19.354800,0.073000,0.812800><19.354800,-1.073000,0.812800>0.150000 }
 cylinder{<5.334000,0.073000,4.800600><5.334000,-1.073000,4.800600>0.150000 }
 cylinder{<5.308600,0.073000,4.114800><5.308600,-1.073000,4.114800>0.150000 }
 cylinder{<14.249400,0.073000,9.220200><14.249400,-1.073000,9.220200>0.150000 }
@@ -9179,8 +9232,8 @@ cylinder{<20.040600,0.073000,9.982200><20.040600,-1.073000,9.982200>0.150000 }
 cylinder{<30.708600,0.073000,9.982200><30.708600,-1.073000,9.982200>0.150000 }
 cylinder{<41.376600,0.073000,9.982200><41.376600,-1.073000,9.982200>0.150000 }
 cylinder{<7.391400,0.073000,0.533400><7.391400,-1.073000,0.533400>0.150000 }
-cylinder{<17.068800,0.073000,6.172200><17.068800,-1.073000,6.172200>0.150000 }
-cylinder{<16.764000,0.073000,1.676400><16.764000,-1.073000,1.676400>0.150000 }
+cylinder{<17.068800,0.073000,6.400800><17.068800,-1.073000,6.400800>0.150000 }
+cylinder{<17.653000,0.073000,2.794000><17.653000,-1.073000,2.794000>0.150000 }
 cylinder{<13.944600,0.073000,7.620000><13.944600,-1.073000,7.620000>0.150000 }
 cylinder{<16.840200,0.073000,9.829800><16.840200,-1.073000,9.829800>0.150000 }
 cylinder{<8.839200,0.073000,7.696200><8.839200,-1.073000,7.696200>0.150000 }
@@ -9339,7 +9392,7 @@ cylinder{<51.282600,0.073000,8.991600><51.282600,-1.073000,8.991600>0.150000 }
 cylinder{<51.282600,0.073000,9.677400><51.282600,-1.073000,9.677400>0.150000 }
 cylinder{<51.282600,0.073000,7.620000><51.282600,-1.073000,7.620000>0.150000 }
 cylinder{<51.282600,0.073000,6.934200><51.282600,-1.073000,6.934200>0.150000 }
-cylinder{<21.412200,0.073000,0.609600><21.412200,-1.073000,0.609600>0.150000 }
+cylinder{<21.488400,0.073000,0.609600><21.488400,-1.073000,0.609600>0.150000 }
 cylinder{<21.412200,0.073000,9.982200><21.412200,-1.073000,9.982200>0.150000 }
 cylinder{<32.080200,0.073000,0.685800><32.080200,-1.073000,0.685800>0.150000 }
 cylinder{<32.080200,0.073000,9.982200><32.080200,-1.073000,9.982200>0.150000 }
@@ -9358,7 +9411,12 @@ cylinder{<18.745200,0.073000,0.533400><18.745200,-1.073000,0.533400>0.150000 }
 cylinder{<12.636500,0.073000,2.171700><12.636500,-1.073000,2.171700>0.150000 }
 cylinder{<12.877800,0.073000,2.895600><12.877800,-1.073000,2.895600>0.150000 }
 cylinder{<12.573000,0.073000,8.534400><12.573000,-1.073000,8.534400>0.150000 }
-cylinder{<13.690600,0.073000,5.486400><13.690600,-1.073000,5.486400>0.150000 }
+cylinder{<15.392400,0.073000,1.600200><15.392400,-1.073000,1.600200>0.150000 }
+cylinder{<16.916400,0.073000,1.600200><16.916400,-1.073000,1.600200>0.150000 }
+cylinder{<9.677400,0.073000,6.019800><9.677400,-1.073000,6.019800>0.150000 }
+cylinder{<9.677400,0.073000,5.410200><9.677400,-1.073000,5.410200>0.150000 }
+cylinder{<9.677400,0.073000,4.800600><9.677400,-1.073000,4.800600>0.150000 }
+cylinder{<4.038600,0.073000,1.371600><4.038600,-1.073000,1.371600>0.150000 }
 cylinder{<29.946600,0.073000,9.982200><29.946600,-1.073000,9.982200>0.150000 }
 cylinder{<31.394400,0.073000,9.982200><31.394400,-1.073000,9.982200>0.150000 }
 cylinder{<13.296900,0.073000,2.171700><13.296900,-1.073000,2.171700>0.150000 }
@@ -10148,6 +10206,171 @@ box{<0,0,-0.139700><0.830444,0.071000,0.139700> rotate<0,0.000000,0> translate<5
 cylinder{<0,0,0><0,0.071000,0>0.139700 translate<53.568069,-1.071000,5.686463>}
 cylinder{<0,0,0><0,0.071000,0>0.139700 translate<53.568069,-1.071000,6.516903>}
 box{<0,0,-0.139700><0.830441,0.071000,0.139700> rotate<0,90.000000,0> translate<53.568069,-1.071000,6.516903> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.982637,0.000000,1.433472>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.423281,0.000000,1.433472>}
+box{<0,0,-0.076200><0.440644,0.071000,0.076200> rotate<0,0.000000,0> translate<17.982637,0.000000,1.433472> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.423281,0.000000,1.433472>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,1.653791>}
+box{<0,0,-0.076200><0.311578,0.071000,0.076200> rotate<0,-44.997030,0> translate<18.423281,0.000000,1.433472> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,1.653791>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.423281,0.000000,1.874113>}
+box{<0,0,-0.076200><0.311580,0.071000,0.076200> rotate<0,44.997436,0> translate<18.423281,0.000000,1.874113> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.423281,0.000000,1.874113>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.982637,0.000000,1.874113>}
+box{<0,0,-0.076200><0.440644,0.071000,0.076200> rotate<0,0.000000,0> translate<17.982637,0.000000,1.874113> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.533441,0.000000,2.181888>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.092797,0.000000,2.181888>}
+box{<0,0,-0.076200><0.440644,0.071000,0.076200> rotate<0,0.000000,0> translate<18.092797,0.000000,2.181888> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.092797,0.000000,2.181888>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.982637,0.000000,2.292047>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,44.997030,0> translate<17.982637,0.000000,2.292047> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.982637,0.000000,2.292047>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.982637,0.000000,2.512369>}
+box{<0,0,-0.076200><0.220322,0.071000,0.076200> rotate<0,90.000000,0> translate<17.982637,0.000000,2.512369> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.982637,0.000000,2.512369>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.092797,0.000000,2.622528>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,-44.997030,0> translate<17.982637,0.000000,2.512369> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.092797,0.000000,2.622528>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.533441,0.000000,2.622528>}
+box{<0,0,-0.076200><0.440644,0.071000,0.076200> rotate<0,0.000000,0> translate<18.092797,0.000000,2.622528> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.533441,0.000000,2.622528>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,2.512369>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,44.997030,0> translate<18.533441,0.000000,2.622528> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,2.512369>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,2.292047>}
+box{<0,0,-0.076200><0.220322,0.071000,0.076200> rotate<0,-90.000000,0> translate<18.643600,0.000000,2.292047> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,2.292047>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.533441,0.000000,2.181888>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,-44.997030,0> translate<18.533441,0.000000,2.181888> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.533441,0.000000,2.181888>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.092797,0.000000,2.622528>}
+box{<0,0,-0.076200><0.623162,0.071000,0.076200> rotate<0,44.996827,0> translate<18.092797,0.000000,2.622528> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,2.930303>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.533441,0.000000,2.930303>}
+box{<0,0,-0.076200><0.110159,0.071000,0.076200> rotate<0,0.000000,0> translate<18.533441,0.000000,2.930303> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.533441,0.000000,2.930303>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.533441,0.000000,3.040463>}
+box{<0,0,-0.076200><0.110159,0.071000,0.076200> rotate<0,90.000000,0> translate<18.533441,0.000000,3.040463> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.533441,0.000000,3.040463>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,3.040463>}
+box{<0,0,-0.076200><0.110159,0.071000,0.076200> rotate<0,0.000000,0> translate<18.533441,0.000000,3.040463> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,3.040463>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,2.930303>}
+box{<0,0,-0.076200><0.110159,0.071000,0.076200> rotate<0,-90.000000,0> translate<18.643600,0.000000,2.930303> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.202959,0.000000,3.304509>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.982637,0.000000,3.524828>}
+box{<0,0,-0.076200><0.311580,0.071000,0.076200> rotate<0,44.996624,0> translate<17.982637,0.000000,3.524828> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.982637,0.000000,3.524828>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,3.524828>}
+box{<0,0,-0.076200><0.660963,0.071000,0.076200> rotate<0,0.000000,0> translate<17.982637,0.000000,3.524828> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,3.304509>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.643600,0.000000,3.745150>}
+box{<0,0,-0.076200><0.440641,0.071000,0.076200> rotate<0,90.000000,0> translate<18.643600,0.000000,3.745150> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.569816,-1.071000,2.624759>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.459656,-1.071000,2.514600>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,-44.997030,0> translate<19.459656,-1.071000,2.514600> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.459656,-1.071000,2.514600>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.349497,-1.071000,2.514600>}
+box{<0,0,-0.076200><0.110159,0.071000,0.076200> rotate<0,0.000000,0> translate<19.349497,-1.071000,2.514600> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.349497,-1.071000,2.514600>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.239334,-1.071000,2.624759>}
+box{<0,0,-0.076200><0.155791,0.071000,0.076200> rotate<0,44.996218,0> translate<19.239334,-1.071000,2.624759> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.239334,-1.071000,2.624759>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.239334,-1.071000,3.175563>}
+box{<0,0,-0.076200><0.550803,0.071000,0.076200> rotate<0,90.000000,0> translate<19.239334,-1.071000,3.175563> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.349497,-1.071000,3.175563>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.129175,-1.071000,3.175563>}
+box{<0,0,-0.076200><0.220322,0.071000,0.076200> rotate<0,0.000000,0> translate<19.129175,-1.071000,3.175563> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.821400,-1.071000,3.065403>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.711241,-1.071000,3.175563>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,44.997030,0> translate<18.711241,-1.071000,3.175563> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.711241,-1.071000,3.175563>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.490919,-1.071000,3.175563>}
+box{<0,0,-0.076200><0.220322,0.071000,0.076200> rotate<0,0.000000,0> translate<18.490919,-1.071000,3.175563> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.490919,-1.071000,3.175563>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.380759,-1.071000,3.065403>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,-44.997030,0> translate<18.380759,-1.071000,3.065403> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.380759,-1.071000,3.065403>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.380759,-1.071000,2.955241>}
+box{<0,0,-0.076200><0.110162,0.071000,0.076200> rotate<0,-90.000000,0> translate<18.380759,-1.071000,2.955241> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.380759,-1.071000,2.955241>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.490919,-1.071000,2.845081>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,44.997030,0> translate<18.380759,-1.071000,2.955241> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.490919,-1.071000,2.845081>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.601081,-1.071000,2.845081>}
+box{<0,0,-0.076200><0.110162,0.071000,0.076200> rotate<0,0.000000,0> translate<18.490919,-1.071000,2.845081> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.490919,-1.071000,2.845081>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.380759,-1.071000,2.734919>}
+box{<0,0,-0.076200><0.155791,0.071000,0.076200> rotate<0,-44.997843,0> translate<18.380759,-1.071000,2.734919> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.380759,-1.071000,2.734919>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.380759,-1.071000,2.624759>}
+box{<0,0,-0.076200><0.110159,0.071000,0.076200> rotate<0,-90.000000,0> translate<18.380759,-1.071000,2.624759> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.380759,-1.071000,2.624759>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.490919,-1.071000,2.514600>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,44.997030,0> translate<18.380759,-1.071000,2.624759> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.490919,-1.071000,2.514600>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.711241,-1.071000,2.514600>}
+box{<0,0,-0.076200><0.220322,0.071000,0.076200> rotate<0,0.000000,0> translate<18.490919,-1.071000,2.514600> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.711241,-1.071000,2.514600>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.821400,-1.071000,2.624759>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,-44.997030,0> translate<18.711241,-1.071000,2.514600> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.469559,-1.071000,5.652384>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.359400,-1.071000,5.762544>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,44.997030,0> translate<5.359400,-1.071000,5.762544> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.359400,-1.071000,5.762544>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.359400,-1.071000,5.872703>}
+box{<0,0,-0.076200><0.110159,0.071000,0.076200> rotate<0,90.000000,0> translate<5.359400,-1.071000,5.872703> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.359400,-1.071000,5.872703>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.469559,-1.071000,5.982866>}
+box{<0,0,-0.076200><0.155791,0.071000,0.076200> rotate<0,-44.997843,0> translate<5.359400,-1.071000,5.872703> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.469559,-1.071000,5.982866>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<6.020363,-1.071000,5.982866>}
+box{<0,0,-0.076200><0.550803,0.071000,0.076200> rotate<0,0.000000,0> translate<5.469559,-1.071000,5.982866> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<6.020363,-1.071000,5.872703>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<6.020363,-1.071000,6.093025>}
+box{<0,0,-0.076200><0.220322,0.071000,0.076200> rotate<0,90.000000,0> translate<6.020363,-1.071000,6.093025> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.359400,-1.071000,6.841441>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.359400,-1.071000,6.400800>}
+box{<0,0,-0.076200><0.440641,0.071000,0.076200> rotate<0,-90.000000,0> translate<5.359400,-1.071000,6.400800> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.359400,-1.071000,6.400800>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.800041,-1.071000,6.841441>}
+box{<0,0,-0.076200><0.623160,0.071000,0.076200> rotate<0,-44.997030,0> translate<5.359400,-1.071000,6.400800> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.800041,-1.071000,6.841441>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.910203,-1.071000,6.841441>}
+box{<0,0,-0.076200><0.110163,0.071000,0.076200> rotate<0,0.000000,0> translate<5.800041,-1.071000,6.841441> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.910203,-1.071000,6.841441>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<6.020363,-1.071000,6.731281>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,44.997030,0> translate<5.910203,-1.071000,6.841441> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<6.020363,-1.071000,6.731281>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<6.020363,-1.071000,6.510959>}
+box{<0,0,-0.076200><0.220322,0.071000,0.076200> rotate<0,-90.000000,0> translate<6.020363,-1.071000,6.510959> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<6.020363,-1.071000,6.510959>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.910203,-1.071000,6.400800>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,-44.997030,0> translate<5.910203,-1.071000,6.400800> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.224959,-1.071000,4.661784>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.114800,-1.071000,4.771944>}
+box{<0,0,-0.076200><0.155789,0.071000,0.076200> rotate<0,44.997030,0> translate<4.114800,-1.071000,4.771944> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.114800,-1.071000,4.771944>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.114800,-1.071000,4.882103>}
+box{<0,0,-0.076200><0.110159,0.071000,0.076200> rotate<0,90.000000,0> translate<4.114800,-1.071000,4.882103> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.114800,-1.071000,4.882103>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.224959,-1.071000,4.992266>}
+box{<0,0,-0.076200><0.155791,0.071000,0.076200> rotate<0,-44.997843,0> translate<4.114800,-1.071000,4.882103> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.224959,-1.071000,4.992266>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.775762,-1.071000,4.992266>}
+box{<0,0,-0.076200><0.550803,0.071000,0.076200> rotate<0,0.000000,0> translate<4.224959,-1.071000,4.992266> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.775762,-1.071000,4.882103>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.775762,-1.071000,5.102425>}
+box{<0,0,-0.076200><0.220322,0.071000,0.076200> rotate<0,90.000000,0> translate<4.775762,-1.071000,5.102425> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.555441,-1.071000,5.410200>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.775762,-1.071000,5.630519>}
+box{<0,0,-0.076200><0.311580,0.071000,0.076200> rotate<0,-44.996624,0> translate<4.555441,-1.071000,5.410200> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.775762,-1.071000,5.630519>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.114800,-1.071000,5.630519>}
+box{<0,0,-0.076200><0.660963,0.071000,0.076200> rotate<0,0.000000,0> translate<4.114800,-1.071000,5.630519> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.114800,-1.071000,5.410200>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<4.114800,-1.071000,5.850841>}
+box{<0,0,-0.076200><0.440641,0.071000,0.076200> rotate<0,90.000000,0> translate<4.114800,-1.071000,5.850841> }
 //C1 silk screen
 cylinder{<0,0,0><0,0.071000,0>0.375000 translate<10.287000,-1.071000,2.946400>}
 cylinder{<0,0,0><0,0.071000,0>0.375000 translate<10.287000,-1.071000,2.844800>}
@@ -10210,9 +10433,9 @@ cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.537200,-1.071000,0.772000>}
 cylinder{<0,0,0><0,0.071000,0>0.076200 translate<5.537200,-1.071000,0.752000>}
 box{<0,0,-0.076200><0.020000,0.071000,0.076200> rotate<0,-90.000000,0> translate<5.537200,-1.071000,0.752000> }
 //C19 silk screen
-cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.887600,-1.071000,5.257800>}
-cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.907600,-1.071000,5.257800>}
-box{<0,0,-0.076200><0.020000,0.071000,0.076200> rotate<0,0.000000,0> translate<18.887600,-1.071000,5.257800> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.887600,-1.071000,6.197600>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<18.907600,-1.071000,6.197600>}
+box{<0,0,-0.076200><0.020000,0.071000,0.076200> rotate<0,0.000000,0> translate<18.887600,-1.071000,6.197600> }
 //C20 silk screen
 cylinder{<0,0,0><0,0.071000,0>0.076200 translate<15.316200,-1.071000,9.992200>}
 cylinder{<0,0,0><0,0.071000,0>0.076200 translate<15.316200,-1.071000,9.972200>}
@@ -10647,20 +10870,33 @@ box{<0,0,-0.076200><2.001600,0.071000,0.076200> rotate<0,-90.000000,0> translate
 cylinder{<0,0,0><0,0.071000,0>0.076200 translate<7.307200,-1.071000,6.639600>}
 cylinder{<0,0,0><0,0.071000,0>0.076200 translate<6.205600,-1.071000,6.639600>}
 box{<0,0,-0.076200><1.101600,0.071000,0.076200> rotate<0,0.000000,0> translate<6.205600,-1.071000,6.639600> }
+//J3 silk screen
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.903400,-1.071000,1.176800>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.905000,-1.071000,1.176800>}
+box{<0,0,-0.076200><2.001600,0.071000,0.076200> rotate<0,0.000000,0> translate<17.903400,-1.071000,1.176800> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.903400,-1.071000,2.278400>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.903400,-1.071000,1.176800>}
+box{<0,0,-0.076200><1.101600,0.071000,0.076200> rotate<0,-90.000000,0> translate<17.903400,-1.071000,1.176800> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.905000,-1.071000,2.278400>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<17.903400,-1.071000,2.278400>}
+box{<0,0,-0.076200><2.001600,0.071000,0.076200> rotate<0,0.000000,0> translate<17.903400,-1.071000,2.278400> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.905000,-1.071000,1.176800>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<19.905000,-1.071000,2.278400>}
+box{<0,0,-0.076200><1.101600,0.071000,0.076200> rotate<0,90.000000,0> translate<19.905000,-1.071000,2.278400> }
 //L1 silk screen
-cylinder{<0,0,0><0,0.071000,0>0.076200 translate<16.556800,-1.071000,2.445600>}
-cylinder{<0,0,0><0,0.071000,0>0.076200 translate<16.556800,-1.071000,3.193200>}
-box{<0,0,-0.076200><0.747600,0.071000,0.076200> rotate<0,90.000000,0> translate<16.556800,-1.071000,3.193200> }
-cylinder{<0,0,0><0,0.071000,0>0.076200 translate<16.556800,-1.071000,3.193200>}
-cylinder{<0,0,0><0,0.071000,0>0.076200 translate<16.209200,-1.071000,3.193200>}
-box{<0,0,-0.076200><0.347600,0.071000,0.076200> rotate<0,0.000000,0> translate<16.209200,-1.071000,3.193200> }
-cylinder{<0,0,0><0,0.071000,0>0.076200 translate<16.209200,-1.071000,3.193200>}
-cylinder{<0,0,0><0,0.071000,0>0.076200 translate<16.209200,-1.071000,2.445600>}
-box{<0,0,-0.076200><0.747600,0.071000,0.076200> rotate<0,-90.000000,0> translate<16.209200,-1.071000,2.445600> }
-cylinder{<0,0,0><0,0.071000,0>0.076200 translate<16.209200,-1.071000,2.445600>}
-cylinder{<0,0,0><0,0.071000,0>0.076200 translate<16.556800,-1.071000,2.445600>}
-box{<0,0,-0.076200><0.347600,0.071000,0.076200> rotate<0,0.000000,0> translate<16.209200,-1.071000,2.445600> }
-box{<-0.173800,0,-0.373800><0.173800,0.071000,0.373800> rotate<0,-180.000000,0> translate<16.383000,-1.071000,2.819400>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<15.794800,-1.071000,2.445600>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<15.794800,-1.071000,3.193200>}
+box{<0,0,-0.076200><0.747600,0.071000,0.076200> rotate<0,90.000000,0> translate<15.794800,-1.071000,3.193200> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<15.794800,-1.071000,3.193200>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<15.447200,-1.071000,3.193200>}
+box{<0,0,-0.076200><0.347600,0.071000,0.076200> rotate<0,0.000000,0> translate<15.447200,-1.071000,3.193200> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<15.447200,-1.071000,3.193200>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<15.447200,-1.071000,2.445600>}
+box{<0,0,-0.076200><0.747600,0.071000,0.076200> rotate<0,-90.000000,0> translate<15.447200,-1.071000,2.445600> }
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<15.447200,-1.071000,2.445600>}
+cylinder{<0,0,0><0,0.071000,0>0.076200 translate<15.794800,-1.071000,2.445600>}
+box{<0,0,-0.076200><0.347600,0.071000,0.076200> rotate<0,0.000000,0> translate<15.447200,-1.071000,2.445600> }
+box{<-0.173800,0,-0.373800><0.173800,0.071000,0.373800> rotate<0,-180.000000,0> translate<15.621000,-1.071000,2.819400>}
 //L2 silk screen
 box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-180.000000,0> translate<49.758600,-1.071000,2.362200>}
 //L3 silk screen
@@ -11005,7 +11241,7 @@ box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-180.000000,0> 
 //R4 silk screen
 box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-180.000000,0> translate<3.810000,0.000000,5.715000>}
 //R5 silk screen
-box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-180.000000,0> translate<19.888200,-1.071000,2.514600>}
+box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-90.000000,0> translate<18.897600,-1.071000,4.216400>}
 //R6 silk screen
 box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-180.000000,0> translate<30.480000,-1.071000,2.514600>}
 //R7 silk screen
@@ -11017,9 +11253,9 @@ box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-270.000000,0> 
 //R10 silk screen
 box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-270.000000,0> translate<43.738800,-1.071000,8.915400>}
 //R12 silk screen
-box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-180.000000,0> translate<12.725400,-1.071000,6.629400>}
+box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-180.000000,0> translate<20.878800,-1.071000,1.473200>}
 //R13 silk screen
-box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-0.000000,0> translate<12.725400,-1.071000,5.486400>}
+box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-0.000000,0> translate<20.878800,-1.071000,2.565400>}
 //R14 silk screen
 box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-270.000000,0> translate<21.336000,-1.071000,8.915400>}
 //R15 silk screen
@@ -11043,7 +11279,7 @@ box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-0.000000,0> tr
 //R29 silk screen
 box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-180.000000,0> translate<17.297400,-1.071000,4.114800>}
 //R30 silk screen
-box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-90.000000,0> translate<18.897600,-1.071000,7.239000>}
+box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-90.000000,0> translate<18.897600,-1.071000,8.178800>}
 //R31 silk screen
 box{<-0.076200,0,-0.300000><0.076200,0.071000,0.300000> rotate<0,-0.000000,0> translate<17.297400,-1.071000,8.991600>}
 //R37 silk screen
@@ -11275,6 +11511,7 @@ rotate pcb_rotdir*180
 //Parts not found in 3dpack.dat or 3dusrpac.dat are:
 //J1		0402-SQJMP
 //J2		0402-SQJMP
+//J3		0402-SQJMP
 //PAD1		SMD2,54-5,08
 //PAD2		SMD2,54-5,08
 //PAD3		SMD2,54-5,08
