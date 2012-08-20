@@ -1,6 +1,8 @@
 
 #version 3.5;
 
+//Enable/Disable showing of wires
+#declare show_wires=on;
 //changes the apperance of resistors (1 Blob / 0 real)
 #declare global_res_shape = 1;
 //randomize color of resistors 1=random 0=same color
@@ -206,11 +208,13 @@ light_source{<lgt4_pos_x,lgt4_pos_y,lgt4_pos_z> White*lgt4_intense}
 object{ 
 union {
 	STRIP(0,0,0,0,0,0)
+#if(show_wires=on)
 	PWIRE(rgb <0.8, 0.1, 0.1>, 1)
 	PWIRE(Gray20, -1)
 	PHWIRE(rgb <0.6, 0.6, 0.3>, 20.3454, 2)
 	PHWIRE(rgb <0.3, 0.6, 0.3>,  31.0134, 1)
 	PHWIRE(rgb <0.3, 0.3, 0.6>,   41.6814, 0)
+#end
 	translate<-29.500000,0,-5.750000>
 	#if(pcb_upsidedown=on)
 		rotate pcb_rotdir*180
