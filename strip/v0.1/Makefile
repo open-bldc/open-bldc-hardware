@@ -25,7 +25,7 @@
 # THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-BRD_SRCS = ./strip.brd
+BRD_SRCS = ./strip.brd ./rail/rail.brd
 
 DIRS =
 
@@ -53,9 +53,9 @@ dirs :
 
 ### GERBER GENERATION
 
-.PRECIOUS : %.cmp %.sol %.stc %.sts %.tplc %.bplc %.bor %.xln %.l02 %.l15 %.tcr %.bcr
+.PRECIOUS : %.cmp %.sol %.stc %.sts %.tplc %.bplc %.bor %.xln %.l02 %.l15 %.tcr %.bcr %.sor
 
-%.all: %.cmp %.sol %.stc %.sts %.tplc %.bplc %.xln %.bor %.l02 %.l15 %.tcr %.bcr
+%.all: %.cmp %.sol %.stc %.sts %.tplc %.bplc %.xln %.bor %.l02 %.l15 %.tcr %.bcr %.sor
 	touch $@
 
 # Component side
@@ -97,6 +97,9 @@ dirs :
 # Inner layer bot
 %.l15 : %.brd
 	eagle -X -N -d GERBER_RS274X -o $@ $< Route15 Pads Vias
+# Scoring layer
+%.sor : %.brd
+	eagle -X -N -d GERBER_RS274X -o $@ $< VScore
 
 
 ### POSTSCRIPT AND PDF GENERATION
@@ -138,6 +141,7 @@ clean:
 	find .. -name '*.all' -exec rm -f {} \;
 	find .. -name '*.tcr' -exec rm -f {} \;
 	find .. -name '*.bcr' -exec rm -f {} \;
+	find .. -name '*.sor' -exec rm -f {} \;
 	@# printable
 	find . -name '*.schematics.ps' -exec rm -f {} \;
 	find . -name '*.schematics.pdf' -exec rm -f {} \;

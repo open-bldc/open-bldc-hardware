@@ -1,4 +1,12 @@
 
 Row {
-    strip
+    rail Rotate180
+    Col {
+        strip
+        strip
+        strip
+        strip
+        strip
+    }
+    rail
 }
