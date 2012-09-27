@@ -1,6 +1,6 @@
 
 Row {
-    rail Rotate180
+    rail
     Col {
         strip
         strip

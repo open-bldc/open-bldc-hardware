@@ -100,52 +100,7 @@
 <wire x1="0" y1="0" x2="10.16" y2="0" width="0" layer="20"/>
 <wire x1="10.16" y1="0" x2="10.16" y2="67.9958" width="0" layer="20"/>
 <wire x1="10.16" y1="67.9958" x2="0" y2="67.9958" width="0" layer="20"/>
-<wire x1="0" y1="67.9958" x2="0" y2="63" width="0" layer="20"/>
-<wire x1="0" y1="63" x2="-1" y2="63" width="0" layer="20"/>
-<wire x1="-1" y1="63" x2="-1" y2="61" width="0" layer="20"/>
-<wire x1="-1" y1="61" x2="0" y2="61" width="0" layer="20"/>
-<wire x1="0" y1="61" x2="0" y2="49" width="0" layer="20"/>
-<wire x1="0" y1="49" x2="-1" y2="49" width="0" layer="20"/>
-<wire x1="-1" y1="49" x2="-1" y2="47" width="0" layer="20"/>
-<wire x1="-1" y1="47" x2="0" y2="47" width="0" layer="20"/>
-<wire x1="0" y1="47" x2="0" y2="35" width="0" layer="20"/>
-<wire x1="0" y1="35" x2="-1" y2="35" width="0" layer="20"/>
-<wire x1="-1" y1="35" x2="-1" y2="33" width="0" layer="20"/>
-<wire x1="-1" y1="33" x2="0" y2="33" width="0" layer="20"/>
-<wire x1="0" y1="33" x2="0" y2="21" width="0" layer="20"/>
-<wire x1="0" y1="21" x2="-1" y2="21" width="0" layer="20"/>
-<wire x1="-1" y1="21" x2="-1" y2="19" width="0" layer="20"/>
-<wire x1="-1" y1="19" x2="0" y2="19" width="0" layer="20"/>
-<wire x1="0" y1="19" x2="0" y2="7" width="0" layer="20"/>
-<wire x1="0" y1="7" x2="-1" y2="7" width="0" layer="20"/>
-<wire x1="-1" y1="7" x2="-1" y2="5" width="0" layer="20"/>
-<wire x1="-1" y1="5" x2="0" y2="5" width="0" layer="20"/>
-<wire x1="0" y1="5" x2="0" y2="0" width="0" layer="20"/>
-<hole x="0" y="5" drill="0.3"/>
-<hole x="0" y="5.5" drill="0.3"/>
-<hole x="0" y="6" drill="0.3"/>
-<hole x="0" y="6.5" drill="0.3"/>
-<hole x="0" y="7" drill="0.3"/>
-<hole x="0" y="19.5" drill="0.3"/>
-<hole x="0" y="20.5" drill="0.3"/>
-<hole x="0" y="21" drill="0.3"/>
-<hole x="0" y="20" drill="0.3"/>
-<hole x="0" y="19" drill="0.3"/>
-<hole x="0" y="33" drill="0.3"/>
-<hole x="0" y="33.5" drill="0.3"/>
-<hole x="0" y="34" drill="0.3"/>
-<hole x="0" y="34.5" drill="0.3"/>
-<hole x="0" y="35" drill="0.3"/>
-<hole x="0" y="47" drill="0.3"/>
-<hole x="0" y="47.5" drill="0.3"/>
-<hole x="0" y="48" drill="0.3"/>
-<hole x="0" y="48.5" drill="0.3"/>
-<hole x="0" y="49" drill="0.3"/>
-<hole x="0" y="61.5" drill="0.3"/>
-<hole x="0" y="62" drill="0.3"/>
-<hole x="0" y="62.5" drill="0.3"/>
-<hole x="0" y="63" drill="0.3"/>
-<hole x="0" y="61" drill="0.3"/>
+<wire x1="0" y1="0" x2="0" y2="67.9958" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="aspirin">
