@@ -2920,22 +2920,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="res-0402-10"/>
 </part>
 <part name="L2" library="pel_dipol_comp" deviceset="INDUCTOR" device="-0402">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="res-0402-0"/>
 </part>
 <part name="L3" library="pel_dipol_comp" deviceset="INDUCTOR" device="-0402">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="res-0402-0"/>
 </part>
 <part name="L4" library="pel_dipol_comp" deviceset="INDUCTOR" device="-0402">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="res-0402-0"/>
 </part>
 <part name="L5" library="pel_dipol_comp" deviceset="INDUCTOR" device="-0402">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="res-0402-0"/>
 </part>
 <part name="L6" library="pel_dipol_comp" deviceset="INDUCTOR" device="-0402">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="res-0402-0"/>
 </part>
 <part name="L7" library="pel_dipol_comp" deviceset="INDUCTOR" device="-0402">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="res-0402-0"/>
 </part>
 <part name="Q1" library="open-bldc" deviceset="IRF7828" device="">
 <attribute name="PARTNO" value="ic-so8-mosfet-n-ch-30v-15a"/>
@@ -3036,17 +3036,28 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="*"/>
 </part>
 <part name="C13" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="100n">
+<attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="cap-cer-0402-100n"/>
 </part>
 <part name="R59" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="120R/DNP">
+<attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="res-0402-60.4"/>
 </part>
-<part name="IC3" library="open-bldc" deviceset="MAX3051" device=""/>
+<part name="IC3" library="open-bldc" deviceset="MAX3051" device="">
+<attribute name="DNP" value="T"/>
+<attribute name="PARTNO" value="*"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+3V3" device=""/>
-<part name="J1" library="pel_jumpers" deviceset="SQ_JMP" device="-0402"/>
-<part name="J2" library="pel_jumpers" deviceset="SQ_JMP" device="-0402"/>
-<part name="J3" library="pel_jumpers" deviceset="SQ_JMP" device="-0402"/>
+<part name="J1" library="pel_jumpers" deviceset="SQ_JMP" device="-0402">
+<attribute name="PARTNO" value="res-0402-0"/>
+</part>
+<part name="J2" library="pel_jumpers" deviceset="SQ_JMP" device="-0402">
+<attribute name="PARTNO" value="res-0402-0"/>
+</part>
+<part name="J3" library="pel_jumpers" deviceset="SQ_JMP" device="-0402">
+<attribute name="PARTNO" value="res-0402-0"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -3054,6 +3065,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="304.292" y="7.62" size="1.27" layer="97">License: CC-BY-SA 3.0 DE</text>
 <text x="296.672" y="5.08" size="1.27" layer="97">http://creativecommons.org/licenses/by-sa/3.0/de/</text>
 <text x="289.052" y="12.7" size="1.27" layer="97">open-bldc (C) 2008-2012 Piotr Esden-Tempski &lt;piotr at esden.net&gt;</text>
+<text x="193.04" y="165.1" size="1.778" layer="97">VDD3 on STM32F103</text>
+<text x="193.04" y="162.56" size="1.778" layer="97">VSS3 on STM32F103</text>
+<text x="195.58" y="157.48" size="1.778" layer="97">Available on STM32F103</text>
+<text x="195.58" y="154.94" size="1.778" layer="97">Available on STM32F103</text>
+<text x="88.9" y="208.28" size="1.778" layer="97">Alt: STM32F103C</text>
+<text x="228.6" y="121.92" size="1.778" layer="97">Alt: DNP=T</text>
+<text x="228.6" y="116.84" size="1.778" layer="97">Alt: DNP=T</text>
+<text x="226.06" y="93.98" size="1.778" layer="97">Alt: DNP=F</text>
+<text x="187.96" y="111.76" size="1.778" layer="97" rot="R90">Alt: DNP=F</text>
 </plain>
 <instances>
 <instance part="GND5" gate="1" x="280.67" y="185.42"/>
@@ -3232,16 +3252,27 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </instance>
 <instance part="C13" gate="G$1" x="195.58" y="111.76" rot="R180">
 <attribute name="PARTNO" x="195.58" y="111.76" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="DNP" x="185.42" y="111.76" size="1.778" layer="96" rot="R90" display="both"/>
 </instance>
 <instance part="R59" gate="G$1" x="261.62" y="104.14" rot="MR270">
 <attribute name="PARTNO" x="261.62" y="104.14" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DNP" x="264.16" y="104.14" size="1.778" layer="96" rot="MR270" display="both"/>
 </instance>
-<instance part="IC3" gate="G$1" x="223.52" y="104.14"/>
+<instance part="IC3" gate="G$1" x="223.52" y="104.14">
+<attribute name="DNP" x="226.06" y="111.76" size="1.778" layer="96" display="both"/>
+<attribute name="PARTNO" x="223.52" y="104.14" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="223.52" y="86.36" rot="MR0"/>
 <instance part="P+4" gate="G$1" x="200.66" y="127"/>
-<instance part="J1" gate="G$1" x="223.52" y="121.92"/>
-<instance part="J2" gate="G$1" x="223.52" y="116.84"/>
-<instance part="J3" gate="G$1" x="254" y="215.9" rot="R90"/>
+<instance part="J1" gate="G$1" x="223.52" y="121.92">
+<attribute name="PARTNO" x="223.52" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="J2" gate="G$1" x="223.52" y="116.84">
+<attribute name="PARTNO" x="223.52" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="J3" gate="G$1" x="254" y="215.9" rot="R90">
+<attribute name="PARTNO" x="254" y="215.9" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
