@@ -1,6 +1,6 @@
 * FR4 Material
-* 1 oz. copper
-* All holes plated through
+* All layers 2 oz. copper
+* No holes plated through
 * Drills shown as finished sizes
 * Board thickness 1mm
 * Use merged.boardoutline.ger as board outline.
