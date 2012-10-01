@@ -3074,6 +3074,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="228.6" y="116.84" size="1.778" layer="97">Alt: DNP=T</text>
 <text x="226.06" y="93.98" size="1.778" layer="97">Alt: DNP=F</text>
 <text x="187.96" y="111.76" size="1.778" layer="97" rot="R90">Alt: DNP=F</text>
+<text x="127" y="53.34" size="1.778" layer="97">I2C1_SDA, PWM IN/OUT when CAN bridged</text>
+<text x="127" y="48.26" size="1.778" layer="97">I2C1_SCL, PWM IN/OUT when CAN bridged</text>
+<text x="127" y="27.94" size="1.778" layer="97">I2C1_SCL, PWM IN/OUT, UART1_TX</text>
+<text x="127" y="22.86" size="1.778" layer="97">I2C1_SDA, PWM IN/OUT, UART1_RX</text>
 </plain>
 <instances>
 <instance part="GND5" gate="1" x="280.67" y="185.42"/>
