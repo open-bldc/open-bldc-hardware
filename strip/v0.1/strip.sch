@@ -2838,7 +2838,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="D1" library="pel_dipol_comp" deviceset="DIODE" device="-SOD-123" value="BAS21">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="diode-sod-123"/>
 </part>
 <part name="C23" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0603" value="1u">
 <attribute name="PARTNO" value="cap-tan-0603-1u"/>
@@ -2851,13 +2851,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="pel_dipol_comp" deviceset="DIODE" device="-SOD-123" value="BAS21">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="diode-sod-123"/>
 </part>
 <part name="C24" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0603" value="1u">
 <attribute name="PARTNO" value="cap-tan-0603-1u"/>
 </part>
 <part name="D4" library="pel_dipol_comp" deviceset="DIODE" device="-SOD-123" value="BAS21">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="diode-sod-123"/>
 </part>
 <part name="C25" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0603" value="1u">
 <attribute name="PARTNO" value="cap-tan-0603-1u"/>
@@ -2869,19 +2869,19 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="PARTNO" value="res-0402-10k"/>
 </part>
 <part name="R15" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="3k6">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="res-0402-3k6"/>
 </part>
 <part name="R16" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="10k">
 <attribute name="PARTNO" value="res-0402-10k"/>
 </part>
 <part name="R17" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="3k6">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="res-0402-3k6"/>
 </part>
 <part name="R18" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="10k">
 <attribute name="PARTNO" value="res-0402-10k"/>
 </part>
 <part name="R22" library="pel_dipol_comp" deviceset="RESISTOR" device="-0402" value="3k6">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="res-0402-3k6"/>
 </part>
 <part name="C26" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="100nF">
 <attribute name="PARTNO" value="cap-cer-0402-100n"/>
@@ -3027,7 +3027,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="P+2" library="supply1" deviceset="+3V3" device=""/>
 <part name="IC7" library="pel_stm32" deviceset="STM32F050CX" device="">
-<attribute name="PARTNO" value="mcu-tqfp-32-stm32f05"/>
+<attribute name="PARTNO" value="mcu-lqfp-48-stm32f05"/>
 </part>
 <part name="C5" library="pel_dipol_comp" deviceset="CAPACITOR-POL" device="D" value="220uF">
 <attribute name="PARTNO" value="cap-tan-D-220u-16v"/>
@@ -3035,7 +3035,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U$2" library="open-bldc" deviceset="LOGO" device="-SILK-SMALL" value="LOGO">
 <attribute name="PARTNO" value="*"/>
 </part>
-<part name="C13" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="100n">
+<part name="C13" library="pel_dipol_comp" deviceset="CAPACITOR" device="-0402" value="100nF">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="cap-cer-0402-100n"/>
 </part>
@@ -3045,7 +3045,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="IC3" library="open-bldc" deviceset="MAX3051" device="">
 <attribute name="DNP" value="T"/>
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="ic-so8-can-3v3"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+3V3" device=""/>

@@ -1002,7 +1002,7 @@ design rules under a new name.</description>
 <element name="D1" library="pel_dipol_comp" package="SOD-123-DIO" value="BAS21" x="20.7264" y="5.7364" smashed="yes" rot="MR90">
 <attribute name="NAME" x="21.717" y="5.2284" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="22.5044" y="4.3394" size="1.27" layer="28" ratio="10" rot="MR90"/>
-<attribute name="PARTNO" value="*" x="20.7264" y="5.7364" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="diode-sod-123" x="20.7264" y="5.7364" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C23" library="pel_dipol_comp" package="0603-CAP" value="1u" x="23.0886" y="1.8502" smashed="yes" rot="MR270">
 <attribute name="NAME" x="22.606" y="2.8154" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
@@ -1022,7 +1022,7 @@ design rules under a new name.</description>
 <element name="D3" library="pel_dipol_comp" package="SOD-123-DIO" value="BAS21" x="31.3944" y="5.7364" smashed="yes" rot="MR90">
 <attribute name="NAME" x="32.385" y="5.1776" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="33.1724" y="4.3394" size="1.27" layer="28" ratio="10" rot="MR90"/>
-<attribute name="PARTNO" value="*" x="31.3944" y="5.7364" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="diode-sod-123" x="31.3944" y="5.7364" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C24" library="pel_dipol_comp" package="0603-CAP" value="1u" x="33.7566" y="1.8502" smashed="yes" rot="MR270">
 <attribute name="NAME" x="33.3502" y="2.8154" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
@@ -1032,7 +1032,7 @@ design rules under a new name.</description>
 <element name="D4" library="pel_dipol_comp" package="SOD-123-DIO" value="BAS21" x="42.0624" y="5.7364" smashed="yes" rot="MR90">
 <attribute name="NAME" x="43.0784" y="5.2538" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="43.8404" y="4.3394" size="1.27" layer="28" ratio="10" rot="MR90"/>
-<attribute name="PARTNO" value="*" x="42.0624" y="5.7364" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="diode-sod-123" x="42.0624" y="5.7364" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C25" library="pel_dipol_comp" package="0603-CAP" value="1u" x="44.4246" y="1.8502" smashed="yes" rot="MR270">
 <attribute name="NAME" x="43.942" y="2.7392" size="0.635" layer="26" font="vector" ratio="16" rot="MR270"/>
@@ -1047,7 +1047,7 @@ design rules under a new name.</description>
 <element name="R15" library="pel_dipol_comp" package="0402-RES" value="3k6" x="20.1168" y="9.1654" smashed="yes" rot="MR90">
 <attribute name="NAME" x="19.812" y="10.0036" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="18.8214" y="8.0224" size="0.635" layer="28" font="vector" ratio="16" rot="MR90"/>
-<attribute name="PARTNO" value="*" x="20.1168" y="9.1654" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="res-0402-3k6" x="20.1168" y="9.1654" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R16" library="pel_dipol_comp" package="0402-RES" value="10k" x="32.004" y="9.1654" smashed="yes" rot="MR270">
 <attribute name="NAME" x="31.6992" y="10.0036" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
@@ -1057,7 +1057,7 @@ design rules under a new name.</description>
 <element name="R17" library="pel_dipol_comp" package="0402-RES" value="3k6" x="30.7848" y="9.1654" smashed="yes" rot="MR90">
 <attribute name="NAME" x="30.48" y="10.0036" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="29.4894" y="8.0224" size="0.635" layer="28" font="vector" ratio="16" rot="MR90"/>
-<attribute name="PARTNO" value="*" x="30.7848" y="9.1654" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="res-0402-3k6" x="30.7848" y="9.1654" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R18" library="pel_dipol_comp" package="0402-RES" value="10k" x="42.672" y="9.1654" smashed="yes" rot="MR270">
 <attribute name="NAME" x="42.3672" y="10.029" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
@@ -1067,7 +1067,7 @@ design rules under a new name.</description>
 <element name="R22" library="pel_dipol_comp" package="0402-RES" value="3k6" x="41.4528" y="9.1654" smashed="yes" rot="MR90">
 <attribute name="NAME" x="41.148" y="10.0036" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
 <attribute name="VALUE" x="40.1574" y="8.0224" size="0.635" layer="28" font="vector" ratio="16" rot="MR90"/>
-<attribute name="PARTNO" value="*" x="41.4528" y="9.1654" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="res-0402-3k6" x="41.4528" y="9.1654" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C26" library="pel_dipol_comp" package="0402-CAP" value="100nF" x="23.4696" y="9.3178" smashed="yes" rot="MR90">
 <attribute name="NAME" x="23.1648" y="10.156" size="0.635" layer="26" font="vector" ratio="16" rot="MR90"/>
@@ -1345,7 +1345,7 @@ design rules under a new name.</description>
 <element name="IC7" library="pel_stm32" package="LQFP48" value="STM32F050CX" x="10.8114" y="5.6466" smashed="yes">
 <attribute name="NAME" x="10.1002" y="5.3164" size="0.635" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="8.2714" y="4.3766" size="0.635" layer="27" font="vector" ratio="24"/>
-<attribute name="PARTNO" value="mcu-tqfp-32-stm32f05" x="10.8114" y="5.6466" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="mcu-lqfp-48-stm32f05" x="10.8114" y="5.6466" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C5" library="pel_dipol_comp" package="7343/D" value="220uF" x="56.4642" y="5.7364" smashed="yes" rot="R90">
 <attribute name="NAME" x="57.0992" y="6.0158" size="0.635" layer="25" font="vector" ratio="16" rot="R180"/>
@@ -1355,7 +1355,7 @@ design rules under a new name.</description>
 <element name="U$2" library="open-bldc" package="LOGO_SILK_SMALL" value="LOGO" x="17.145" y="5.5214" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="*" x="17.145" y="5.5214" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C13" library="pel_dipol_comp" package="0402-CAP" value="100n" x="5.5372" y="1.012" smashed="yes" rot="MR0">
+<element name="C13" library="pel_dipol_comp" package="0402-CAP" value="100nF" x="5.5372" y="1.012" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="cap-cer-0402-100n" x="12.7762" y="17.8522" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DNP" value="T" x="5.5372" y="1.012" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="6.3754" y="1.5454" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
@@ -1369,7 +1369,7 @@ design rules under a new name.</description>
 </element>
 <element name="IC3" library="open-bldc" package="SO8" value="MAX3051" x="5.1054" y="5.8888" smashed="yes" rot="MR0">
 <attribute name="DNP" value="T" x="5.1054" y="5.8888" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="PARTNO" value="*" x="5.1054" y="5.8888" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="PARTNO" value="ic-so8-can-3v3" x="5.1054" y="5.8888" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="5.846" y="6.4516" size="0.635" layer="26" font="vector" ratio="16" rot="MR0"/>
 <attribute name="VALUE" x="1.778" y="3.9838" size="0.635" layer="28" font="vector" ratio="16" rot="MR90"/>
 </element>
