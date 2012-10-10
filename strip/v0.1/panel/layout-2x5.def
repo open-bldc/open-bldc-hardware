@@ -1,0 +1,26 @@
+
+Row {
+Col {
+    rail-h
+Row {
+    rail
+    Col {
+        strip
+        strip
+        strip
+        strip
+        strip
+    }
+    rail
+    Col {
+        strip
+        strip
+        strip
+        strip
+        strip
+    }
+    rail
+}
+    rail-h
+}
+}

@@ -25,7 +25,7 @@
 # THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-BRD_SRCS = ./strip.brd ./rail/rail.brd
+BRD_SRCS = ./strip.brd ./rail/rail.brd ./rail-h/rail-h.brd
 
 DIRS =
 
