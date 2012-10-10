@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -153,8 +153,8 @@
 <text x="4.0386" y="5.584" size="0.8128" layer="22" font="vector" ratio="19" rot="MR90" align="bottom-center">J1</text>
 <hole x="61" y="10" drill="2.1"/>
 <hole x="-2" y="2" drill="2.1"/>
-<wire x1="0" y1="13" x2="0" y2="-1" width="0.1524" layer="102"/>
-<wire x1="59" y1="13" x2="59" y2="-1" width="0.1524" layer="102"/>
+<wire x1="-0.127" y1="13" x2="-0.127" y2="-1" width="0.6604" layer="102"/>
+<wire x1="59.127" y1="13" x2="59.127" y2="-1" width="0.6604" layer="102"/>
 <hole x="63" y="6" drill="0.4"/>
 <hole x="63" y="7.0508" drill="0.4"/>
 <hole x="63" y="4.9492" drill="0.4"/>
@@ -1667,8 +1667,8 @@ design rules under a new name.</description>
 <contactref element="LED2" pad="A"/>
 <contactref element="LED4" pad="A"/>
 <polygon width="0.1524" layer="15">
-<vertex x="0.381" y="11.299"/>
-<vertex x="17.6022" y="11.299"/>
+<vertex x="0.381" y="11.934"/>
+<vertex x="17.6022" y="11.934"/>
 <vertex x="17.6022" y="0.25"/>
 <vertex x="0.381" y="0.25"/>
 </polygon>
